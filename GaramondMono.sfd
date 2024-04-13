@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1712983232
+ModificationTime: 1712991153
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -2183,7 +2183,6 @@ SplineSet
  190 70 197 57 210 48 c 128
  223 39 242 34 256 34 c 0
 EndSplineSet
-Substitution2: "'ss01' Original glyphs-1" a.ss01
 EndChar
 
 StartChar: b
@@ -3300,7 +3299,6 @@ SplineSet
  178 0 171 -1 163 -2 c 128
  155 -3 145 -3 132 -3 c 0
 EndSplineSet
-Substitution2: "'ss01' Original glyphs-1" r.ss01
 EndChar
 
 StartChar: s
@@ -3349,7 +3347,6 @@ SplineSet
  480 72 460 43 423 20 c 128
  386 -3 336 -14 277 -14 c 0
 EndSplineSet
-Substitution2: "'ss01' Original glyphs-1" s.ss01
 EndChar
 
 StartChar: t
@@ -3401,7 +3398,6 @@ SplineSet
  454 17 429 8 399 -1 c 128
  369 -10 340 -14 305 -14 c 0
 EndSplineSet
-Substitution2: "'ss01' Original glyphs-1" t.ss01
 EndChar
 
 StartChar: u

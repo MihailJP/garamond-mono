@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1712990007
+ModificationTime: 1712991178
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -54,7 +54,7 @@ OS2CapHeight: 650
 OS2XHeight: 400
 OS2FamilyClass: 258
 OS2Vendor: 'PfEd'
-Lookup: 1 0 0 "'ss01' Original glyphs" { "'ss01' Original glyphs-1"  } ['ss01' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss01' Original glyphs" { "'ss01' Original glyphs-1" ("ss01") } ['ss01' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
