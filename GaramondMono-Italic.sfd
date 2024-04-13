@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1713014179
+ModificationTime: 1713051150
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -83,7 +83,7 @@ ShortTable: maxp 16
   7
   1
 EndShort
-LangName: 1033 "" "" "" "" "" "Version 1.001" "" "" "Georg Duffner" "Georg Duffner and Octavio Pardo" "" "http://georgduffner.at/" "http://georgduffner.at/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL"
+LangName: 1033 "" "" "" "" "" "" "" "" "Georg Duffner" "Georg Duffner and Octavio Pardo" "" "http://georgduffner.at/" "http://georgduffner.at/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 15 1
 OtfFeatName: 'ss01' 1033 "Original glyphs"
 Encoding: UnicodeBmp
