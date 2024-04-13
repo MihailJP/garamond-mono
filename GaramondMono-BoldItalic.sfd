@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1712968746
+ModificationTime: 1712990123
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -86,8 +86,7 @@ EndShort
 LangName: 1033 "" "" "Bold Italic" "" "" "Version 1.001" "" "" "Georg Duffner" "Georg Duffner and Octavio Pardo" "" "http://georgduffner.at/" "http://georgduffner.at/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 15 1
 OtfFeatName: 'ss01' 1033 "Original glyphs"
-Encoding: UnicodeBmp
-Compacted: 1
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -97,10 +96,10 @@ WinInfo: 0 32 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 -1045325 248513 124256 82837 454033 1048576 82837 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65540 99
+BeginChars: 98 98
 
 StartChar: A
-Encoding: 65 65 0
+Encoding: 33 65 0
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -180,7 +179,7 @@ EndSplineSet
 EndChar
 
 StartChar: B
-Encoding: 66 66 1
+Encoding: 34 66 1
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -255,7 +254,7 @@ EndSplineSet
 EndChar
 
 StartChar: C
-Encoding: 67 67 2
+Encoding: 35 67 2
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -324,7 +323,7 @@ EndSplineSet
 EndChar
 
 StartChar: D
-Encoding: 68 68 3
+Encoding: 36 68 3
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -383,7 +382,7 @@ EndSplineSet
 EndChar
 
 StartChar: E
-Encoding: 69 69 4
+Encoding: 37 69 4
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -476,7 +475,7 @@ EndSplineSet
 EndChar
 
 StartChar: F
-Encoding: 70 70 5
+Encoding: 38 70 5
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -561,7 +560,7 @@ EndSplineSet
 EndChar
 
 StartChar: G
-Encoding: 71 71 6
+Encoding: 39 71 6
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -639,7 +638,7 @@ EndSplineSet
 EndChar
 
 StartChar: H
-Encoding: 72 72 7
+Encoding: 40 72 7
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -734,7 +733,7 @@ EndSplineSet
 EndChar
 
 StartChar: I
-Encoding: 73 73 8
+Encoding: 41 73 8
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -783,7 +782,7 @@ EndSplineSet
 EndChar
 
 StartChar: J
-Encoding: 74 74 9
+Encoding: 42 74 9
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -832,7 +831,7 @@ EndSplineSet
 EndChar
 
 StartChar: K
-Encoding: 75 75 10
+Encoding: 43 75 10
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -933,7 +932,7 @@ EndSplineSet
 EndChar
 
 StartChar: L
-Encoding: 76 76 11
+Encoding: 44 76 11
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -993,7 +992,7 @@ EndSplineSet
 EndChar
 
 StartChar: M
-Encoding: 77 77 12
+Encoding: 45 77 12
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -1095,7 +1094,7 @@ EndSplineSet
 EndChar
 
 StartChar: N
-Encoding: 78 78 13
+Encoding: 46 78 13
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -1197,7 +1196,7 @@ EndSplineSet
 EndChar
 
 StartChar: O
-Encoding: 79 79 14
+Encoding: 47 79 14
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -1240,7 +1239,7 @@ EndSplineSet
 EndChar
 
 StartChar: P
-Encoding: 80 80 15
+Encoding: 48 80 15
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -1305,7 +1304,7 @@ EndSplineSet
 EndChar
 
 StartChar: Q
-Encoding: 81 81 16
+Encoding: 49 81 16
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -1383,7 +1382,7 @@ EndSplineSet
 EndChar
 
 StartChar: R
-Encoding: 82 82 17
+Encoding: 50 82 17
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -1466,7 +1465,7 @@ EndSplineSet
 EndChar
 
 StartChar: S
-Encoding: 83 83 18
+Encoding: 51 83 18
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -1536,7 +1535,7 @@ EndSplineSet
 EndChar
 
 StartChar: T
-Encoding: 84 84 19
+Encoding: 52 84 19
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -1610,7 +1609,7 @@ EndSplineSet
 EndChar
 
 StartChar: U
-Encoding: 85 85 20
+Encoding: 53 85 20
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -1675,7 +1674,7 @@ EndSplineSet
 EndChar
 
 StartChar: V
-Encoding: 86 86 21
+Encoding: 54 86 21
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -1736,7 +1735,7 @@ EndSplineSet
 EndChar
 
 StartChar: W
-Encoding: 87 87 22
+Encoding: 55 87 22
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -1836,7 +1835,7 @@ EndSplineSet
 EndChar
 
 StartChar: X
-Encoding: 88 88 23
+Encoding: 56 88 23
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -1935,7 +1934,7 @@ EndSplineSet
 EndChar
 
 StartChar: Y
-Encoding: 89 89 24
+Encoding: 57 89 24
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -2015,7 +2014,7 @@ EndSplineSet
 EndChar
 
 StartChar: Z
-Encoding: 90 90 25
+Encoding: 58 90 25
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -2093,7 +2092,7 @@ EndSplineSet
 EndChar
 
 StartChar: a
-Encoding: 97 97 26
+Encoding: 65 97 26
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -2165,7 +2164,7 @@ EndSplineSet
 EndChar
 
 StartChar: b
-Encoding: 98 98 27
+Encoding: 66 98 27
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -2227,7 +2226,7 @@ EndSplineSet
 EndChar
 
 StartChar: c
-Encoding: 99 99 28
+Encoding: 67 99 28
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -2235,42 +2234,42 @@ LayerCount: 2
 Fore
 SplineSet
 263 -14 m 0
- 238 -14 216 -8 196 4 c 128
- 176 16 158 34 146 54 c 128
- 134 74 128 97 129 122 c 0
- 130 154 135 185 144 216 c 128
- 153 247 166 276 182 302 c 128
- 198 328 218 350 240 370 c 128
- 262 390 287 405 314 416 c 128
- 341 427 369 433 400 433 c 0
- 425 433 446 427 462 416 c 128
- 478 405 486 390 486 373 c 0
- 486 360 482 348 473 336 c 128
- 464 324 455 317 445 317 c 0
- 440 317 435 319 431 323 c 128
- 427 327 422 335 415 347 c 256
- 408 359 400 370 392 378 c 128
- 384 386 376 390 367 390 c 0
- 353 390 340 384 326 371 c 128
- 312 358 299 341 288 320 c 128
- 277 299 269 276 262 251 c 128
- 255 226 252 200 251 174 c 0
- 250 149 256 130 269 116 c 128
- 282 102 299 96 321 96 c 0
- 339 96 356 100 372 108 c 128
- 388 116 401 128 412 142 c 0
- 415 146 418 149 422 151 c 128
- 426 153 428 154 431 154 c 0
- 438 154 441 150 441 143 c 0
- 441 127 436 110 425 92 c 128
- 414 74 400 56 382 40 c 128
- 364 24 346 11 325 1 c 128
- 304 -9 284 -14 263 -14 c 0
+ 236 -14 211 -8 188 4 c 0
+ 165 16 145 33 130 54 c 0
+ 115 75 106 96 106 122 c 0
+ 106 154 109 185 118 216 c 0
+ 127 247 141 275 158 302 c 0
+ 175 329 197 350 222 370 c 0
+ 247 390 275 405 306 416 c 0
+ 337 427 370 433 408 433 c 0
+ 437 433 468 427 484 416 c 0
+ 500 405 508 391 508 373 c 0
+ 508 360 504 348 496 336 c 0
+ 488 324 477 317 467 317 c 0
+ 462 317 458 319 454 323 c 0
+ 450 327 443 335 437 347 c 0
+ 430 359 422 370 414 378 c 0
+ 406 386 379 390 369 390 c 0
+ 352 390 329 383 312 371 c 0
+ 295 359 279 341 266 320 c 0
+ 253 299 242 276 236 251 c 0
+ 230 226 228 200 230 174 c 0
+ 231 149 241 130 258 116 c 0
+ 275 102 299 96 324 96 c 0
+ 346 96 380 101 396 109 c 0
+ 412 117 424 128 436 142 c 0
+ 439 146 443 149 446 151 c 0
+ 449 153 452 154 455 154 c 0
+ 461 154 465 151 465 143 c 0
+ 465 127 460 111 450 92 c 0
+ 440 73 424 56 407 40 c 0
+ 390 24 368 11 348 1 c 0
+ 328 -9 288 -14 263 -14 c 0
 EndSplineSet
 EndChar
 
 StartChar: d
-Encoding: 100 100 29
+Encoding: 68 100 29
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -2354,59 +2353,59 @@ EndSplineSet
 EndChar
 
 StartChar: e
-Encoding: 101 101 30
+Encoding: 69 101 30
 Width: 600
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-247 -15 m 0
- 229 -15 210 -9 190 2 c 128
- 170 13 153 28 139 46 c 128
- 125 64 118 84 118 107 c 0
- 118 148 126 189 141 228 c 128
- 156 267 177 301 202 332 c 128
- 227 363 256 388 288 406 c 128
- 320 424 354 433 387 433 c 0
- 426 433 454 426 471 411 c 128
- 488 396 497 379 497 359 c 0
- 497 336 489 316 474 300 c 128
- 459 284 440 270 416 259 c 128
- 392 248 367 238 340 231 c 128
- 313 224 287 217 262 212 c 0
- 259 211 256 210 255 209 c 128
- 254 208 252 205 251 202 c 0
- 250 197 249 192 248 186 c 128
- 247 180 246 175 245 170 c 0
- 244 147 251 126 264 109 c 128
- 277 92 296 83 321 83 c 0
- 340 83 356 88 372 98 c 128
- 388 108 403 120 418 136 c 0
- 425 143 431 147 435 147 c 0
- 442 147 445 144 445 137 c 0
- 445 135 444 133 444 130 c 128
- 444 127 443 125 442 123 c 0
- 429 99 414 77 395 56 c 128
- 376 35 355 17 330 4 c 128
- 305 -9 278 -15 247 -15 c 0
-269 247 m 0
- 282 251 297 256 312 261 c 128
- 327 266 340 273 353 282 c 128
- 366 291 376 303 385 316 c 128
- 394 329 399 345 400 364 c 0
- 400 372 398 379 393 386 c 128
- 388 393 381 397 372 397 c 0
- 360 397 348 392 336 384 c 128
- 324 376 314 366 303 352 c 128
- 292 338 283 323 276 306 c 128
- 269 289 265 271 262 253 c 0
- 261 248 264 246 269 247 c 0
+248 -15 m 0
+ 227 -15 205 -9 182 2 c 0
+ 159 13 139 28 122 46 c 0
+ 105 64 97 85 96 107 c 0
+ 94 148 100 189 116 228 c 0
+ 132 267 154 301 182 332 c 0
+ 210 363 241 387 279 405 c 0
+ 317 423 355 433 395 433 c 0
+ 437 433 470 427 490 412 c 0
+ 510 397 521 379 522 359 c 0
+ 523 336 515 316 498 300 c 0
+ 481 284 461 271 434 260 c 0
+ 407 249 376 238 344 231 c 0
+ 312 224 282 217 252 212 c 0
+ 248 211 243 209 242 208 c 0
+ 241 207 227 205 226 202 c 0
+ 224 197 223 191 222 186 c 0
+ 221 181 222 175 223 170 c 0
+ 224 147 234 127 251 109 c 0
+ 268 91 297 83 325 83 c 0
+ 348 83 368 88 386 98 c 0
+ 404 108 422 120 438 136 c 0
+ 447 143 452 147 457 147 c 0
+ 465 147 470 144 470 137 c 0
+ 470 135 470 132 470 130 c 0
+ 470 127 468 125 467 123 c 0
+ 454 99 436 76 415 55 c 0
+ 394 34 370 17 342 4 c 0
+ 314 -9 283 -15 248 -15 c 0
+259 247 m 0
+ 273 251 292 255 311 260 c 0
+ 330 265 350 274 366 283 c 0
+ 382 292 397 303 408 316 c 0
+ 419 329 425 345 424 364 c 0
+ 423 372 420 380 413 387 c 0
+ 406 394 391 397 379 397 c 0
+ 364 397 347 394 332 385 c 0
+ 317 376 302 365 288 352 c 0
+ 274 339 262 323 253 306 c 0
+ 244 289 240 271 238 253 c 0
+ 237 248 252 246 259 247 c 0
 EndSplineSet
 EndChar
 
 StartChar: f
-Encoding: 102 102 31
+Encoding: 70 102 31
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -2474,7 +2473,7 @@ EndSplineSet
 EndChar
 
 StartChar: g
-Encoding: 103 103 32
+Encoding: 71 103 32
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -2574,7 +2573,7 @@ EndSplineSet
 EndChar
 
 StartChar: h
-Encoding: 104 104 33
+Encoding: 72 104 33
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -2603,51 +2602,52 @@ SplineSet
  358 707 364 707 370 706 c 128
  376 705 379 701 379 694 c 0
  379 686 378 679 376 673 c 128
- 374 667 373 661 370 654 c 2
- 231 229 l 2
- 230 224 230 222 233 222 c 128
- 236 222 238 223 241 227 c 0
- 266 265 292 300 320 332 c 128
- 348 364 376 388 404 406 c 128
- 432 424 460 434 487 434 c 0
- 514 434 534 425 548 408 c 128
- 562 391 569 371 569 346 c 0
- 569 311 565 278 556 246 c 128
- 547 214 534 183 519 154 c 128
- 504 125 487 99 468 76 c 0
- 463 70 455 62 442 52 c 128
- 429 42 414 32 398 22 c 128
- 382 12 365 3 350 -4 c 128
- 335 -11 324 -14 317 -14 c 0
- 308 -14 299 -11 290 -6 c 128
- 281 -1 273 6 266 13 c 128
- 259 20 256 27 256 32 c 0
- 256 35 258 40 262 48 c 128
- 266 56 270 63 275 70 c 128
- 280 77 286 80 291 80 c 0
- 298 80 304 78 308 75 c 128
- 312 72 316 67 321 62 c 0
- 326 58 331 54 336 50 c 128
- 341 46 347 43 354 43 c 256
- 361 43 368 50 376 64 c 128
- 384 78 391 94 398 116 c 128
- 405 138 412 162 418 187 c 128
- 424 212 428 238 431 262 c 128
- 434 286 436 307 436 324 c 0
- 436 335 434 344 430 351 c 128
- 426 358 419 361 410 361 c 0
- 401 361 390 354 377 340 c 128
- 364 326 350 308 334 285 c 128
- 318 262 301 236 284 208 c 128
- 258 166 258 164 232 122 c 128
- 215 94 198 68 182 43 c 0
- 170 23 159 8 148 -1 c 128
- 137 -10 127 -15 118 -15 c 0
+ 374 667 372.364373534 661.208055425 370 654 c 2
+ 226 215 l 2
+ 225 210 225 208 228 208 c 128
+ 234 208 239.519305308 208.658784289 242 213 c 0
+ 266 255 290 293 313 326 c 128
+ 336 359 361 385 386 404 c 128
+ 411 423 437 433 465 433 c 0
+ 491 433 510 426 522 411 c 128
+ 534 396 539 379 540 358 c 128
+ 541 337 537 316 528 297 c 2
+ 453 120 l 2
+ 444 99 446 89 457 89 c 0
+ 461 89 467 91 474 95 c 128
+ 481 99 489 104 497 110 c 128
+ 505 116 513 120 520 126 c 128
+ 527 132 532 137 535 140 c 256
+ 538 143 542 147 546 150 c 128
+ 550 153 552 155 554 155 c 256
+ 556 155 558 154 560 152 c 128
+ 562 150 564 146 564 143 c 0
+ 564 130 560 118 551 107 c 0
+ 531 84 508 62 484 44 c 128
+ 460 26 435 12 409 2 c 128
+ 383 -8 358 -14 335 -14 c 0
+ 326 -14 317 -12 308 -6 c 128
+ 299 0 292 7 288 15 c 128
+ 284 23 284 31 287 40 c 0
+ 309 89 332 136 355 184 c 128
+ 378 232 399 281 418 331 c 0
+ 423 343 424 352 423 358 c 128
+ 422 364 417 368 410 368 c 0
+ 401 368 392 363 382 352 c 128
+ 372 341 360 328 349 312 c 128
+ 338 296 326 279 314 262 c 0
+ 308 254 300 241 289 224 c 128
+ 278 207 267 189 254 168 c 128
+ 241 147 228 127 216 106 c 128
+ 204 85 193 66 184 50 c 0
+ 173 32 163 16 152 4 c 128
+ 141 -8 130 -15 118 -15 c 0
 EndSplineSet
+Substitution2: "'ss01' Original glyphs-1" h.ss01
 EndChar
 
 StartChar: i
-Encoding: 105 105 34
+Encoding: 73 105 34
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -2703,7 +2703,7 @@ EndSplineSet
 EndChar
 
 StartChar: j
-Encoding: 106 106 35
+Encoding: 74 106 35
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -2757,7 +2757,7 @@ EndSplineSet
 EndChar
 
 StartChar: k
-Encoding: 107 107 36
+Encoding: 75 107 36
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -2841,7 +2841,7 @@ EndSplineSet
 EndChar
 
 StartChar: l
-Encoding: 108 108 37
+Encoding: 76 108 37
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -2889,7 +2889,7 @@ EndSplineSet
 EndChar
 
 StartChar: m
-Encoding: 109 109 38
+Encoding: 77 109 38
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -2983,7 +2983,7 @@ EndSplineSet
 EndChar
 
 StartChar: n
-Encoding: 110 110 39
+Encoding: 78 110 39
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3053,47 +3053,47 @@ EndSplineSet
 EndChar
 
 StartChar: o
-Encoding: 111 111 40
+Encoding: 79 111 40
 Width: 600
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-227 -14 m 0
- 202 -14 178 -8 156 4 c 128
- 134 16 115 33 102 54 c 128
- 89 75 82 100 82 128 c 0
- 82 159 89 192 102 227 c 128
- 115 262 134 295 159 326 c 128
- 184 357 214 383 250 403 c 128
- 286 423 327 433 372 433 c 0
- 417 433 453 420 480 395 c 128
- 507 370 520 335 520 290 c 0
- 520 259 513 227 500 192 c 128
- 487 157 468 123 443 92 c 128
- 418 61 386 36 350 16 c 128
- 314 -4 273 -14 227 -14 c 0
-246 25 m 0
- 259 25 272 32 286 47 c 128
- 300 62 314 82 326 106 c 128
- 338 130 349 157 359 186 c 128
- 369 215 376 245 382 274 c 128
- 388 303 391 330 391 354 c 0
- 391 368 388 379 383 386 c 128
- 378 393 369 396 357 396 c 0
- 346 396 333 388 320 374 c 128
- 307 360 294 340 281 316 c 128
- 268 292 256 265 246 236 c 128
- 236 207 228 179 221 150 c 128
- 214 121 211 94 211 69 c 0
- 211 54 214 43 221 36 c 128
- 228 29 236 25 246 25 c 0
+225 -14 m 0
+ 197 -14 171 -8 146 4 c 0
+ 121 16 99 33 84 54 c 0
+ 69 75 60 100 59 128 c 0
+ 57 158 63 191 76 226 c 0
+ 89 261 111 296 138 327 c 0
+ 165 358 197 383 237 403 c 0
+ 277 423 322 433 372 433 c 0
+ 421 433 462 421 493 395 c 0
+ 524 369 541 334 543 290 c 0
+ 544 259 539 227 526 192 c 0
+ 513 157 491 123 464 92 c 0
+ 437 61 403 36 363 16 c 0
+ 323 -4 277 -14 225 -14 c 0
+245 25 m 0
+ 261 25 281 32 297 47 c 0
+ 313 62 330 81 344 106 c 0
+ 358 131 371 157 382 186 c 0
+ 393 215 401 245 407 274 c 0
+ 413 303 414 330 412 354 c 0
+ 410 368 407 379 398 386 c 0
+ 389 393 373 396 358 396 c 0
+ 345 396 327 389 310 374 c 0
+ 293 359 278 340 262 316 c 0
+ 246 292 233 265 222 236 c 0
+ 211 207 202 178 196 149 c 0
+ 190 120 188 94 191 69 c 0
+ 193 54 198 44 208 36 c 0
+ 218 28 233 25 245 25 c 0
 EndSplineSet
 EndChar
 
 StartChar: p
-Encoding: 112 112 41
+Encoding: 80 112 41
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3171,7 +3171,7 @@ EndSplineSet
 EndChar
 
 StartChar: q
-Encoding: 113 113 42
+Encoding: 81 113 42
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -3241,7 +3241,7 @@ EndSplineSet
 EndChar
 
 StartChar: r
-Encoding: 114 114 43
+Encoding: 82 114 43
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3295,124 +3295,124 @@ EndSplineSet
 EndChar
 
 StartChar: s
-Encoding: 115 115 44
+Encoding: 83 115 44
 Width: 600
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-212 -14 m 0
- 154 -14 135 -8 118 5 c 128
- 101 18 92 34 92 55 c 0
- 92 72 96 86 104 98 c 128
- 112 110 121 116 134 116 c 0
- 139 116 145 112 152 106 c 128
- 159 100 166 93 174 84 c 0
- 184 75 195 65 207 54 c 128
- 219 43 229 38 269 38 c 0
- 313 38 312 42 317 48 c 128
- 322 54 325 63 326 74 c 0
- 327 84 322 98 312 114 c 128
- 302 130 285 141 256 161 c 0
- 226 181 209 197 200 216 c 128
- 191 235 186 254 186 273 c 0
- 186 291 192 310 204 328 c 128
- 216 346 232 364 250 380 c 128
- 268 396 287 408 306 418 c 128
- 325 428 333 433 377 433 c 0
- 422 433 435 429 451 422 c 128
- 467 415 480 406 490 396 c 128
- 500 386 505 378 505 370 c 0
- 505 363 502 354 495 344 c 128
- 488 334 480 324 471 316 c 128
- 462 308 454 305 446 305 c 256
- 438 305 431 308 425 314 c 128
- 419 320 412 327 407 334 c 0
- 401 343 394 350 385 356 c 128
- 376 362 369 366 332 366 c 256
- 298 366 290 362 285 356 c 128
- 280 350 277 343 277 335 c 0
- 277 330 280 323 286 314 c 128
- 292 305 307 295 328 277 c 128
- 342 265 356 256 370 245 c 0
- 401 221 413 207 422 190 c 128
- 431 173 435 157 435 140 c 0
- 435 126 429 110 418 93 c 128
- 407 76 391 59 372 42 c 128
- 353 25 332 12 308 2 c 128
- 284 -8 270 -14 212 -14 c 0
+197 -14 m 0
+ 162 -14 134 -8 110 4 c 0
+ 86 16 70 34 70 55 c 0
+ 70 72 73 86 81 98 c 0
+ 89 110 99 116 112 116 c 0
+ 118 116 123 113 130 106 c 0
+ 137 99 145 92 153 84 c 0
+ 163 75 174 65 186 54 c 0
+ 198 43 259 38 279 38 c 0
+ 298 38 328 42 340 48 c 0
+ 352 54 355 62 352 74 c 0
+ 348 84 334 97 314 113 c 0
+ 294 129 275 145 258 161 c 0
+ 240 178 223 197 209 216 c 0
+ 195 235 188 254 187 273 c 0
+ 184 291 190 310 202 328 c 0
+ 214 346 231 363 249 380 c 0
+ 267 397 287 409 306 419 c 0
+ 325 429 378 433 394 433 c 0
+ 415 433 458 429 474 422 c 0
+ 490 415 502 406 513 397 c 0
+ 524 388 529 378 529 370 c 0
+ 529 363 525 354 518 343 c 0
+ 511 332 503 324 495 316 c 0
+ 487 308 478 305 470 305 c 0
+ 462 305 454 308 448 314 c 0
+ 442 320 435 327 430 334 c 0
+ 424 343 416 350 407 356 c 0
+ 398 362 352 366 339 366 c 0
+ 324 366 296 362 287 356 c 0
+ 278 350 274 343 278 335 c 0
+ 279 330 284 322 296 314 c 0
+ 308 306 321 296 336 286 c 0
+ 351 276 364 264 376 253 c 0
+ 400 229 424 207 438 190 c 0
+ 452 173 461 156 463 140 c 0
+ 466 126 458 111 446 93 c 0
+ 434 75 419 58 400 42 c 0
+ 381 26 359 13 335 2 c 0
+ 311 -9 231 -14 197 -14 c 0
 EndSplineSet
 Substitution2: "'ss01' Original glyphs-1" s.ss01
 EndChar
 
 StartChar: t
-Encoding: 116 116 45
+Encoding: 84 116 45
 Width: 600
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-188 -14 m 0
- 177 -14 167 -11 158 -4 c 128
- 149 3 141 10 135 20 c 128
- 129 30 126 39 126 46 c 0
- 126 51 127 56 128 62 c 128
- 129 68 132 76 137 87 c 2
- 231 339 l 2
- 235 350 235 358 232 362 c 128
- 229 366 225 367 220 367 c 2
- 172 369 l 2
- 161 370 154 372 151 376 c 128
- 148 380 147 385 147 389 c 0
- 147 390 149 394 154 400 c 128
- 159 406 165 411 172 416 c 128
- 179 421 187 423 195 423 c 2
- 244 423 l 2
- 254 423 260 425 263 428 c 128
- 266 431 271 437 277 448 c 2
- 305 504 l 2
- 310 514 317 524 326 533 c 128
- 335 542 345 550 355 557 c 128
- 365 564 374 567 382 567 c 0
- 393 567 400 562 403 552 c 128
- 406 542 406 531 403 521 c 2
- 379 444 l 2
- 377 434 377 428 379 425 c 128
- 381 422 388 421 399 421 c 0
- 411 421 426 421 441 420 c 128
- 456 419 474 417 491 416 c 0
- 512 414 525 411 530 408 c 128
- 535 405 537 400 538 395 c 0
- 538 393 536 390 531 385 c 128
- 526 380 517 377 502 376 c 0
- 490 375 476 375 463 374 c 128
- 450 373 434 372 416 371 c 0
- 399 370 386 369 377 366 c 128
- 368 363 363 359 360 352 c 10
- 285 145 l 18
- 280 131 278 121 278 114 c 128
- 278 107 279 102 282 100 c 128
- 285 98 293 98 318 98 c 0
- 351 98 360 103 373 112 c 128
- 386 121 399 131 412 142 c 128
- 425 153 435 163 443 172 c 0
- 445 173 447 174 449 175 c 128
- 451 176 451 176 451 175 c 0
- 454 174 457 172 459 168 c 128
- 461 164 461 160 460 156 c 0
- 458 145 452 132 441 118 c 128
- 430 104 417 89 401 74 c 128
- 385 59 366 44 347 31 c 128
- 328 18 302 6 266 -2 c 128
- 233 -10 214 -14 188 -14 c 0
+181 -14 m 0
+ 171 -14 148 -10 137 -4 c 0
+ 126 2 119 11 112 21 c 0
+ 105 31 102 38 102 46 c 0
+ 102 50 101 56 102 62 c 0
+ 103 68 108 76 112 87 c 2
+ 206 339 l 2
+ 210 351 210 358 207 362 c 0
+ 204 366 200 367 195 367 c 2
+ 147 369 l 2
+ 135 370 129 373 126 377 c 0
+ 123 381 122 385 122 389 c 0
+ 122 390 125 394 129 400 c 0
+ 133 406 139 410 146 415 c 0
+ 153 420 162 423 170 423 c 2
+ 219 423 l 2
+ 229 423 235 425 238 428 c 0
+ 241 431 246 438 252 448 c 2
+ 280 504 l 2
+ 286 514 293 525 302 534 c 0
+ 311 543 320 551 330 557 c 0
+ 340 563 349 567 357 567 c 0
+ 367 567 375 562 378 552 c 0
+ 381 542 382 531 378 521 c 2
+ 354 444 l 2
+ 352 434 352 427 354 425 c 0
+ 356 423 373 420 384 420 c 0
+ 402 420 424 419 447 418 c 0
+ 470 417 489 416 509 415 c 0
+ 533 413 547 411 552 408 c 0
+ 557 405 562 399 563 394 c 0
+ 563 392 562 389 556 384 c 0
+ 550 379 539 378 524 376 c 0
+ 503 375 483 374 464 373 c 0
+ 445 372 422 372 397 371 c 0
+ 376 370 354 369 348 366 c 0
+ 342 363 337 359 335 352 c 2
+ 260 145 l 2
+ 255 131 254 121 257 114 c 0
+ 260 107 264 101 274 100 c 0
+ 284 99 297 98 311 98 c 0
+ 332 98 366 105 382 112 c 0
+ 397 119 423 130 438 142 c 0
+ 452 153 461 163 469 172 c 0
+ 471 173 473 175 474 175 c 0
+ 475 175 477 176 477 175 c 0
+ 480 173 483 171 484 167 c 0
+ 485 163 483 160 481 156 c 0
+ 474 146 463 132 446 118 c 0
+ 429 104 411 89 389 74 c 0
+ 367 59 343 44 318 30 c 0
+ 293 16 270 6 246 -2 c 0
+ 222 -10 197 -14 181 -14 c 0
 EndSplineSet
 Substitution2: "'ss01' Original glyphs-1" t.ss01
 EndChar
 
 StartChar: u
-Encoding: 117 117 46
+Encoding: 85 117 46
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3486,7 +3486,7 @@ EndSplineSet
 EndChar
 
 StartChar: v
-Encoding: 118 118 47
+Encoding: 86 118 47
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3539,7 +3539,7 @@ EndSplineSet
 EndChar
 
 StartChar: w
-Encoding: 119 119 48
+Encoding: 87 119 48
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3620,7 +3620,7 @@ EndSplineSet
 EndChar
 
 StartChar: x
-Encoding: 120 120 49
+Encoding: 88 120 49
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3705,7 +3705,7 @@ EndSplineSet
 EndChar
 
 StartChar: y
-Encoding: 121 121 50
+Encoding: 89 121 50
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3763,7 +3763,7 @@ EndSplineSet
 EndChar
 
 StartChar: z
-Encoding: 122 122 51
+Encoding: 90 122 51
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3840,7 +3840,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero
-Encoding: 48 48 52
+Encoding: 16 48 52
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -3892,7 +3892,7 @@ Substitution2: "'ss01' Original glyphs-1" zero.ss01
 EndChar
 
 StartChar: one
-Encoding: 49 49 53
+Encoding: 17 49 53
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -3940,7 +3940,7 @@ EndSplineSet
 EndChar
 
 StartChar: two
-Encoding: 50 50 54
+Encoding: 18 50 54
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4007,7 +4007,7 @@ EndSplineSet
 EndChar
 
 StartChar: three
-Encoding: 51 51 55
+Encoding: 19 51 55
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4072,7 +4072,7 @@ EndSplineSet
 EndChar
 
 StartChar: four
-Encoding: 52 52 56
+Encoding: 20 52 56
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4150,7 +4150,7 @@ EndSplineSet
 EndChar
 
 StartChar: five
-Encoding: 53 53 57
+Encoding: 21 53 57
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4211,7 +4211,7 @@ EndSplineSet
 EndChar
 
 StartChar: six
-Encoding: 54 54 58
+Encoding: 22 54 58
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4259,7 +4259,7 @@ EndSplineSet
 EndChar
 
 StartChar: seven
-Encoding: 55 55 59
+Encoding: 23 55 59
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4304,7 +4304,7 @@ EndSplineSet
 EndChar
 
 StartChar: eight
-Encoding: 56 56 60
+Encoding: 24 56 60
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4374,7 +4374,7 @@ EndSplineSet
 EndChar
 
 StartChar: nine
-Encoding: 57 57 61
+Encoding: 25 57 61
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4427,7 +4427,7 @@ EndSplineSet
 EndChar
 
 StartChar: period
-Encoding: 46 46 62
+Encoding: 14 46 62
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4449,7 +4449,7 @@ EndSplineSet
 EndChar
 
 StartChar: comma
-Encoding: 44 44 63
+Encoding: 12 44 63
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4480,7 +4480,7 @@ EndSplineSet
 EndChar
 
 StartChar: colon
-Encoding: 58 58 64
+Encoding: 26 58 64
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4491,7 +4491,7 @@ Refer: 62 46 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: semicolon
-Encoding: 59 59 65
+Encoding: 27 59 65
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4502,7 +4502,7 @@ Refer: 62 46 S 1 0 0 1 85 276 2
 EndChar
 
 StartChar: exclam
-Encoding: 33 33 66
+Encoding: 1 33 66
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4541,7 +4541,7 @@ EndSplineSet
 EndChar
 
 StartChar: question
-Encoding: 63 63 67
+Encoding: 31 63 67
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4595,7 +4595,7 @@ EndSplineSet
 EndChar
 
 StartChar: asterisk
-Encoding: 42 42 68
+Encoding: 10 42 68
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4664,7 +4664,7 @@ EndSplineSet
 EndChar
 
 StartChar: numbersign
-Encoding: 35 35 69
+Encoding: 3 35 69
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4743,7 +4743,7 @@ EndSplineSet
 EndChar
 
 StartChar: slash
-Encoding: 47 47 70
+Encoding: 15 47 70
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4765,7 +4765,7 @@ EndSplineSet
 EndChar
 
 StartChar: backslash
-Encoding: 92 92 71
+Encoding: 60 92 71
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4787,7 +4787,7 @@ EndSplineSet
 EndChar
 
 StartChar: parenleft
-Encoding: 40 40 72
+Encoding: 8 40 72
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4818,7 +4818,7 @@ EndSplineSet
 EndChar
 
 StartChar: parenright
-Encoding: 41 41 73
+Encoding: 9 41 73
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4849,7 +4849,7 @@ EndSplineSet
 EndChar
 
 StartChar: braceleft
-Encoding: 123 123 74
+Encoding: 91 123 74
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4906,7 +4906,7 @@ EndSplineSet
 EndChar
 
 StartChar: braceright
-Encoding: 125 125 75
+Encoding: 93 125 75
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -4963,7 +4963,7 @@ EndSplineSet
 EndChar
 
 StartChar: bracketleft
-Encoding: 91 91 76
+Encoding: 59 91 76
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5007,7 +5007,7 @@ EndSplineSet
 EndChar
 
 StartChar: bracketright
-Encoding: 93 93 77
+Encoding: 61 93 77
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5051,7 +5051,7 @@ EndSplineSet
 EndChar
 
 StartChar: hyphenminus
-Encoding: 45 45 78
+Encoding: 13 45 78
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5075,7 +5075,7 @@ Substitution2: "'ss01' Original glyphs-1" hyphenminus.ss01
 EndChar
 
 StartChar: underscore
-Encoding: 95 95 79
+Encoding: 63 95 79
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5098,7 +5098,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedbl
-Encoding: 34 34 80
+Encoding: 2 34 80
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5109,7 +5109,7 @@ Refer: 81 39 S 1 0 0 1 81 0 2
 EndChar
 
 StartChar: quotesingle
-Encoding: 39 39 81
+Encoding: 7 39 81
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5139,7 +5139,7 @@ EndSplineSet
 EndChar
 
 StartChar: space
-Encoding: 32 32 82
+Encoding: 0 32 82
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5147,7 +5147,7 @@ LayerCount: 2
 EndChar
 
 StartChar: dollar
-Encoding: 36 36 83
+Encoding: 4 36 83
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5230,7 +5230,7 @@ EndSplineSet
 EndChar
 
 StartChar: plus
-Encoding: 43 43 84
+Encoding: 11 43 84
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5275,7 +5275,7 @@ EndSplineSet
 EndChar
 
 StartChar: equal
-Encoding: 61 61 85
+Encoding: 29 61 85
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5310,7 +5310,7 @@ EndSplineSet
 EndChar
 
 StartChar: greater
-Encoding: 62 62 86
+Encoding: 30 62 86
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5342,7 +5342,7 @@ EndSplineSet
 EndChar
 
 StartChar: less
-Encoding: 60 60 87
+Encoding: 28 60 87
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5372,7 +5372,7 @@ EndSplineSet
 EndChar
 
 StartChar: asciitilde
-Encoding: 126 126 88
+Encoding: 94 126 88
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5411,7 +5411,7 @@ EndSplineSet
 EndChar
 
 StartChar: asciicircum
-Encoding: 94 94 89
+Encoding: 62 94 89
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5439,7 +5439,7 @@ EndSplineSet
 EndChar
 
 StartChar: percent
-Encoding: 37 37 90
+Encoding: 5 37 90
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5517,7 +5517,7 @@ EndSplineSet
 EndChar
 
 StartChar: at
-Encoding: 64 64 91
+Encoding: 32 64 91
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5612,7 +5612,7 @@ EndSplineSet
 EndChar
 
 StartChar: ampersand
-Encoding: 38 38 92
+Encoding: 6 38 92
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5714,7 +5714,7 @@ EndSplineSet
 EndChar
 
 StartChar: bar
-Encoding: 124 124 93
+Encoding: 92 124 93
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5740,7 +5740,7 @@ EndSplineSet
 EndChar
 
 StartChar: grave
-Encoding: 96 96 94
+Encoding: 64 96 94
 Width: 600
 GlyphClass: 1
 Flags: W
@@ -5765,7 +5765,7 @@ EndSplineSet
 EndChar
 
 StartChar: hyphenminus.ss01
-Encoding: 65536 -1 95
+Encoding: 95 -1 95
 Width: 600
 Flags: W
 LayerCount: 2
@@ -5789,7 +5789,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero.ss01
-Encoding: 65537 -1 96
+Encoding: 96 -1 96
 Width: 600
 Flags: W
 LayerCount: 2
@@ -5831,116 +5831,75 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: s.ss01
-Encoding: 65538 -1 97
+StartChar: h.ss01
+Encoding: 97 -1 97
 Width: 600
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-211 -14 m 0
- 183 -14 160 -8 143 5 c 128
- 126 18 117 34 117 55 c 0
- 117 72 120 86 128 98 c 128
- 136 110 146 116 159 116 c 0
- 164 116 170 112 177 106 c 128
- 184 100 191 93 199 84 c 0
- 209 75 220 65 232 54 c 128
- 244 43 256 38 269 38 c 0
- 280 38 287 42 292 48 c 128
- 297 54 300 63 301 74 c 0
- 302 84 297 98 287 114 c 128
- 277 130 267 146 256 161 c 0
- 244 178 233 197 224 216 c 128
- 215 235 211 254 211 273 c 0
- 211 291 218 310 230 328 c 128
- 242 346 258 364 276 380 c 128
- 294 396 312 408 331 418 c 128
- 350 428 365 433 377 433 c 0
- 394 433 410 429 426 422 c 128
- 442 415 454 406 464 396 c 128
- 474 386 480 378 480 370 c 0
- 480 363 477 354 470 344 c 128
- 463 334 455 324 446 316 c 128
- 437 308 429 305 421 305 c 256
- 413 305 406 308 400 314 c 128
- 394 320 387 327 382 334 c 0
- 376 343 369 350 360 356 c 128
- 351 362 341 366 332 366 c 256
- 323 366 315 362 310 356 c 128
- 305 350 302 343 302 335 c 0
- 302 330 304 323 310 314 c 128
- 316 305 323 296 331 286 c 128
- 339 276 347 264 355 253 c 0
- 374 228 388 207 397 190 c 128
- 406 173 410 157 410 140 c 0
- 410 126 404 110 393 93 c 128
- 382 76 367 59 348 42 c 128
- 329 25 308 12 284 2 c 128
- 260 -8 236 -14 211 -14 c 0
-EndSplineSet
-EndChar
-
-StartChar: t.ss01
-Encoding: 65539 -1 98
-Width: 600
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-213 -14 m 0
- 202 -14 192 -11 183 -4 c 128
- 174 3 166 10 160 20 c 128
- 154 30 151 39 151 46 c 0
- 151 51 152 56 153 62 c 128
- 154 68 157 76 162 87 c 2
- 256 339 l 2
- 260 350 261 358 258 362 c 128
- 255 366 250 367 245 367 c 2
- 197 369 l 2
- 186 370 179 372 176 376 c 128
- 173 380 172 385 172 389 c 0
- 172 390 174 394 179 400 c 128
- 184 406 190 411 197 416 c 128
- 204 421 212 423 220 423 c 2
- 269 423 l 2
- 279 423 285 425 288 428 c 128
- 291 431 296 437 302 448 c 2
- 330 504 l 2
- 335 514 343 524 352 533 c 128
- 361 542 370 550 380 557 c 128
- 390 564 399 567 407 567 c 0
- 418 567 425 562 428 552 c 128
- 431 542 431 531 428 521 c 2
- 404 444 l 2
- 402 434 402 428 404 425 c 128
- 406 422 412 421 419 421 c 0
- 428 421 437 421 448 420 c 128
- 459 419 470 417 482 416 c 0
- 497 414 505 411 508 408 c 128
- 511 405 513 400 513 395 c 0
- 513 393 512 390 508 385 c 128
- 504 380 497 377 486 376 c 0
- 477 375 468 375 459 374 c 128
- 450 373 439 372 426 371 c 0
- 414 370 404 369 398 366 c 128
- 392 363 388 359 385 352 c 2
- 310 145 l 2
- 305 131 303 121 303 114 c 128
- 303 107 305 102 308 100 c 128
- 311 98 314 98 318 98 c 0
- 326 98 336 103 349 112 c 128
- 362 121 375 131 388 142 c 128
- 401 153 411 163 419 172 c 0
- 421 173 422 174 424 175 c 128
- 426 176 427 176 427 175 c 0
- 430 174 432 172 434 168 c 128
- 436 164 437 160 436 156 c 0
- 434 145 428 132 417 118 c 128
- 406 104 392 89 376 74 c 128
- 360 59 342 44 323 31 c 128
- 304 18 285 6 266 -2 c 128
- 247 -10 229 -14 213 -14 c 0
+118 -15 m 0
+ 112 -15 104 -13 96 -9 c 128
+ 88 -5 81 1 74 8 c 128
+ 67 15 64 24 64 33 c 0
+ 64 44 66 55 68 66 c 128
+ 70 77 73 90 78 105 c 2
+ 212 539 l 2
+ 215 549 218 559 220 569 c 128
+ 222 579 223 588 223 596 c 0
+ 223 605 218 612 210 617 c 128
+ 202 622 193 626 184 629 c 0
+ 179 630 175 632 171 634 c 128
+ 167 636 165 640 165 644 c 0
+ 165 647 167 651 170 654 c 128
+ 173 657 180 660 191 665 c 0
+ 199 667 210 670 226 675 c 128
+ 242 680 259 685 276 690 c 128
+ 293 695 310 699 324 702 c 128
+ 338 705 348 707 353 707 c 256
+ 358 707 364 707 370 706 c 128
+ 376 705 379 701 379 694 c 0
+ 379 686 378 679 376 673 c 128
+ 374 667 373 661 370 654 c 2
+ 231 229 l 2
+ 230 224 230 222 233 222 c 128
+ 236 222 238 223 241 227 c 0
+ 266 265 292 300 320 332 c 128
+ 348 364 376 388 404 406 c 128
+ 432 424 460 434 487 434 c 0
+ 514 434 534 425 548 408 c 128
+ 562 391 569 371 569 346 c 0
+ 569 311 565 278 556 246 c 128
+ 547 214 534 183 519 154 c 128
+ 504 125 487 99 468 76 c 0
+ 463 70 455 62 442 52 c 128
+ 429 42 414 32 398 22 c 128
+ 382 12 365 3 350 -4 c 128
+ 335 -11 324 -14 317 -14 c 0
+ 308 -14 299 -11 290 -6 c 128
+ 281 -1 273 6 266 13 c 128
+ 259 20 256 27 256 32 c 0
+ 256 35 258 40 262 48 c 128
+ 266 56 270 63 275 70 c 128
+ 280 77 286 80 291 80 c 0
+ 298 80 304 78 308 75 c 128
+ 312 72 316 67 321 62 c 0
+ 326 58 331 54 336 50 c 128
+ 341 46 347 43 354 43 c 256
+ 361 43 368 50 376 64 c 128
+ 384 78 391 94 398 116 c 128
+ 405 138 412 162 418 187 c 128
+ 424 212 428 238 431 262 c 128
+ 434 286 436 307 436 324 c 0
+ 436 335 434 344 430 351 c 128
+ 426 358 419 361 410 361 c 0
+ 401 361 390 354 377 340 c 128
+ 364 326 350 308 334 285 c 128
+ 318 262 301 236 284 208 c 128
+ 258 166 258 164 232 122 c 128
+ 215 94 198 68 182 43 c 0
+ 170 23 159 8 148 -1 c 128
+ 137 -10 127 -15 118 -15 c 0
 EndSplineSet
 EndChar
 EndChars
