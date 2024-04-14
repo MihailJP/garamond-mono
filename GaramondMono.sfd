@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1713062305
+ModificationTime: 1713095519
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -98,7 +98,7 @@ WinInfo: 0 32 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 209715 104857 69905 424673 1048576 69905 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65562 377
+BeginChars: 65562 391
 
 StartChar: A
 Encoding: 65 65 0
@@ -12947,6 +12947,148 @@ LayerCount: 2
 Fore
 Refer: 45 116 N 1 0 0 1 0 0 3
 Refer: 365 -1 N 1 0 0 1 3 0 2
+EndChar
+
+StartChar: Aringacute
+Encoding: 506 506 377
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 366 -1 N 1 0 0 1 42 360 2
+Refer: 0 65 N 1 0 0 1 0 0 3
+Refer: 174 -1 N 1 0 0 1 18 0 2
+EndChar
+
+StartChar: aringacute
+Encoding: 507 507 378
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 366 -1 N 1 0 0 1 3 132 2
+Refer: 26 97 N 1 0 0 1 0 0 3
+Refer: 162 730 N 1 0 0 1 -14 -18 2
+EndChar
+
+StartChar: AEacute
+Encoding: 508 508 379
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 130 198 N 1 0 0 1 0 0 3
+Refer: 167 -1 N 1 0 0 1 144 0 2
+EndChar
+
+StartChar: aeacute
+Encoding: 509 509 380
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 136 230 N 1 0 0 1 0 0 3
+Refer: 118 180 N 1 0 0 1 69 0 2
+EndChar
+
+StartChar: Oslashacute
+Encoding: 510 510 381
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 133 216 N 1 0 0 1 0 0 3
+Refer: 167 -1 N 1 0 0 1 53 0 2
+EndChar
+
+StartChar: oslashacute
+Encoding: 511 511 382
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 139 248 N 1 0 0 1 0 0 3
+Refer: 118 180 N 1 0 0 1 57 0 2
+EndChar
+
+StartChar: Wgrave
+Encoding: 7808 7808 383
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 22 87 N 1 0 0 1 0 0 3
+Refer: 166 -1 N 1 0 0 1 -2 0 2
+EndChar
+
+StartChar: wgrave
+Encoding: 7809 7809 384
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 48 119 N 1 0 0 1 0 0 3
+Refer: 94 96 N 1 0 0 1 -48 0 2
+EndChar
+
+StartChar: Wacute
+Encoding: 7810 7810 385
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 22 87 N 1 0 0 1 0 0 3
+Refer: 167 -1 N 1 0 0 1 89 0 2
+EndChar
+
+StartChar: wacute
+Encoding: 7811 7811 386
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 48 119 N 1 0 0 1 0 0 3
+Refer: 118 180 N 1 0 0 1 46 0 2
+EndChar
+
+StartChar: Wdieresis
+Encoding: 7812 7812 387
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 22 87 N 1 0 0 1 0 0 3
+Refer: 173 -1 N 1 0 0 1 44 0 2
+EndChar
+
+StartChar: wdieresis
+Encoding: 7813 7813 388
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 48 119 N 1 0 0 1 0 0 3
+Refer: 106 168 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ygrave
+Encoding: 7922 7922 389
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 89 N 1 0 0 1 0 0 3
+Refer: 166 -1 N 1 0 0 1 -26 0 2
+EndChar
+
+StartChar: ygrave
+Encoding: 7923 7923 390
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 50 121 N 1 0 0 1 0 0 3
+Refer: 94 96 N 1 0 0 1 -25 0 2
 EndChar
 EndChars
 EndSplineFont

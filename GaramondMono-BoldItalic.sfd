@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1713071496
+ModificationTime: 1713097482
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -54,9 +54,8 @@ OS2CapHeight: 650
 OS2XHeight: 400
 OS2FamilyClass: 258
 OS2Vendor: 'PfEd'
-Lookup: 1 0 0 "'ss01' Original glyphs" { "'ss01' Original glyphs-1" ("ss01") } ['ss01' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "GaramondMono-Italic-'ss01' Original glyphs" { "GaramondMono-Italic-'ss01' Original glyphs-1"  } ['ss01' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "GaramondMono-Italic-'locl' Romanian comma accent" { "GaramondMono-Italic-'locl' Romanian comma accent-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
+Lookup: 1 0 0 "'locl' Romanian comma accent" { "'locl' Romanian comma accent-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
+Lookup: 1 0 0 "'ss01' Original glyphs" { "'ss01' Original glyphs-1" ("ss01") } ['ss01' ('DFLT' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -99,7 +98,7 @@ WinInfo: 0 32 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 -1045325 248513 124256 82837 454033 1048576 82837 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65559 374
+BeginChars: 65559 388
 
 StartChar: A
 Encoding: 65 65 0
@@ -12078,7 +12077,7 @@ LayerCount: 2
 Fore
 Refer: 33 104 N 1 0 0 1 0 0 3
 Refer: 368 -1 N 1 0 0 1 41 73 2
-Substitution2: "GaramondMono-Italic-'ss01' Original glyphs-1" hcircumflex.ss01
+Substitution2: "'ss01' Original glyphs-1" hcircumflex.ss01
 EndChar
 
 StartChar: Itilde
@@ -12549,7 +12548,7 @@ LayerCount: 2
 Fore
 Refer: 18 83 N 1 0 0 1 0 0 3
 Refer: 231 -1 N 1 0 0 1 10 0 2
-Substitution2: "GaramondMono-Italic-'locl' Romanian comma accent-1" Scommaaccent
+Substitution2: "'locl' Romanian comma accent-1" Scommaaccent
 EndChar
 
 StartChar: scedilla
@@ -12560,7 +12559,7 @@ LayerCount: 2
 Fore
 Refer: 122 184 N 1 0 0 1 -7 0 2
 Refer: 44 115 N 1 0 0 1 0 0 3
-Substitution2: "GaramondMono-Italic-'locl' Romanian comma accent-1" scommaaccent
+Substitution2: "'locl' Romanian comma accent-1" scommaaccent
 EndChar
 
 StartChar: Tcedilla
@@ -12571,7 +12570,7 @@ LayerCount: 2
 Fore
 Refer: 19 84 N 1 0 0 1 0 0 3
 Refer: 231 -1 N 1 0 0 1 16 0 2
-Substitution2: "GaramondMono-Italic-'locl' Romanian comma accent-1" tcommaaccent
+Substitution2: "'locl' Romanian comma accent-1" tcommaaccent
 EndChar
 
 StartChar: tcedilla
@@ -12582,7 +12581,7 @@ LayerCount: 2
 Fore
 Refer: 122 184 N 1 0 0 1 -12 0 2
 Refer: 45 116 N 1 0 0 1 0 0 3
-Substitution2: "GaramondMono-Italic-'locl' Romanian comma accent-1" tcommaaccent
+Substitution2: "'locl' Romanian comma accent-1" tcommaaccent
 EndChar
 
 StartChar: Tcaron
@@ -13044,6 +13043,148 @@ LayerCount: 2
 Fore
 Refer: 97 -1 N 1 0 0 1 0 0 3
 Refer: 368 -1 N 1 0 0 1 41 73 2
+EndChar
+
+StartChar: Aringacute
+Encoding: 506 506 374
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 367 -1 N 1 0 0 1 309 380 2
+Refer: 0 65 N 1 0 0 1 0 0 3
+Refer: 175 -1 N 1 0 0 1 96 0 2
+EndChar
+
+StartChar: aringacute
+Encoding: 507 507 375
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 367 -1 N 1 0 0 1 57 196 2
+Refer: 26 97 N 1 0 0 1 0 0 3
+Refer: 162 730 N 1 0 0 1 -16 0 2
+EndChar
+
+StartChar: AEacute
+Encoding: 508 508 376
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 130 198 N 1 0 0 1 0 0 3
+Refer: 168 -1 N 1 0 0 1 150 0 2
+EndChar
+
+StartChar: aeacute
+Encoding: 509 509 377
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 136 230 N 1 0 0 1 0 0 3
+Refer: 118 180 N 1 0 0 1 63 0 2
+EndChar
+
+StartChar: Oslashacute
+Encoding: 510 510 378
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 133 216 N 1 0 0 1 0 0 3
+Refer: 168 -1 N 1 0 0 1 29 0 2
+EndChar
+
+StartChar: oslashacute
+Encoding: 511 511 379
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 139 248 N 1 0 0 1 0 0 3
+Refer: 118 180 N 1 0 0 1 53 0 2
+EndChar
+
+StartChar: Wgrave
+Encoding: 7808 7808 380
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 22 87 N 1 0 0 1 0 0 3
+Refer: 167 -1 N 1 0 0 1 -40 0 2
+EndChar
+
+StartChar: wgrave
+Encoding: 7809 7809 381
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 48 119 N 1 0 0 1 0 0 3
+Refer: 94 96 N 1 0 0 1 -81 0 2
+EndChar
+
+StartChar: Wacute
+Encoding: 7810 7810 382
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 22 87 N 1 0 0 1 0 0 3
+Refer: 168 -1 N 1 0 0 1 49 0 2
+EndChar
+
+StartChar: wacute
+Encoding: 7811 7811 383
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 48 119 N 1 0 0 1 0 0 3
+Refer: 118 180 N 1 0 0 1 38 0 2
+EndChar
+
+StartChar: Wdieresis
+Encoding: 7812 7812 384
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 22 87 N 1 0 0 1 0 0 3
+Refer: 174 -1 N 1 0 0 1 24 0 2
+EndChar
+
+StartChar: wdieresis
+Encoding: 7813 7813 385
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 48 119 N 1 0 0 1 0 0 3
+Refer: 106 168 N 1 0 0 1 1 0 2
+EndChar
+
+StartChar: Ygrave
+Encoding: 7922 7922 386
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 89 N 1 0 0 1 0 0 3
+Refer: 167 -1 N 1 0 0 1 -66 0 2
+EndChar
+
+StartChar: ygrave
+Encoding: 7923 7923 387
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 50 121 N 1 0 0 1 0 0 3
+Refer: 94 96 N 1 0 0 1 -116 0 2
 EndChar
 EndChars
 EndSplineFont
