@@ -4,13 +4,14 @@ FullName: Garamond Mono Bold Italic
 FamilyName: Garamond Mono
 Weight: Bold
 Copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-Version: 0.005
+Version: 1.0.0
 ItalicAngle: -17.2
 UnderlinePosition: -125
 UnderlineWidth: 50
 Ascent: 800
 Descent: 200
 InvalidEm: 0
+sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 0 "+gMyXYgAA" 1
 Layer: 1 0 "+Uk2XYgAA" 0
@@ -21,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1713184902
+ModificationTime: 1713185132
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
