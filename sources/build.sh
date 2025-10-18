@@ -1,7 +1,7 @@
 #!/bin/sh
 
 for i in *.sfd; do
-	python3 <<EOS
+	fontforge -lang=py -script <<EOS
 import fontforge
 font = fontforge.open("$i")
 font.generate("../fonts/ttf/${i%sfd}ttf")
