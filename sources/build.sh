@@ -11,8 +11,8 @@ for i in *.sfd; do
 	ttf=../fonts/ttf/${i%sfd}ttf
 	otf=../fonts/otf/${i%sfd}otf
 	sfd2ufo $i $ufo
-	fontmake -u $ufo -o ttf --output-path $ttf
-	fontmake -u $ufo -o otf --output-path $otf
+	fontmake -u $ufo -o ttf -f --output-path $ttf
+	fontmake -u $ufo -o otf -f --output-path $otf
 	woff2_compress $ttf && mv ${ttf%ttf}woff2 ../fonts/webfonts
 done
 
