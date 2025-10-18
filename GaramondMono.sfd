@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1713185091
+ModificationTime: 1760798569
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -6522,12 +6522,12 @@ EndChar
 
 StartChar: guillemotleft
 Encoding: 171 171 109
-Width: 591
+Width: 600
 Flags: W
 LayerCount: 2
 Fore
 Refer: 240 8249 N 1 0 0 1 -110 0 2
-Refer: 240 8249 N 1 0 0 1 101 0 2
+Refer: 240 8249 N 1 0 0 1 110 0 2
 EndChar
 
 StartChar: logicalnot
