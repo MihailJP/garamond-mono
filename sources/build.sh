@@ -1,8 +1,10 @@
 #!/bin/sh
 
 rm -rf ../build
-for i in ../fonts/ttf/*; do
-	rm -rf $i
+for j in ../fonts/*; do
+	for i in $j/*; do
+		rm -rf $i
+	done
 done
 mkdir ../build
 
