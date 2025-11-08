@@ -7,7 +7,7 @@ FONTS=GaramondMono.ttf \
 OTFONTS=${FONTS:.ttf=.otf}
 DOCUMENTS=README.md OFL.txt
 PKGS=GaramondMono.tar.xz GaramondMono-OT.tar.xz
-FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
+FFCMD=for i in $?;do fontforge -lang=py -c "font=fontforge.open('$$i'); font.generate('$@', flags=('opentype','no-mac-names')); font.close()";done
 TTFPKGCMD=rm -rf $*; mkdir $*; cp ${FONTS} ${DOCUMENTS} $*
 OTFPKGCMD=rm -rf $*; mkdir $*; cp ${OTFONTS} ${DOCUMENTS} $*
 
