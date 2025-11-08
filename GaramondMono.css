@@ -1,0 +1,55 @@
+/*
+Use this stylesheet to use Garamond Mono as webfont
+
+Replace url() values with the path to the font installed in your server
+
+Usage in your hypertexts:
+	<link rel="stylesheet" type="text/css" href="GaramondMono.css" />
+
+For Romanian, Polish, Bulgarian, Macedonian, Serbian and Bosnian languages
+`locl` feature shall be automatically activated through "lang" attribute.
+	<pre lang="bg">...</pre>
+
+Usage in your stylesheets:
+	font-family: "Garamond Mono";
+	font-variant-alternates: styleset(original-glyphs);\
+	font-variant-numeric: oldstyle-nums;
+*/
+
+@font-face {
+	font-family: "Garamond Mono";
+	font-weight: regular;
+	font-style: normal;
+	src: url("GaramondMono.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Garamond Mono";
+	font-weight: regular;
+	font-style: italic;
+	src: url("GaramondMono-Italic.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Garamond Mono";
+	font-weight: bold;
+	font-style: normal;
+	src: url("GaramondMono-Bold.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Garamond Mono";
+	font-weight: bold;
+	font-style: italic;
+	src: url("GaramondMono-BoldItalic.woff2") format("woff2");
+}
+
+@font-feature-values "Garamond Mono" {
+	@styleset {
+		original-glyphs: 1;
+	}
+}
+
+/* Uncomment to enable the font at parts where you may want */
+/*
+pre, code, kbd, var, samp {
+	font-family: "Garamond Mono";
+}
+*/

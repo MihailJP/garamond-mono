@@ -1,8 +1,11 @@
 *.ttf
 *.otf
+*.woff
+*.woff2
 *.zip
 *.tar.gz
 *.tar.bz2
 *.tar.xz
 GaramondMono/
 GaramondMono-OT/
+GaramondMono-WOFF2/
