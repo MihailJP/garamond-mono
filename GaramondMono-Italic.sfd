@@ -4,14 +4,13 @@ FullName: Garamond Mono Italic
 FamilyName: Garamond Mono
 Weight: Book
 Copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-Version: 1.0.0
+Version: 1.001
 ItalicAngle: -17.2
 UnderlinePosition: -125
 UnderlineWidth: 50
 Ascent: 800
 Descent: 200
 InvalidEm: 0
-sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 0 "+gMyXYgAA" 1
 Layer: 1 0 "+Uk2XYgAA" 0
