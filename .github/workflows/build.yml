@@ -28,7 +28,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
-        python-version: ">=3.8"
+        python-version: ">=3.9"
     - name: Install Python Fontbakery
       run: |
         python3 -m venv venv
@@ -42,5 +42,4 @@ jobs:
         fontbakery check-universal \
           -x opentype/STAT/ital_axis \
           -x smart_dropout \
-          -x nested_components \
           ttf/*.ttf
