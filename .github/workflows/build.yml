@@ -41,5 +41,4 @@ jobs:
         source venv/bin/activate
         fontbakery check-universal \
           -x opentype/STAT/ital_axis \
-          -x smart_dropout \
           ttf/*.ttf
