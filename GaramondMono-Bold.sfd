@@ -8839,6 +8839,7 @@ SplineSet
  272 322 l 1
  202 285 l 2
 EndSplineSet
+Substitution2: "'ss01' Original glyphs-1" lslash.ss01
 EndChar
 
 StartChar: Eng
