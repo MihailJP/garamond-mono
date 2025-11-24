@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1713185111
+ModificationTime: 1763951581
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,11 +56,21 @@ OS2XHeight: 400
 OS2FamilyClass: 258
 OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "'onum' Oldstyle Figures" { "'onum' Oldstyle Figures-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
+Lookup: 6 0 0 "'calt' Contextual colon" { "'calt' Contextual colon-1"  } ['calt' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
+Lookup: 1 0 0 "Raised colon" { "Raised colon-1"  } []
 Lookup: 1 0 0 "'locl' Romanian comma accent" { "'locl' Romanian comma accent-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
 Lookup: 1 0 0 "'locl' Macedo-Serbian Cyrillic" { "'locl' Macedo-Serbian Cyrillic-1" ("mkd") } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
 Lookup: 1 0 0 "'ss01' Original glyphs" { "'ss01' Original glyphs-1" ("ss01") } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'calt' Contextual colon-1" 0 0 0 1
+ 1 1 1
+  Coverage: 5 colon
+  BCoverage: 49 zero one two three four five six seven eight nine
+  FCoverage: 49 zero one two three four five six seven eight nine
+ 1
+  SeqLookup: 0 "Raised colon"
+EndFPST
 TtTable: prep
 PUSHW_1
  511
@@ -101,7 +111,7 @@ WinInfo: 0 32 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 -1045325 629145 314572 209715 434110 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65554 622
+BeginChars: 65555 623
 
 StartChar: A
 Encoding: 65 65 0
@@ -4413,6 +4423,7 @@ LayerCount: 2
 Fore
 Refer: 62 46 N 1 0 0 1 86 276 2
 Refer: 62 46 N 1 0 0 1 1 0 2
+Substitution2: "Raised colon-1" colon.raised
 EndChar
 
 StartChar: semicolon
@@ -23908,6 +23919,16 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 166 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: colon.raised
+Encoding: 65554 -1 622
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 62 46 N 1 0 0 1 125 401 2
+Refer: 62 46 N 1 0 0 1 40 125 2
 EndChar
 EndChars
 EndSplineFont

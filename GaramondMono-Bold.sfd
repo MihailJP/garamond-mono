@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1760798742
+ModificationTime: 1763951434
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -56,11 +56,21 @@ OS2XHeight: 400
 OS2FamilyClass: 258
 OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "'onum' Oldstyle Figures" { "'onum' Oldstyle Figures-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
+Lookup: 6 0 0 "'calt' Contextual colon" { "'calt' Contextual colon-1"  } ['calt' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
+Lookup: 1 0 0 "Raised colon" { "Raised colon-1"  } []
 Lookup: 1 0 0 "'locl' Romanian comma accent" { "'locl' Romanian comma accent-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
 Lookup: 1 0 0 "'locl' Macedo-Serbian Cyrillic" { "'locl' Macedo-Serbian Cyrillic-1" ("mkd") } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
 Lookup: 1 0 0 "'ss01' Original glyphs" { "'ss01' Original glyphs-1" ("ss01") } ['ss01' ('DFLT' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'calt' Contextual colon-1" 0 0 0 1
+ 1 1 1
+  Coverage: 5 colon
+  BCoverage: 49 zero one two three four five six seven eight nine
+  FCoverage: 49 zero one two three four five six seven eight nine
+ 1
+  SeqLookup: 0 "Raised colon"
+EndFPST
 TtTable: prep
 PUSHW_1
  511
@@ -100,7 +110,7 @@ FitToEm: 0
 WinInfo: 0 32 8
 BeginPrivate: 0
 EndPrivate
-BeginChars: 65555 619
+BeginChars: 65556 620
 
 StartChar: A
 Encoding: 65 65 0
@@ -4463,6 +4473,7 @@ LayerCount: 2
 Fore
 Refer: 62 46 N 1 0 0 1 0 276 2
 Refer: 62 46 N 1 0 0 1 0 0 2
+Substitution2: "Raised colon-1" colon.raised
 EndChar
 
 StartChar: semicolon
@@ -24179,6 +24190,16 @@ SplineSet
  430 749 412 730 390 715 c 128
  368 700 341 693 310 693 c 0
 EndSplineSet
+EndChar
+
+StartChar: colon.raised
+Encoding: 65555 -1 619
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 62 46 N 1 0 0 1 0 401 2
+Refer: 62 46 N 1 0 0 1 0 125 2
 EndChar
 EndChars
 EndSplineFont
