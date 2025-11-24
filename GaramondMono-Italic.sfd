@@ -6584,8 +6584,9 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni00AD
-Encoding: 173 173 111
+StartChar: hyphentwo
+Encoding: 8208 8208 111
+AltUni2: 002011.ffffffff.0
 Width: 600
 Flags: W
 LayerCount: 2
