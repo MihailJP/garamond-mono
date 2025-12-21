@@ -10,7 +10,10 @@ jobs:
     - name: Check out the repository
       uses: actions/checkout@v4
     - name: Install Fontforge
-      run: sudo apt install fontforge
+      run: |
+        sudo apt update
+        sudo apt upgrade
+        sudo apt install fontforge
     - name: Build
       run: make
     - name: Make distributable
