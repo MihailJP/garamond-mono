@@ -43,6 +43,7 @@ jobs:
       run: |
         source venv/bin/activate
         fontbakery check-universal \
+          --full-lists \
           -x fontdata_namecheck \
           -x opentype/STAT/ital_axis \
           ttf/*.ttf
