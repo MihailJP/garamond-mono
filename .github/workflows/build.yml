@@ -11,6 +11,7 @@ jobs:
       uses: actions/checkout@v4
     - name: Install Fontforge
       run: |
+        sudo apt remove firefox
         sudo apt update
         sudo apt upgrade
         sudo apt install fontforge
