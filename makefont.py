@@ -28,6 +28,6 @@ font.buildOrReplaceAALTFeatures()
 if argv[1].endswith(".sfd"):
 	font.save(argv[1])
 else:
-	font.generate(argv[1], flags=('no-mac-names','opentype'))
+	font.generate(argv[1], flags=('no-mac-names','opentype','no-FFTM-table'))
 
 font.close()
