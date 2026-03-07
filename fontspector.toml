@@ -6,3 +6,8 @@ exclude_checks = [
 code = 'namecheck-service'
 status = 'SKIP'
 reason = 'Skip if this external service is offline'
+
+[[overrides]]
+code = 'missing-rupee'
+status = 'SKIP'
+reason = 'This is not an Indic font'
