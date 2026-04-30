@@ -2,8 +2,3 @@ exclude_checks = [
     'opentype/STAT/ital_axis',
     'fontdata_namecheck',
 ]
-
-[[overrides]]
-code = 'missing-rupee'
-status = 'SKIP'
-reason = 'This is not an Indic font'
