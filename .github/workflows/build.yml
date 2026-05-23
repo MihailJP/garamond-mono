@@ -23,7 +23,7 @@ jobs:
     - name: Make distributable
       run: make dist
     - name: Upload an Artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: ttf
         path: GaramondMono/**
@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Get Fontspector configuration file
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         sparse-checkout: |
           fontspector.toml
@@ -43,9 +43,9 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Download the Artifact
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v8
     - name: Run Fontspector
       run: |
         fontspector -l info --full-lists \
           --configuration fontspector.toml \
-          ttf/*.ttf
+          *.ttf
