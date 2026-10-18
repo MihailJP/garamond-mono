@@ -30,6 +30,18 @@ Usage in your stylesheets:
 }
 @font-face {
 	font-family: "Garamond Mono";
+	font-weight: 500;
+	font-style: normal;
+	src: url("GaramondMono-Medium.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Garamond Mono";
+	font-weight: 500;
+	font-style: italic;
+	src: url("GaramondMono-MediumItalic.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Garamond Mono";
 	font-weight: bold;
 	font-style: normal;
 	src: url("GaramondMono-Bold.woff2") format("woff2");
