@@ -1,8 +1,10 @@
 # Makefile for Garamond Mono font
 
 FONTS=GaramondMono.ttf \
+      GaramondMono-Medium.ttf \
       GaramondMono-Bold.ttf \
       GaramondMono-Italic.ttf \
+      GaramondMono-MediumItalic.ttf \
       GaramondMono-BoldItalic.ttf
 CSS=GaramondMono.css
 OTFONTS=${FONTS:.ttf=.otf}
@@ -21,6 +23,18 @@ all: ttf otf woff2
 
 .sfd.ttf .sfd.otf .sfd.woff .sfd.woff2:
 	for i in $?; do ./makefont.py $@ $$i; done
+
+# Medium has no source of its own: it is derived from the built Regular or Italic
+# of the same format. See makemedium.py.
+MEDIUM=GaramondMono-Medium.ttf GaramondMono-Medium.otf \
+       GaramondMono-Medium.woff GaramondMono-Medium.woff2
+MEDIUMITALIC=GaramondMono-MediumItalic.ttf GaramondMono-MediumItalic.otf \
+             GaramondMono-MediumItalic.woff GaramondMono-MediumItalic.woff2
+
+${MEDIUM}: GaramondMono-Medium.%: GaramondMono.% makemedium.py
+	./makemedium.py $@ $<
+${MEDIUMITALIC}: GaramondMono-MediumItalic.%: GaramondMono-Italic.% makemedium.py
+	./makemedium.py $@ $<
 
 .PHONY: ttf otf
 ttf: ${FONTS}
