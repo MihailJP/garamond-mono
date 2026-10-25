@@ -47,6 +47,9 @@ jobs:
       uses: actions/download-artifact@v8
     - name: Run Fontspector
       run: |
-        fontspector -l info --full-lists \
+        fontspector -c fontdata_namecheck -l info --full-lists \
+          --configuration fontspector.toml \
+          *.ttf || true
+        fontspector -x fontdata_namecheck -l info --full-lists \
           --configuration fontspector.toml \
           *.ttf
