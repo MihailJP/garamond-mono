@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1792507010
+ModificationTime: 1793429251
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -55,6 +55,12 @@ OS2CapHeight: 650
 OS2XHeight: 400
 OS2FamilyClass: 258
 OS2Vendor: 'PfEd'
+Lookup: 6 0 0 "'rclt' Removing soft dot" { "'rclt' Removing soft dot-1"  } ['rclt' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
+Lookup: 1 0 0 "Dotless forms" { "Dotless forms-1" ("dotless") } []
+Lookup: 1 0 0 "'locl' Cyrillic breve" { "'locl' Cyrillic breve-1"  } ['locl' ('cyrl' <'BGR ' 'MKD ' 'SRB ' 'dflt' > ) ]
+Lookup: 6 0 0 "'rclt' Accents for uppercase" { "'rclt' Accents for uppercase-1"  } ['rclt' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
+Lookup: 1 0 0 "Uppercase forms of accents" { "Uppercase forms of accents-1" ("cap") } []
+Lookup: 1 0 0 "Tall lowercase forms of accents" { "Tall lowercase forms of accents-1" ("flat") } []
 Lookup: 1 0 0 "'onum' Oldstyle Figures" { "'onum' Oldstyle Figures-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
 Lookup: 6 0 0 "'calt' Contextual colon" { "'calt' Contextual colon-1"  } ['calt' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
 Lookup: 1 0 0 "Raised colon" { "Raised colon-1"  } []
@@ -62,8 +68,226 @@ Lookup: 1 0 0 "'locl' Romanian comma accent" { "'locl' Romanian comma accent-1" 
 Lookup: 1 0 0 "'locl' Macedo-Serbian Cyrillic" { "'locl' Macedo-Serbian Cyrillic-1"  } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
 Lookup: 1 0 0 "'locl' Bulgarian Cyrillic" { "'locl' Bulgarian Cyrillic-1" ("bgr") } ['locl' ('cyrl' <'BGR ' > ) ]
 Lookup: 1 0 0 "'ss01' Original glyphs" { "'ss01' Original glyphs-1" ("ss01") } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
+Lookup: 264 0 0 "'mark' Mark positioning" { "'mark' Mark positioning-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
+Lookup: 257 0 0 "Tall mark combining" { "Tall mark combining-1"  } []
+Lookup: 257 0 0 "Mark combining" { "Mark combining-1"  } []
+Lookup: 257 0 0 "Mark spacing" { "Mark spacing-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "'rclt' Accents for uppercase-1" 2 3 1 6
+  Class: 158 gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312 dotbelowcomb uni0326 uni0327 uni0328 uni0335 uni0306.cyr
+  BClass: 2119 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex Hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcedilla Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron uni0181 uni0186 uni018A uni018E uni018F uni0190 uni0197 uni0198 uni019D uni01B3 uni01CD uni01CF uni01D1 uni01D3 Gcaron Aringacute AEacute Oslashacute Scommaaccent Tcommaaccent uni0232 uni0245 Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Alpha Beta Gamma Deltagreek Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omegagreek Iotadieresis Upsilondieresis uni0400 Iocyrillic Djecyrillic Gjecyrillic Ecyrillic Dzecyrillic Icyrillic Yicyrillic Jecyrillic Ljecyrillic Njecyrillic Tshecyrillic Kjecyrillic uni040D Ushortcyrillic Dzhecyrillic Acyrillic Becyrillic Vecyrillic Gecyrillic Decyrillic Iecyrillic Zhecyrillic Zecyrillic Iicyrillic Iishortcyrillic Kacyrillic Elcyrillic Emcyrillic Encyrillic Ocyrillic Pecyrillic Ercyrillic Escyrillic Tecyrillic Ucyrillic Efcyrillic Khacyrillic Tsecyrillic Checyrillic Shacyrillic Shchacyrillic Hardsigncyrillic Yericyrillic Softsigncyrillic Ereversedcyrillic IUcyrillic IAcyrillic Yatcyrillic Fitacyrillic Izhitsacyrillic Gheupturncyrillic uni1E04 uni1E0C uni1E20 uni1E24 uni1E26 uni1E44 uni1E46 uni1E56 uni1E62 Wgrave Wacute Wdieresis uni1E8C uni1E92 uni1E9E uni1EA0 uni1EB8 uni1EBC uni1ECA uni1ECC uni1EE4 Ygrave uni1EF8 Decyrillic.bgr Elcyrillic.bgr Efcyrillic.bgr
+  BClass: 407 b d f h k l germandbls eth thorn dcaron dcroat hcircumflex hbar kcommaaccent lacute lcommaaccent lcaron ldot lslash longs florin uni0199 uni0253 uni0257 beta delta zeta theta lambda xi psi becyrillic efcyrillic djecyrillic tshecyrillic yatcyrillic uni1E05 uni1E0D uni1E25 uni1E27 becyrillic.mkd h.ss01 hbar.ss01 hcircumflex.ss01 tshecyrillic.ss01 vecyrillic.bgr zhecyrillic.bgr kacyrillic.bgr iucyrillic.bgr
+ 3 1 0
+  ClsList: 1 1 1
+  BClsList: 1
+  FClsList:
+ 3
+  SeqLookup: 0 "Uppercase forms of accents"
+  SeqLookup: 1 "Uppercase forms of accents"
+  SeqLookup: 2 "Uppercase forms of accents"
+ 3 1 0
+  ClsList: 1 1 1
+  BClsList: 2
+  FClsList:
+ 3
+  SeqLookup: 0 "Tall lowercase forms of accents"
+  SeqLookup: 1 "Tall lowercase forms of accents"
+  SeqLookup: 2 "Tall lowercase forms of accents"
+ 2 1 0
+  ClsList: 1 1
+  BClsList: 1
+  FClsList:
+ 2
+  SeqLookup: 0 "Uppercase forms of accents"
+  SeqLookup: 1 "Uppercase forms of accents"
+ 2 1 0
+  ClsList: 1 1
+  BClsList: 2
+  FClsList:
+ 2
+  SeqLookup: 0 "Tall lowercase forms of accents"
+  SeqLookup: 1 "Tall lowercase forms of accents"
+ 1 1 0
+  ClsList: 1
+  BClsList: 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Uppercase forms of accents"
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Tall lowercase forms of accents"
+  ClassNames: "All_Others" "1"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others"
+EndFPST
+ChainSub2: class "'rclt' Removing soft dot-1" 2 1 4 4
+  Class: 48 i j iogonek uni0268 icyrillic jecyrillic uni1ECB
+  FClass: 101 gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312
+  FClass: 36 dotbelowcomb uni0326 uni0327 uni0328
+  FClass: 7 uni0335
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Dotless forms"
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 2 1
+ 1
+  SeqLookup: 0 "Dotless forms"
+ 1 0 3
+  ClsList: 1
+  BClsList:
+  FClsList: 3 2 1
+ 1
+  SeqLookup: 0 "Dotless forms"
+ 1 0 3
+  ClsList: 1
+  BClsList:
+  FClsList: 2 3 1
+ 1
+  SeqLookup: 0 "Dotless forms"
+  ClassNames: "All_Others" "1"
+  BClassNames: "All_Others"
+  FClassNames: "All_Others" "1" "2" "3"
+EndFPST
+ChainPos2: class "'mark' Mark positioning-1" 4 6 1 19
+  Class: 307 gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312 gravecomb.cap acutecomb.cap uni0302.cap tildecomb.cap uni0304.cap uni0306.cap uni0307.cap uni0308.cap uni030A.cap uni030B.cap uni030C.cap uni0306.cyr uni0306.cyrcap acutecomb.flat uni0302.flat uni030C.flat
+  Class: 77 dotbelowcomb uni0326 uni0327 uni0328 dotbelowcomb.cap uni0327.cap uni0328.cap
+  Class: 7 uni0335
+  BClass: 1391 A B C D E F G H I K L M N O P R S T U V W X Y Z a c e m n o r s t u v w x z AE Eth Oslash Thorn ae oslash Dcroat dcroat Hbar dotlessi kgreenlandic Lslash OE oe uni0181 uni0186 uni018A uni018E uni018F uni0190 uni0197 uni0198 uni01B3 uni01DD uni0245 uni0254 uni0259 uni025B uni0268 uni028C Alpha Beta Gamma Deltagreek Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omegagreek alpha epsilon eta iota kappa nu omicron pi sigma tau upsilon omega Ecyrillic Dzecyrillic Ljecyrillic Njecyrillic Tshecyrillic Acyrillic Becyrillic Vecyrillic Gecyrillic Iecyrillic Zhecyrillic Zecyrillic Iicyrillic Kacyrillic Elcyrillic Emcyrillic Encyrillic Ocyrillic Pecyrillic Ercyrillic Escyrillic Tecyrillic Ucyrillic Efcyrillic Khacyrillic Tsecyrillic Checyrillic Shacyrillic Shchacyrillic Hardsigncyrillic Yericyrillic Softsigncyrillic Ereversedcyrillic IUcyrillic IAcyrillic acyrillic vecyrillic gecyrillic iecyrillic zhecyrillic zecyrillic iicyrillic kacyrillic elcyrillic emcyrillic encyrillic ocyrillic pecyrillic escyrillic tecyrillic khacyrillic tsecyrillic checyrillic shacyrillic shchacyrillic hardsigncyrillic yericyrillic softsigncyrillic ereversedcyrillic iucyrillic iacyrillic ecyrillic dzecyrillic ljecyrillic njecyrillic Yatcyrillic Fitacyrillic fitacyrillic Izhitsacyrillic izhitsacyrillic Gheupturncyrillic gheupturncyrillic uni1E9E Elcyrillic.bgr
+  BClass: 1893 Agrave Aacute Acircumflex Atilde Adieresis Aring Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Ugrave Uacute Ucircumflex Udieresis Yacute agrave aacute acircumflex atilde adieresis aring egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis ntilde ograve oacute ocircumflex otilde odieresis ugrave uacute ucircumflex udieresis Amacron amacron Abreve abreve Cacute cacute Ccircumflex ccircumflex Cdotaccent cdotaccent Ccaron ccaron Dcaron dcaron Emacron emacron Ebreve ebreve Edotaccent edotaccent Ecaron ecaron Gcircumflex Gbreve Gdotaccent Hcircumflex hcircumflex Itilde itilde Imacron imacron Ibreve ibreve Idotaccent Lacute lacute Nacute nacute Ncaron ncaron Omacron omacron Obreve obreve Ohungarumlaut ohungarumlaut Racute racute Rcaron rcaron Sacute sacute Scircumflex scircumflex Scaron scaron Tcaron tcaron Utilde utilde Umacron umacron Ubreve ubreve Uring uring Uhungarumlaut uhungarumlaut Wcircumflex wcircumflex Ycircumflex Ydieresis Zacute zacute Zdotaccent zdotaccent Zcaron zcaron uni01CD uni01CE uni01CF uni01D0 uni01D1 uni01D2 uni01D3 uni01D4 Gcaron Aringacute aringacute AEacute aeacute Oslashacute oslashacute uni0232 Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos iotadieresistonos Iotadieresis Upsilondieresis alphatonos epsilontonos etatonos iotatonos upsilondieresistonos iotadieresis upsilondieresis omicrontonos upsilontonos omegatonos uni0400 Iocyrillic Gjecyrillic Yicyrillic Kjecyrillic uni040D Ushortcyrillic Iishortcyrillic iishortcyrillic uni0450 iocyrillic gjecyrillic yicyrillic kjecyrillic uni045D uni1E20 uni1E21 uni1E26 uni1E27 uni1E44 uni1E45 uni1E56 uni1E57 Wgrave wgrave Wacute wacute Wdieresis wdieresis uni1E8C uni1E8D uni1EBC uni1EBD Ygrave uni1EF8 gecyrillic.mkd pecyrillic.mkd tecyrillic.mkd hcircumflex.ss01 gjecyrillic.mkd
+  BClass: 629 J Q g p q y Ccedilla ccedilla Aogonek aogonek Eogonek eogonek Iogonek Kcommaaccent kcommaaccent Lcommaaccent Ncommaaccent ncommaaccent Eng eng Rcommaaccent rcommaaccent Scedilla scedilla Tcedilla tcedilla Uogonek uogonek uni019D uni01B4 Scommaaccent scommaaccent Tcommaaccent tcommaaccent dotlessj uni0272 gamma mugreek rho sigma1 phi chi Djecyrillic Icyrillic Jecyrillic Dzhecyrillic Decyrillic decyrillic ercyrillic ucyrillic dzhecyrillic uni1E04 uni1E0C uni1E24 uni1E46 uni1E47 uni1E62 uni1E63 uni1E92 uni1E93 uni1EA0 uni1EA1 uni1EB8 uni1EB9 uni1ECA uni1ECC uni1ECD uni1EE4 uni1EE5 Decyrillic.bgr decyrillic.bgr zecyrillic.bgr
+  BClass: 252 b d f h k l germandbls eth thorn hbar lcaron ldot lslash longs uni0199 uni0253 uni0257 delta theta lambda becyrillic tshecyrillic yatcyrillic becyrillic.mkd h.ss01 hbar.ss01 tshecyrillic.ss01 vecyrillic.bgr zhecyrillic.bgr kacyrillic.bgr iucyrillic.bgr
+  BClass: 83 lcommaaccent florin beta zeta xi psi efcyrillic djecyrillic uni1E05 uni1E0D uni1E25
+ 2 1 0
+  ClsList: 1 2
+  BClsList: 1
+  FClsList:
+ 2
+  SeqLookup: 0 "Mark combining"
+  SeqLookup: 1 "Mark combining"
+ 2 1 0
+  ClsList: 1 2
+  BClsList: 4
+  FClsList:
+ 2
+  SeqLookup: 0 "Tall mark combining"
+  SeqLookup: 1 "Mark combining"
+ 2 1 0
+  ClsList: 2 1
+  BClsList: 1
+  FClsList:
+ 2
+  SeqLookup: 0 "Mark combining"
+  SeqLookup: 1 "Mark combining"
+ 2 1 0
+  ClsList: 2 1
+  BClsList: 4
+  FClsList:
+ 2
+  SeqLookup: 0 "Mark combining"
+  SeqLookup: 1 "Tall mark combining"
+ 1 1 0
+  ClsList: 1
+  BClsList: 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Mark combining"
+ 1 1 0
+  ClsList: 1
+  BClsList: 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Mark combining"
+ 1 1 0
+  ClsList: 1
+  BClsList: 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Tall mark combining"
+ 1 1 0
+  ClsList: 1
+  BClsList: 5
+  FClsList:
+ 1
+  SeqLookup: 0 "Tall mark combining"
+ 1 1 0
+  ClsList: 2
+  BClsList: 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Mark combining"
+ 1 1 0
+  ClsList: 2
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Mark combining"
+ 1 1 0
+  ClsList: 2
+  BClsList: 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Mark combining"
+ 1 1 0
+  ClsList: 3
+  BClsList: 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Mark combining"
+ 1 1 0
+  ClsList: 3
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Mark combining"
+ 1 1 0
+  ClsList: 3
+  BClsList: 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Mark combining"
+ 1 1 0
+  ClsList: 3
+  BClsList: 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Mark combining"
+ 1 1 0
+  ClsList: 3
+  BClsList: 5
+  FClsList:
+ 1
+  SeqLookup: 0 "Mark combining"
+ 1 0 0
+  ClsList: 1
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Mark spacing"
+ 1 0 0
+  ClsList: 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Mark spacing"
+ 1 0 0
+  ClsList: 3
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Mark spacing"
+  ClassNames: "All_Others" "1" "2" "3"
+  BClassNames: "All_Others" "1" "2" "3" "4" "5"
+  FClassNames: "All_Others"
+EndFPST
 ChainSub2: coverage "'calt' Contextual colon-1" 0 0 0 1
  1 1 1
   Coverage: 5 colon
@@ -112,7 +336,7 @@ WinInfo: 0 32 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 -1045325 248513 124256 82837 454033 1048576 82837 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65563 712
+BeginChars: 65586 752
 
 StartChar: A
 Encoding: 65 65 0
@@ -2671,6 +2895,7 @@ LayerCount: 2
 Fore
 Refer: 145 305 N 1 0 0 1 0 0 2
 Refer: 161 729 N 1 0 0 1 3 -2 2
+Substitution2: "Dotless forms-1" dotlessi
 EndChar
 
 StartChar: j
@@ -2682,6 +2907,7 @@ LayerCount: 2
 Fore
 Refer: 161 729 N 1 0 0 1 6 0 2
 Refer: 363 567 N 1 0 0 1 0 0 3
+Substitution2: "Dotless forms-1" dotlessj
 EndChar
 
 StartChar: k
@@ -12104,6 +12330,7 @@ LayerCount: 2
 Fore
 Refer: 163 731 N 1 0 0 1 -6 0 2
 Refer: 34 105 N 1 0 0 1 0 0 3
+Substitution2: "Dotless forms-1" iogonek.dotless
 EndChar
 
 StartChar: Idotaccent
@@ -22077,6 +22304,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 34 105 N 1 0 0 1 0 0 3
+Substitution2: "Dotless forms-1" dotlessi
 EndChar
 
 StartChar: yicyrillic
@@ -22116,6 +22344,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 35 106 N 1 0 0 1 0 0 3
+Substitution2: "Dotless forms-1" dotlessj
 EndChar
 
 StartChar: kacyrillic
@@ -26099,6 +26328,7 @@ Fore
 Refer: 161 729 N 1 0 0 1 1 0 2
 Refer: 145 305 N 1 0 0 1 0 0 3
 Refer: 161 729 S 1 0 0 1 -214 -692 2
+Substitution2: "Dotless forms-1" uni1ECB.dotless
 EndChar
 
 StartChar: uni0268
@@ -26107,63 +26337,9 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-SplineSet
-245 171 m 2
- 237 171 232 174 231 180 c 128
- 230 186 230 193 232 199 c 0
- 235 208 239 215 246 220 c 128
- 253 225 261 228 269 228 c 2
- 491 228 l 2
- 497 228 501 226 504 223 c 128
- 507 220 508 215 506 210 c 0
- 506 209 504 209 504 208 c 128
- 504 207 504 207 504 206 c 0
- 499 197 491 189 482 182 c 128
- 473 175 464 171 453 171 c 2
- 245 171 l 2
-188 -3 m 0
- 184 -3 180 -2 178 0 c 128
- 176 2 175 6 176 10 c 0
- 178 15 181 20 185 23 c 128
- 189 26 195 29 200 30 c 0
- 218 34 233 39 242 44 c 128
- 251 49 256 56 259 67 c 2
- 326 283 l 2
- 333 306 335 322 331 332 c 128
- 327 342 317 347 303 349 c 0
- 299 350 297 352 296 355 c 128
- 295 358 295 362 297 367 c 0
- 300 377 306 383 313 384 c 0
- 350 391 383 400 414 412 c 128
- 445 424 468 433 485 440 c 0
- 498 445 505 448 508 448 c 0
- 517 448 519 444 517 436 c 0
- 513 425 507 411 500 394 c 128
- 493 377 486 359 478 341 c 128
- 470 323 463 306 458 289 c 2
- 390 68 l 2
- 387 59 389 51 394 46 c 128
- 399 41 410 35 426 30 c 0
- 430 28 435 26 437 23 c 128
- 439 20 440 16 438 11 c 0
- 435 2 429 -2 419 -2 c 0
- 406 -2 394 -2 380 -1 c 128
- 366 0 353 0 340 1 c 128
- 327 2 315 2 303 2 c 0
- 292 2 278 2 266 1 c 128
- 254 0 240 -1 227 -2 c 128
- 214 -3 201 -3 188 -3 c 0
-452 493 m 0
- 431 493 414 501 404 516 c 128
- 394 531 392 550 398 571 c 0
- 405 594 418 613 438 628 c 128
- 458 643 480 651 501 651 c 0
- 524 651 539 643 550 628 c 128
- 561 613 564 594 557 571 c 0
- 551 550 537 531 516 516 c 128
- 495 501 475 493 452 493 c 0
-EndSplineSet
-Colour: ff0000
+Refer: 161 729 N 1 0 0 1 3 -2 2
+Refer: 729 -1 N 1 0 0 1 0 0 3
+Substitution2: "Dotless forms-1" uni0268.dotless
 EndChar
 
 StartChar: uni0199
@@ -27153,6 +27329,579 @@ SplineSet
  402 666 420 678 442 688 c 128
  464 698 486 703 508 703 c 0
 EndSplineSet
+EndChar
+
+StartChar: uni0308
+Encoding: 776 776 712
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 106 168 N 1 0 0 1 -301 0 2
+Substitution2: "Uppercase forms of accents-1" uni0308.cap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0307
+Encoding: 775 775 713
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 161 729 N 1 0 0 1 -300 0 2
+Substitution2: "Uppercase forms of accents-1" uni0307.cap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: gravecomb
+Encoding: 768 768 714
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 94 96 N 1 0 0 1 -347 0 2
+Substitution2: "Uppercase forms of accents-1" gravecomb.cap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: acutecomb
+Encoding: 769 769 715
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 118 180 N 1 0 0 1 -253 0 2
+Substitution2: "Tall lowercase forms of accents-1" acutecomb.flat
+Substitution2: "Uppercase forms of accents-1" acutecomb.cap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni030B
+Encoding: 779 779 716
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 165 733 N 1 0 0 1 -300 0 2
+Substitution2: "Uppercase forms of accents-1" uni030B.cap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0302
+Encoding: 770 770 717
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 157 710 N 1 0 0 1 -301 0 2
+Substitution2: "Tall lowercase forms of accents-1" uni0302.flat
+Substitution2: "Uppercase forms of accents-1" uni0302.cap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni030C
+Encoding: 780 780 718
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 158 711 N 1 0 0 1 -300 0 2
+Substitution2: "Tall lowercase forms of accents-1" uni030C.flat
+Substitution2: "Uppercase forms of accents-1" uni030C.cap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0306
+Encoding: 774 774 719
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 160 728 N 1 0 0 1 -300 0 2
+Substitution2: "Uppercase forms of accents-1" uni0306.cap
+Substitution2: "'locl' Cyrillic breve-1" uni0306.cyr
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni030A
+Encoding: 778 778 720
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 162 730 N 1 0 0 1 -300 0 2
+Substitution2: "Uppercase forms of accents-1" uni030A.cap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: tildecomb
+Encoding: 771 771 721
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 164 732 N 1 0 0 1 -300 0 2
+Substitution2: "Uppercase forms of accents-1" tildecomb.cap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0304
+Encoding: 772 772 722
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 159 713 N 1 0 0 1 -300 0 2
+Substitution2: "Uppercase forms of accents-1" uni0304.cap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0312
+Encoding: 786 786 723
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 365 -1 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: dotbelowcomb
+Encoding: 803 803 724
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 161 729 N 1 0 0 1 -514 -692 2
+Substitution2: "Uppercase forms of accents-1" dotbelowcomb.cap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0326
+Encoding: 806 806 725
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 366 63171 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0327
+Encoding: 807 807 726
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 122 184 N 1 0 0 1 -300 0 2
+Substitution2: "Uppercase forms of accents-1" uni0327.cap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0328
+Encoding: 808 808 727
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 163 731 N 1 0 0 1 -300 0 2
+Substitution2: "Uppercase forms of accents-1" uni0328.cap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0335
+Encoding: 821 821 728
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-95 345 m 2
+ -100 345 -105 347 -108 350 c 128
+ -111 353 -112 357 -112 361 c 0
+ -112 375 -109 386 -102 396 c 128
+ -95 406 -88 411 -80 411 c 2
+ 200 411 l 2
+ 205 411 209 410 212 407 c 128
+ 215 404 216 401 216 397 c 0
+ 216 383 213 370 206 360 c 128
+ 199 350 190 345 181 345 c 2
+ -95 345 l 2
+EndSplineSet
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0268.dotless
+Encoding: 65563 -1 729
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+221 -14 m 0
+ 205 -14 190 -8 178 4 c 128
+ 166 16 160 28 160 40 c 0
+ 160 43 160 47 161 50 c 128
+ 162 53 163 57 165 61 c 0
+ 184 104 202 146 219 188 c 128
+ 236 230 252 269 268 307 c 0
+ 269 311 268 313 263 313 c 256
+ 258 313 252 311 245 308 c 128
+ 238 305 230 302 222 297 c 128
+ 214 292 207 288 200 284 c 0
+ 191 279 185 277 181 280 c 128
+ 177 283 175 287 175 292 c 0
+ 175 297 179 304 188 314 c 128
+ 197 324 209 334 223 346 c 128
+ 237 358 252 369 269 380 c 128
+ 286 391 302 401 318 410 c 128
+ 334 419 346 426 357 430 c 0
+ 366 434 376 433 386 428 c 128
+ 396 423 405 416 411 408 c 128
+ 417 400 418 392 415 384 c 2
+ 303 108 l 2
+ 302 105 302 103 301 100 c 128
+ 300 97 300 94 300 93 c 0
+ 300 90 300 88 302 87 c 128
+ 304 86 306 85 307 85 c 0
+ 313 85 322 89 334 97 c 128
+ 346 105 360 114 374 125 c 128
+ 388 136 400 146 409 155 c 0
+ 411 157 412 158 413 158 c 0
+ 416 158 419 157 422 154 c 128
+ 425 151 426 147 426 144 c 0
+ 426 132 418 118 404 100 c 128
+ 390 82 372 64 350 47 c 128
+ 328 30 307 16 284 4 c 128
+ 261 -8 240 -14 221 -14 c 0
+169 167 m 2
+ 161 167 155 170 152 176 c 128
+ 149 182 147 189 147 195 c 0
+ 147 204 149 211 154 216 c 128
+ 159 221 166 224 175 224 c 2
+ 404 224 l 2
+ 410 224 416 222 420 218 c 128
+ 424 214 426 211 426 206 c 0
+ 426 205 426 205 426 204 c 128
+ 426 203 425 203 425 202 c 0
+ 422 193 417 185 410 178 c 128
+ 403 171 395 167 384 167 c 2
+ 169 167 l 2
+EndSplineSet
+EndChar
+
+StartChar: iogonek.dotless
+Encoding: 65564 -1 730
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 163 731 N 1 0 0 1 -3 0 2
+Refer: 145 305 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1ECB.dotless
+Encoding: 65565 -1 731
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 145 305 N 1 0 0 1 0 0 3
+Refer: 161 729 N 1 0 0 1 -214 -692 2
+EndChar
+
+StartChar: gravecomb.cap
+Encoding: 65566 -1 732
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 167 63182 N 1 0 0 1 -346 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: acutecomb.cap
+Encoding: 65567 -1 733
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 168 63177 N 1 0 0 1 -255 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0302.cap
+Encoding: 65568 -1 734
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 169 -1 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: tildecomb.cap
+Encoding: 65569 -1 735
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 170 -1 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0304.cap
+Encoding: 65570 -1 736
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 171 63184 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0306.cap
+Encoding: 65571 -1 737
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 172 -1 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0307.cap
+Encoding: 65572 -1 738
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 173 -1 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0308.cap
+Encoding: 65573 -1 739
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 174 63179 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni030A.cap
+Encoding: 65574 -1 740
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 175 -1 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni030B.cap
+Encoding: 65575 -1 741
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 176 63183 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni030C.cap
+Encoding: 65576 -1 742
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 177 63178 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: dotbelowcomb.cap
+Encoding: 65577 -1 743
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 173 -1 N 1 0 0 1 -579 -900 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0327.cap
+Encoding: 65578 -1 744
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 231 -1 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0328.cap
+Encoding: 65579 -1 745
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 232 -1 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0306.cyr
+Encoding: 65580 -1 746
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 619 63188 N 1 0 0 1 -300 0 2
+Substitution2: "Uppercase forms of accents-1" uni0306.cyrcap
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0306.cyrcap
+Encoding: 65581 -1 747
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 620 63185 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: acutecomb.flat
+Encoding: 65582 -1 748
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 367 -1 N 1 0 0 1 -290 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: uni0302.flat
+Encoding: 65583 -1 749
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 368 -1 N 1 0 0 1 -356 -182 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: caron.flat
+Encoding: 65584 -1 750
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+437 666 m 0
+ 429 666 422.666992188 668.333007812 418 673 c 128
+ 413.333007812 677.666992188 406.666992188 685 398 695 c 2
+ 334 776 l 2
+ 332 778.666992188 330.833007812 781.333007812 330.5 784 c 128
+ 330.166992188 786.666992188 330 789.333007812 330 792 c 0
+ 331.333007812 796.666992188 335.166992188 800.166992188 341.5 802.5 c 128
+ 347.833007812 804.833007812 355.666992188 803.666992188 365 799 c 2
+ 453 761 l 2
+ 457.666992188 759.666992188 461.666992188 759 465 759 c 128
+ 468.333007812 759 472.666992188 759.666992188 478 761 c 2
+ 581 797 l 2
+ 588.333007812 799.666992188 594.833007812 801.5 600.5 802.5 c 128
+ 606.166992188 803.5 610.333007812 804 613 804 c 0
+ 618.333007812 804 622.333007812 803.166992188 625 801.5 c 128
+ 627.666992188 799.833007812 629 797 629 793 c 0
+ 629 790.333007812 627.5 787.333007812 624.5 784 c 128
+ 621.5 780.666992188 618.333007812 777.666992188 615 775 c 2
+ 495 694 l 2
+ 481 684.666992188 470 677.666992188 462 673 c 128
+ 454 668.333007812 445.666992188 666 437 666 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni030C.flat
+Encoding: 65585 -1 751
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 750 -1 N 1 0 0 1 -356 -182 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
 EndChar
 EndChars
 EndSplineFont
