@@ -18,7 +18,6 @@ jobs:
     - name: Install Python dependencies
       run: |
         pip3 install "fontforge-ref-sel-util>=0.1.3"
-        pip3 install "fonttools[woff]" skia-pathops booleanOperations freetype-py numpy
     - name: Build
       run: make
     - name: Make distributable
