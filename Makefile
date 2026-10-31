@@ -4,6 +4,8 @@ FONTS=GaramondMono.ttf \
       GaramondMono-Bold.ttf \
       GaramondMono-Italic.ttf \
       GaramondMono-BoldItalic.ttf
+VARIABLEFONTS=GaramondMono-VF.ttf \
+              GaramondMono-Italic-VF.ttf
 CSS=GaramondMono.css
 OTFONTS=${FONTS:.ttf=.otf}
 WOFFFONTS=${FONTS:.ttf=.woff}
@@ -17,16 +19,23 @@ WOFF2PKGCMD=rm -rf $*; mkdir $*; rsync -R ${WOFF2FONTS} ${CSS} ${DOCUMENTS} $*
 .PHONY: all
 all: ttf otf woff2
 
-.SUFFIXES: .sfd .ttf .otf .woff .woff2
+.SUFFIXES: .sfd .ttf .otf .woff .woff2 .ufo
 
-.sfd.ttf .sfd.otf .sfd.woff .sfd.woff2:
+.sfd.ttf .sfd.otf .sfd.woff .sfd.woff2 .sfd.ufo:
 	for i in $?; do ./makefont.py $@ $$i; done
+
+GaramondMono-VF.ttf: GaramondMono-VF.designspace GaramondMono.ufo GaramondMono-Bold.ufo
+	fontmake -m $< -o variable --output-path $@
+
+GaramondMono-Italic-VF.ttf: GaramondMono-Italic-VF.designspace GaramondMono-Italic.ufo GaramondMono-BoldItalic.ufo
+	fontmake -m $< -o variable --output-path $@
 
 .PHONY: ttf otf
 ttf: ${FONTS}
 otf: ${OTFONTS}
 woff: ${WOFFFONTS}
 woff2: ${WOFF2FONTS}
+vf: ${VARIABLEFONTS}
 
 .SUFFIXES: .tar.xz .tar.gz .tar.bz2 .zip
 .PHONY: dist
@@ -61,6 +70,7 @@ GaramondMono-WOFF2.zip: ${WOFF2FONTS} ${DOCUMENTS}
 
 .PHONY: clean
 clean:
-	-rm -f ${FONTS} ${OTFONTS} ${WOFFFONTS} ${WOFF2FONTS}
+	-rm -f ${FONTS} ${OTFONTS} ${WOFFFONTS} ${WOFF2FONTS} ${VARIABLEFONTS}
+	-rm -rf ${FONTS:.ttf=.ufo}
 	-rm -rf ${PKGS} ${PKGS:.tar.xz=} ${PKGS:.tar.xz=.tar.bz2} \
 	${PKGS:.tar.xz=.tar.gz} ${PKGS:.tar.xz=.zip}

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400">
+      <labels ordering="1">
+        <label uservalue="400" name="Regular" linkeduservalue="700"/>
+        <label uservalue="500" name="Medium"/>
+        <label uservalue="600" name="DemiBold"/>
+        <label uservalue="700" name="Bold"/>
+      </labels>
+    </axis>
+    <axis tag="ital" name="Italic" values="0" default="0">
+      <labels ordering="2">
+        <label uservalue="0" name="Roman" elidable="true" linkeduservalue="1"/>
+      </labels>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="GaramondMono.ufo" name="Garamond Mono Regular" familyname="Garamond Mono" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="GaramondMono-Bold.ufo" name="Garamond Mono Bold" familyname="Garamond Mono" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Garamond Mono" familyname="Garamond Mono" stylename="Regular" filename="InconsolataLGC.ufo" postscriptfontname="InconsolataLGC" stylemapfamilyname="Garamond Mono" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="Garamond Mono Medium" familyname="Garamond Mono" stylename="Medium" filename="InconsolataLGC-Medium.ufo" postscriptfontname="InconsolataLGC-Medium" stylemapfamilyname="Garamond Mono">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="Garamond Mono DemiBold" familyname="Garamond Mono" stylename="DemiBold" filename="InconsolataLGC-DemiBold.ufo" postscriptfontname="InconsolataLGC-DemiBold" stylemapfamilyname="Garamond Mono">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="Garamond Mono Bold" familyname="Garamond Mono" stylename="Bold" filename="InconsolataLGC-Bold.ufo" postscriptfontname="InconsolataLGC-Bold" stylemapfamilyname="Garamond Mono" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </instance>
+  </instances>
+</designspace>

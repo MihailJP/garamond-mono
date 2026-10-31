@@ -6,7 +6,8 @@ import fontforge_refsel
 
 font = fontforge.open(argv[2])
 fontforge_refsel.decomposeNestedRefs(font, True)
-font.buildOrReplaceAALTFeatures()
+if not argv[1].endswith(".ufo"):
+	font.buildOrReplaceAALTFeatures()
 
 if argv[1].endswith(".sfd"):
 	font.save(argv[1])
