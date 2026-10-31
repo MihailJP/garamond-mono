@@ -21730,7 +21730,6 @@ SplineSet
  383 16 361 6 334 -2 c 128
  307 -10 277 -14 243 -14 c 0
 EndSplineSet
-Substitution2: "'locl' Bulgarian Cyrillic-1" gecyrillic.mkd
 Substitution2: "'locl' Macedo-Serbian Cyrillic-1" gecyrillic.mkd
 EndChar
 
