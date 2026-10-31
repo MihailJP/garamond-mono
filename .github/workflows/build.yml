@@ -18,15 +18,21 @@ jobs:
     - name: Install Python dependencies
       run: |
         pip3 install "fontforge-ref-sel-util>=0.1.3"
+        pip3 install fontmake
     - name: Build
       run: make
     - name: Make distributable
       run: make dist
-    - name: Upload an Artifact
+    - name: Upload Static Artifact
       uses: actions/upload-artifact@v7
       with:
         name: ttf
         path: GaramondMono/**
+    - name: Upload Variable Artifact
+      uses: actions/upload-artifact@v7
+      with:
+        name: variable
+        path: GaramondMono-VF/**
   check:
     name: Check
     needs: build
@@ -44,11 +50,19 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Download the Artifact
       uses: actions/download-artifact@v8
-    - name: Run Fontspector
+    - name: Run Fontspector for the static font
       run: |
         fontspector -c fontdata_namecheck -l info --full-lists \
           --configuration fontspector.toml \
-          *.ttf || true
+          ttf/*.ttf || true
         fontspector -x fontdata_namecheck -l info --full-lists \
           --configuration fontspector.toml \
-          *.ttf
+          ttf/*.ttf
+    - name: Run Fontspector for the variable font
+      run: |
+        fontspector -c fontdata_namecheck -l info --full-lists \
+          --configuration fontspector.toml \
+          variable/*.ttf || true
+        fontspector -x fontdata_namecheck -l info --full-lists \
+          --configuration fontspector.toml \
+          variable/*.ttf
