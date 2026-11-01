@@ -2,6 +2,7 @@
 *.otf
 *.woff
 *.woff2
+*.ufo
 *.zip
 *.tar.gz
 *.tar.bz2
