@@ -36,7 +36,7 @@ ${MEDIUM}: GaramondMono-Medium.%: GaramondMono.% makemedium.py
 ${MEDIUMITALIC}: GaramondMono-MediumItalic.%: GaramondMono-Italic.% makemedium.py
 	./makemedium.py $@ $<
 
-.PHONY: ttf otf
+.PHONY: ttf otf woff woff2
 ttf: ${FONTS}
 otf: ${OTFONTS}
 woff: ${WOFFFONTS}
