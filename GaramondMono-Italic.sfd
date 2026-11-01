@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1794222317
+ModificationTime: 1794239688
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -76,7 +76,7 @@ MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: class "'rclt' Accents for uppercase-1" 2 3 1 6
   Class: 158 gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312 dotbelowcomb uni0326 uni0327 uni0328 uni0335 uni0306.cyr
-  BClass: 2119 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex Hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcedilla Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron uni0181 uni0186 uni018A uni018E uni018F uni0190 uni0197 uni0198 uni019D uni01B3 uni01CD uni01CF uni01D1 uni01D3 Gcaron Aringacute AEacute Oslashacute Scommaaccent Tcommaaccent uni0232 uni0245 Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Alpha Beta Gamma Deltagreek Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omegagreek Iotadieresis Upsilondieresis uni0400 Iocyrillic Djecyrillic Gjecyrillic Ecyrillic Dzecyrillic Icyrillic Yicyrillic Jecyrillic Ljecyrillic Njecyrillic Tshecyrillic Kjecyrillic uni040D Ushortcyrillic Dzhecyrillic Acyrillic Becyrillic Vecyrillic Gecyrillic Decyrillic Iecyrillic Zhecyrillic Zecyrillic Iicyrillic Iishortcyrillic Kacyrillic Elcyrillic Emcyrillic Encyrillic Ocyrillic Pecyrillic Ercyrillic Escyrillic Tecyrillic Ucyrillic Efcyrillic Khacyrillic Tsecyrillic Checyrillic Shacyrillic Shchacyrillic Hardsigncyrillic Yericyrillic Softsigncyrillic Ereversedcyrillic IUcyrillic IAcyrillic Yatcyrillic Fitacyrillic Izhitsacyrillic Gheupturncyrillic uni1E04 uni1E0C uni1E20 uni1E24 uni1E26 uni1E44 uni1E46 uni1E56 uni1E62 Wgrave Wacute Wdieresis uni1E8C uni1E92 uni1E9E uni1EA0 uni1EB8 uni1EBC uni1ECA uni1ECC uni1EE4 Ygrave uni1EF8 Decyrillic.bgr Elcyrillic.bgr Efcyrillic.bgr
+  BClass: 2131 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex Hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcedilla Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron uni0181 uni0186 uni018A uni018E uni018F uni0190 uni0197 uni0198 uni019D Ohorn Uhorn uni01B3 uni01CD uni01CF uni01D1 uni01D3 Gcaron Aringacute AEacute Oslashacute Scommaaccent Tcommaaccent uni0232 uni0245 Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Alpha Beta Gamma Deltagreek Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omegagreek Iotadieresis Upsilondieresis uni0400 Iocyrillic Djecyrillic Gjecyrillic Ecyrillic Dzecyrillic Icyrillic Yicyrillic Jecyrillic Ljecyrillic Njecyrillic Tshecyrillic Kjecyrillic uni040D Ushortcyrillic Dzhecyrillic Acyrillic Becyrillic Vecyrillic Gecyrillic Decyrillic Iecyrillic Zhecyrillic Zecyrillic Iicyrillic Iishortcyrillic Kacyrillic Elcyrillic Emcyrillic Encyrillic Ocyrillic Pecyrillic Ercyrillic Escyrillic Tecyrillic Ucyrillic Efcyrillic Khacyrillic Tsecyrillic Checyrillic Shacyrillic Shchacyrillic Hardsigncyrillic Yericyrillic Softsigncyrillic Ereversedcyrillic IUcyrillic IAcyrillic Yatcyrillic Fitacyrillic Izhitsacyrillic Gheupturncyrillic uni1E04 uni1E0C uni1E20 uni1E24 uni1E26 uni1E44 uni1E46 uni1E56 uni1E62 Wgrave Wacute Wdieresis uni1E8C uni1E92 uni1E9E uni1EA0 uni1EB8 uni1EBC uni1ECA uni1ECC uni1EE4 Ygrave uni1EF8 Decyrillic.bgr Elcyrillic.bgr Efcyrillic.bgr
   BClass: 407 b d f h k l germandbls eth thorn dcaron dcroat hcircumflex hbar kcommaaccent lacute lcommaaccent lcaron ldot lslash longs florin uni0199 uni0253 uni0257 beta delta zeta theta lambda xi psi becyrillic efcyrillic djecyrillic tshecyrillic yatcyrillic uni1E05 uni1E0D uni1E25 uni1E27 becyrillic.mkd h.ss01 hbar.ss01 hcircumflex.ss01 tshecyrillic.ss01 vecyrillic.bgr zhecyrillic.bgr kacyrillic.bgr iucyrillic.bgr
  3 1 0
   ClsList: 1 1 1
@@ -161,7 +161,7 @@ ChainPos2: class "'mark' Mark positioning-1" 4 6 1 19
   Class: 307 gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312 gravecomb.cap acutecomb.cap uni0302.cap tildecomb.cap uni0304.cap uni0306.cap uni0307.cap uni0308.cap uni030A.cap uni030B.cap uni030C.cap uni0306.cyr uni0306.cyrcap acutecomb.flat uni0302.flat uni030C.flat
   Class: 77 dotbelowcomb uni0326 uni0327 uni0328 dotbelowcomb.cap uni0327.cap uni0328.cap
   Class: 7 uni0335
-  BClass: 1391 A B C D E F G H I K L M N O P R S T U V W X Y Z a c e m n o r s t u v w x z AE Eth Oslash Thorn ae oslash Dcroat dcroat Hbar dotlessi kgreenlandic Lslash OE oe uni0181 uni0186 uni018A uni018E uni018F uni0190 uni0197 uni0198 uni01B3 uni01DD uni0245 uni0254 uni0259 uni025B uni0268 uni028C Alpha Beta Gamma Deltagreek Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omegagreek alpha epsilon eta iota kappa nu omicron pi sigma tau upsilon omega Ecyrillic Dzecyrillic Ljecyrillic Njecyrillic Tshecyrillic Acyrillic Becyrillic Vecyrillic Gecyrillic Iecyrillic Zhecyrillic Zecyrillic Iicyrillic Kacyrillic Elcyrillic Emcyrillic Encyrillic Ocyrillic Pecyrillic Ercyrillic Escyrillic Tecyrillic Ucyrillic Efcyrillic Khacyrillic Tsecyrillic Checyrillic Shacyrillic Shchacyrillic Hardsigncyrillic Yericyrillic Softsigncyrillic Ereversedcyrillic IUcyrillic IAcyrillic acyrillic vecyrillic gecyrillic iecyrillic zhecyrillic zecyrillic iicyrillic kacyrillic elcyrillic emcyrillic encyrillic ocyrillic pecyrillic escyrillic tecyrillic khacyrillic tsecyrillic checyrillic shacyrillic shchacyrillic hardsigncyrillic yericyrillic softsigncyrillic ereversedcyrillic iucyrillic iacyrillic ecyrillic dzecyrillic ljecyrillic njecyrillic Yatcyrillic Fitacyrillic fitacyrillic Izhitsacyrillic izhitsacyrillic Gheupturncyrillic gheupturncyrillic uni1E9E Elcyrillic.bgr
+  BClass: 1415 A B C D E F G H I K L M N O P R S T U V W X Y Z a c e m n o r s t u v w x z AE Eth Oslash Thorn ae oslash Dcroat dcroat Hbar dotlessi kgreenlandic Lslash OE oe uni0181 uni0186 uni018A uni018E uni018F uni0190 uni0197 uni0198 Ohorn ohorn Uhorn uhorn uni01B3 uni01DD uni0245 uni0254 uni0259 uni025B uni0268 uni028C Alpha Beta Gamma Deltagreek Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omegagreek alpha epsilon eta iota kappa nu omicron pi sigma tau upsilon omega Ecyrillic Dzecyrillic Ljecyrillic Njecyrillic Tshecyrillic Acyrillic Becyrillic Vecyrillic Gecyrillic Iecyrillic Zhecyrillic Zecyrillic Iicyrillic Kacyrillic Elcyrillic Emcyrillic Encyrillic Ocyrillic Pecyrillic Ercyrillic Escyrillic Tecyrillic Ucyrillic Efcyrillic Khacyrillic Tsecyrillic Checyrillic Shacyrillic Shchacyrillic Hardsigncyrillic Yericyrillic Softsigncyrillic Ereversedcyrillic IUcyrillic IAcyrillic acyrillic vecyrillic gecyrillic iecyrillic zhecyrillic zecyrillic iicyrillic kacyrillic elcyrillic emcyrillic encyrillic ocyrillic pecyrillic escyrillic tecyrillic khacyrillic tsecyrillic checyrillic shacyrillic shchacyrillic hardsigncyrillic yericyrillic softsigncyrillic ereversedcyrillic iucyrillic iacyrillic ecyrillic dzecyrillic ljecyrillic njecyrillic Yatcyrillic Fitacyrillic fitacyrillic Izhitsacyrillic izhitsacyrillic Gheupturncyrillic gheupturncyrillic uni1E9E Elcyrillic.bgr
   BClass: 1893 Agrave Aacute Acircumflex Atilde Adieresis Aring Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Ugrave Uacute Ucircumflex Udieresis Yacute agrave aacute acircumflex atilde adieresis aring egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis ntilde ograve oacute ocircumflex otilde odieresis ugrave uacute ucircumflex udieresis Amacron amacron Abreve abreve Cacute cacute Ccircumflex ccircumflex Cdotaccent cdotaccent Ccaron ccaron Dcaron dcaron Emacron emacron Ebreve ebreve Edotaccent edotaccent Ecaron ecaron Gcircumflex Gbreve Gdotaccent Hcircumflex hcircumflex Itilde itilde Imacron imacron Ibreve ibreve Idotaccent Lacute lacute Nacute nacute Ncaron ncaron Omacron omacron Obreve obreve Ohungarumlaut ohungarumlaut Racute racute Rcaron rcaron Sacute sacute Scircumflex scircumflex Scaron scaron Tcaron tcaron Utilde utilde Umacron umacron Ubreve ubreve Uring uring Uhungarumlaut uhungarumlaut Wcircumflex wcircumflex Ycircumflex Ydieresis Zacute zacute Zdotaccent zdotaccent Zcaron zcaron uni01CD uni01CE uni01CF uni01D0 uni01D1 uni01D2 uni01D3 uni01D4 Gcaron Aringacute aringacute AEacute aeacute Oslashacute oslashacute uni0232 Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos iotadieresistonos Iotadieresis Upsilondieresis alphatonos epsilontonos etatonos iotatonos upsilondieresistonos iotadieresis upsilondieresis omicrontonos upsilontonos omegatonos uni0400 Iocyrillic Gjecyrillic Yicyrillic Kjecyrillic uni040D Ushortcyrillic Iishortcyrillic iishortcyrillic uni0450 iocyrillic gjecyrillic yicyrillic kjecyrillic uni045D uni1E20 uni1E21 uni1E26 uni1E27 uni1E44 uni1E45 uni1E56 uni1E57 Wgrave wgrave Wacute wacute Wdieresis wdieresis uni1E8C uni1E8D uni1EBC uni1EBD Ygrave uni1EF8 gecyrillic.mkd pecyrillic.mkd tecyrillic.mkd hcircumflex.ss01 gjecyrillic.mkd
   BClass: 629 J Q g p q y Ccedilla ccedilla Aogonek aogonek Eogonek eogonek Iogonek Kcommaaccent kcommaaccent Lcommaaccent Ncommaaccent ncommaaccent Eng eng Rcommaaccent rcommaaccent Scedilla scedilla Tcedilla tcedilla Uogonek uogonek uni019D uni01B4 Scommaaccent scommaaccent Tcommaaccent tcommaaccent dotlessj uni0272 gamma mugreek rho sigma1 phi chi Djecyrillic Icyrillic Jecyrillic Dzhecyrillic Decyrillic decyrillic ercyrillic ucyrillic dzhecyrillic uni1E04 uni1E0C uni1E24 uni1E46 uni1E47 uni1E62 uni1E63 uni1E92 uni1E93 uni1EA0 uni1EA1 uni1EB8 uni1EB9 uni1ECA uni1ECC uni1ECD uni1EE4 uni1EE5 decyrillic.mkd Decyrillic.bgr zecyrillic.bgr
   BClass: 252 b d f h k l germandbls eth thorn hbar lcaron ldot lslash longs uni0199 uni0253 uni0257 delta theta lambda becyrillic tshecyrillic yatcyrillic becyrillic.mkd h.ss01 hbar.ss01 tshecyrillic.ss01 vecyrillic.bgr zhecyrillic.bgr kacyrillic.bgr iucyrillic.bgr
@@ -336,7 +336,7 @@ WinInfo: 0 32 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 -1045325 629145 314572 209715 434110 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65586 741
+BeginChars: 65586 745
 
 StartChar: A
 Encoding: 65 65 0
@@ -27841,6 +27841,290 @@ EndSplineSet
 Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
 Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
 Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+EndChar
+
+StartChar: Ohorn
+Encoding: 416 416 741
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+263 -14 m 0
+ 218 -14 181 -2 153 22 c 128
+ 125 46 105 77 93 116 c 128
+ 81 155 75 197 77 243 c 0
+ 79 291 90 340 107 389 c 128
+ 124 438 149 484 180 526 c 128
+ 211 568 247 601 290 626 c 128
+ 333 651 381 664 435 664 c 0
+ 460 664 480 661 497 654 c 128
+ 514 647 528 640 542 632 c 256
+ 556 624 568 616 580 610 c 128
+ 592 604 607 601 624 601 c 0
+ 635 601 642 603 648 608 c 128
+ 654 613 657 620 658 629 c 0
+ 659 634 656 639 653 644 c 128
+ 650 649 647 653 643 658 c 0
+ 639 663 634 668 630 674 c 128
+ 626 680 624 686 624 692 c 0
+ 625 701 627 708 634 714 c 128
+ 641 720 648 725 657 728 c 128
+ 666 731 674 733 682 733 c 0
+ 692 733 698 726 702 712 c 128
+ 706 698 707 685 706 673 c 0
+ 705 654 700 636 692 620 c 128
+ 684 604 673 591 659 580 c 128
+ 645 569 627 561 608 558 c 0
+ 606 557 603 557 601 556 c 128
+ 599 555 598 551 601 544 c 0
+ 608 529 614 510 617 485 c 128
+ 620 460 621 434 620 407 c 0
+ 618 359 608 310 591 261 c 128
+ 574 212 549 166 518 124 c 128
+ 487 82 450 49 407 24 c 128
+ 364 -1 317 -14 263 -14 c 0
+269 19 m 0
+ 300 19 330 27 357 44 c 128
+ 384 61 410 84 433 113 c 128
+ 456 142 476 174 492 211 c 128
+ 508 248 522 286 532 326 c 128
+ 542 366 549 406 551 445 c 0
+ 553 476 549 506 541 535 c 128
+ 533 564 519 587 501 605 c 128
+ 483 623 459 632 429 632 c 0
+ 399 632 370 623 343 606 c 128
+ 316 589 292 567 269 538 c 128
+ 246 509 225 476 208 439 c 128
+ 191 402 176 364 166 324 c 128
+ 156 284 149 244 147 205 c 0
+ 145 174 149 144 157 116 c 128
+ 165 88 178 64 196 46 c 128
+ 214 28 239 19 269 19 c 0
+EndSplineSet
+EndChar
+
+StartChar: ohorn
+Encoding: 417 417 742
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+213 -14 m 0
+ 198 -14 181 -9 163 0 c 128
+ 145 9 130 22 117 40 c 128
+ 104 58 98 79 97 104 c 0
+ 95 134 101 166 113 202 c 128
+ 125 238 143 272 167 304 c 128
+ 191 336 220 362 255 383 c 128
+ 290 404 329 414 372 414 c 0
+ 380 414 390 413 399 410 c 128
+ 408 407 417 404 425 399 c 0
+ 434 394 453 390 462 388 c 128
+ 473 385 489 383 509 383 c 0
+ 522 383 532 386 538 391 c 128
+ 544 396 548 403 548 412 c 0
+ 548 417 545 423 540 428 c 128
+ 535 433 529 437 524 440 c 0
+ 520 443 516 446 514 448 c 128
+ 512 450 511 455 511 460 c 0
+ 511 469 514 476 521 482 c 128
+ 528 488 536 493 545 496 c 128
+ 554 499 563 500 572 500 c 0
+ 583 500 591 495 596 486 c 128
+ 601 477 603 467 603 456 c 0
+ 603 441 600 428 594 414 c 128
+ 588 400 578 388 568 377 c 128
+ 558 366 547 358 534 352 c 128
+ 521 346 508 343 495 343 c 0
+ 492 343 489 342 486 340 c 128
+ 483 338 479 336 480 333 c 0
+ 484 321 487 309 488 296 c 0
+ 490 266 482 234 470 198 c 128
+ 458 162 442 128 418 96 c 128
+ 394 64 365 38 330 17 c 128
+ 295 -4 256 -14 213 -14 c 0
+222 16 m 0
+ 243 16 263 24 283 38 c 128
+ 303 52 323 71 340 94 c 128
+ 357 117 372 141 385 168 c 128
+ 398 195 406 221 413 246 c 128
+ 420 271 422 293 420 312 c 0
+ 418 337 412 356 404 367 c 128
+ 396 378 381 384 359 384 c 0
+ 338 384 317 378 297 364 c 128
+ 277 350 259 332 242 310 c 128
+ 225 288 209 264 196 238 c 128
+ 183 212 174 187 167 162 c 128
+ 160 137 157 115 159 96 c 0
+ 161 71 167 52 176 38 c 128
+ 185 24 200 16 222 16 c 0
+EndSplineSet
+EndChar
+
+StartChar: Uhorn
+Encoding: 431 431 743
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+260 -14 m 0
+ 229 -14 203 -8 178 3 c 128
+ 153 14 134 31 119 53 c 128
+ 104 75 95 103 93 136 c 128
+ 91 169 97 208 111 252 c 2
+ 200 544 l 2
+ 207 566 208 583 204 596 c 128
+ 200 609 195 616 186 619 c 0
+ 170 625 161 632 162 641 c 0
+ 163 646 166 649 173 651 c 128
+ 180 653 186 654 193 654 c 0
+ 207 654 221 653 236 652 c 128
+ 251 651 265 650 280 650 c 0
+ 294 650 309 651 324 652 c 128
+ 339 653 351 653 362 653 c 0
+ 376 653 383 649 381 640 c 0
+ 379 635 376 631 369 628 c 128
+ 362 625 354 621 344 617 c 0
+ 336 614 327 606 315 594 c 128
+ 303 582 293 564 287 543 c 2
+ 196 241 l 2
+ 182 197 179 160 185 130 c 128
+ 191 100 206 79 225 64 c 128
+ 244 49 267 42 293 42 c 0
+ 331 42 364 53 392 74 c 128
+ 420 95 444 125 464 162 c 128
+ 484 199 501 241 516 288 c 0
+ 522 307 528 329 535 353 c 128
+ 542 377 550 402 558 427 c 128
+ 566 452 574 477 581 501 c 0
+ 589 527 594 548 596 563 c 128
+ 598 578 598 590 594 598 c 128
+ 590 606 583 613 573 618 c 0
+ 568 621 563 624 558 627 c 128
+ 553 630 550 635 551 640 c 0
+ 552 644 554 647 560 649 c 128
+ 566 651 572 652 579 652 c 0
+ 589 652 598 652 606 652 c 128
+ 614 652 622 650 632 650 c 128
+ 642 650 654 650 668 650 c 0
+ 677 650 686 651 695 652 c 128
+ 704 653 711 655 717 658 c 128
+ 723 661 726 666 727 673 c 0
+ 728 678 727 682 723 686 c 128
+ 719 690 715 693 711 696 c 0
+ 706 699 702 702 698 706 c 128
+ 694 710 692 715 692 721 c 0
+ 693 730 697 739 704 746 c 128
+ 711 753 719 758 729 762 c 128
+ 739 766 749 769 758 769 c 0
+ 765 769 770 765 776 758 c 128
+ 782 751 786 743 789 733 c 128
+ 792 723 793 714 792 705 c 0
+ 791 690 787 677 778 666 c 128
+ 769 655 757 644 743 636 c 128
+ 729 628 712 620 696 612 c 0
+ 683 605 672 597 663 587 c 128
+ 654 577 646 562 639 542 c 0
+ 622 493 605 444 589 396 c 128
+ 573 348 556 301 540 255 c 0
+ 522 203 502 157 477 116 c 128
+ 452 75 423 43 388 20 c 128
+ 353 -3 311 -14 260 -14 c 0
+EndSplineSet
+EndChar
+
+StartChar: uhorn
+Encoding: 432 432 744
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+89 -14 m 0
+ 80 -14 74 -10 70 -3 c 128
+ 66 4 64 13 64 24 c 128
+ 64 35 67 45 71 55 c 2
+ 170 292 l 2
+ 175 303 178 313 179 321 c 128
+ 180 329 178 333 173 333 c 0
+ 170 333 164 330 156 325 c 128
+ 148 320 140 313 130 305 c 128
+ 120 297 111 289 101 280 c 0
+ 100 279 99 279 98 278 c 128
+ 97 277 95 276 94 276 c 0
+ 91 276 90 277 89 279 c 128
+ 88 281 88 282 88 283 c 0
+ 88 286 89 289 90 294 c 128
+ 91 299 95 306 100 313 c 0
+ 117 336 136 355 156 370 c 128
+ 176 385 196 398 214 406 c 128
+ 232 414 246 418 255 418 c 0
+ 265 418 272 414 276 407 c 128
+ 280 400 278 388 270 373 c 0
+ 250 328 231 285 212 244 c 128
+ 193 203 174 160 154 115 c 0
+ 148 102 144 89 143 78 c 128
+ 142 67 144 61 151 61 c 0
+ 161 61 178 72 202 94 c 128
+ 226 116 252 143 280 174 c 0
+ 305 203 330 232 354 262 c 128
+ 378 292 400 320 418 344 c 128
+ 436 368 448 386 453 396 c 0
+ 458 405 462 410 466 412 c 128
+ 470 414 475 414 480 414 c 0
+ 486 414 492 413 497 410 c 128
+ 502 407 509 405 517 403 c 0
+ 522 402 526 401 532 400 c 128
+ 538 399 544 398 551 398 c 0
+ 560 398 568 400 574 402 c 128
+ 580 404 583 408 586 412 c 128
+ 589 416 590 421 590 427 c 0
+ 590 432 587 437 582 442 c 128
+ 577 447 571 452 566 455 c 0
+ 562 458 558 462 556 464 c 128
+ 554 466 553 470 553 475 c 0
+ 553 484 556 491 563 497 c 128
+ 570 503 578 507 587 510 c 128
+ 596 513 605 515 614 515 c 0
+ 625 515 633 511 638 502 c 128
+ 643 493 645 482 645 471 c 0
+ 645 451 639 432 628 416 c 128
+ 617 400 602 387 585 378 c 128
+ 568 369 550 364 532 364 c 256
+ 514 364 502 362 495 359 c 128
+ 488 356 482 348 477 335 c 2
+ 368 86 l 2
+ 363 73 360 64 361 57 c 128
+ 362 50 365 47 371 47 c 0
+ 380 47 391 52 405 61 c 128
+ 419 70 433 82 448 94 c 128
+ 463 106 475 117 485 127 c 0
+ 486 128 487 128 488 128 c 0
+ 490 128 492 128 494 126 c 128
+ 496 124 497 122 497 119 c 0
+ 497 118 497 116 496 115 c 128
+ 495 113 496 113 494 110 c 128
+ 493 108 492 106 490 103 c 128
+ 488 100 486 97 484 94 c 128
+ 482 91 478 88 475 84 c 0
+ 462 68 448 53 431 38 c 128
+ 414 23 397 10 378 0 c 128
+ 359 -10 338 -14 317 -14 c 0
+ 308 -14 300 -8 294 4 c 128
+ 288 16 287 27 291 36 c 0
+ 300 56 310 78 320 100 c 128
+ 330 122 340 142 348 161 c 128
+ 356 180 362 194 365 203 c 0
+ 368 211 368 215 364 216 c 128
+ 360 217 356 215 353 211 c 0
+ 318 173 288 140 261 112 c 128
+ 234 84 211 60 190 42 c 128
+ 169 24 150 9 134 0 c 128
+ 118 -9 103 -14 89 -14 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
