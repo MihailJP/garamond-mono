@@ -8,6 +8,9 @@
         <label uservalue="600" name="DemiBold"/>
         <label uservalue="700" name="Bold"/>
       </labels>
+      <map input="400" output="80" />
+      <map input="500" output="98" />
+      <map input="700" output="154" />
     </axis>
     <axis tag="ital" name="Italic" values="0" default="0">
       <labels ordering="2">
@@ -22,13 +25,13 @@
       <features copy="1"/>
       <info copy="1"/>
       <location>
-        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Weight" xvalue="80"/>
         <dimension name="Italic" xvalue="0"/>
       </location>
     </source>
     <source filename="GaramondMono-Bold.ufo" name="Garamond Mono Bold" familyname="Garamond Mono" stylename="Bold">
       <location>
-        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Weight" xvalue="154"/>
         <dimension name="Italic" xvalue="0"/>
       </location>
     </source>
@@ -36,25 +39,25 @@
   <instances>
     <instance name="Garamond Mono" familyname="Garamond Mono" stylename="Regular" filename="GaramondMono.ufo" postscriptfontname="GaramondMono" stylemapfamilyname="Garamond Mono" stylemapstylename="regular">
       <location>
-        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Weight" uservalue="400"/>
         <dimension name="Italic" xvalue="0"/>
       </location>
     </instance>
     <instance name="Garamond Mono Medium" familyname="Garamond Mono" stylename="Medium" filename="GaramondMono-Medium.ufo" postscriptfontname="GaramondMono-Medium" stylemapfamilyname="Garamond Mono">
       <location>
-        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Weight" uservalue="500"/>
         <dimension name="Italic" xvalue="0"/>
       </location>
     </instance>
     <instance name="Garamond Mono DemiBold" familyname="Garamond Mono" stylename="DemiBold" filename="GaramondMono-DemiBold.ufo" postscriptfontname="GaramondMono-DemiBold" stylemapfamilyname="Garamond Mono">
       <location>
-        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Weight" uservalue="600"/>
         <dimension name="Italic" xvalue="0"/>
       </location>
     </instance>
     <instance name="Garamond Mono Bold" familyname="Garamond Mono" stylename="Bold" filename="GaramondMono-Bold.ufo" postscriptfontname="GaramondMono-Bold" stylemapfamilyname="Garamond Mono" stylemapstylename="bold">
       <location>
-        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Weight" uservalue="700"/>
         <dimension name="Italic" xvalue="0"/>
       </location>
     </instance>
