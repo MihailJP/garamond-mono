@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1793518106
+ModificationTime: 1793698415
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -58,6 +58,7 @@ OS2Vendor: 'PfEd'
 Lookup: 6 0 0 "'rclt' Removing soft dot" { "'rclt' Removing soft dot-1"  } ['rclt' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
 Lookup: 1 0 0 "Dotless forms" { "Dotless forms-1" ("dotless") } []
 Lookup: 1 0 0 "'locl' Cyrillic breve" { "'locl' Cyrillic breve-1"  } ['locl' ('cyrl' <'BGR ' 'MKD ' 'SRB ' 'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Stacked accents" { "'ccmp' Stacked accents-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
 Lookup: 6 0 0 "'rclt' Accents for uppercase" { "'rclt' Accents for uppercase-1"  } ['rclt' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
 Lookup: 1 0 0 "Uppercase forms of accents" { "Uppercase forms of accents-1" ("cap") } []
 Lookup: 1 0 0 "Tall lowercase forms of accents" { "Tall lowercase forms of accents-1" ("flat") } []
@@ -158,12 +159,12 @@ ChainSub2: class "'rclt' Removing soft dot-1" 2 1 4 4
   FClassNames: "All_Others" "1" "2" "3"
 EndFPST
 ChainPos2: class "'mark' Mark positioning-1" 4 6 1 19
-  Class: 307 gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312 gravecomb.cap acutecomb.cap uni0302.cap tildecomb.cap uni0304.cap uni0306.cap uni0307.cap uni0308.cap uni030A.cap uni030B.cap uni030C.cap uni0306.cyr uni0306.cyrcap acutecomb.flat uni0302.flat uni030C.flat
+  Class: 417 gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni0312 gravecomb.cap acutecomb.cap uni0302.cap tildecomb.cap uni0304.cap uni0306.cap uni0307.cap uni0308.cap uni030A.cap uni030B.cap uni030C.cap uni0306.cyr uni0306.cyrcap acutecomb.flat uni0302.flat uni030C.flat uni03020301 uni03020300 uni03020309 uni03020303 uni03060301 uni03060300 uni03060309 uni03060303
   Class: 77 dotbelowcomb uni0326 uni0327 uni0328 dotbelowcomb.cap uni0327.cap uni0328.cap
   Class: 7 uni0335
   BClass: 1613 A B C D E F G H I K L M N O P R S T U V W X Y Z a c e m n o r s t u v w x z AE Eth Oslash Thorn ae oslash Dcroat dcroat Hbar dotlessi kgreenlandic Lslash OE oe uni0181 uni0186 uni018A uni018E uni018F uni0190 uni0197 uni0198 Ohorn ohorn Uhorn uhorn uni01B3 uni01DD uni0245 uni0254 uni0259 uni025B uni0268 uni028C Alpha Beta Gamma Deltagreek Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omegagreek alpha epsilon eta iota kappa nu omicron pi sigma tau upsilon omega Ecyrillic Dzecyrillic Ljecyrillic Njecyrillic Tshecyrillic Acyrillic Becyrillic Vecyrillic Gecyrillic Iecyrillic Zhecyrillic Zecyrillic Iicyrillic Kacyrillic Elcyrillic Emcyrillic Encyrillic Ocyrillic Pecyrillic Ercyrillic Escyrillic Tecyrillic Ucyrillic Efcyrillic Khacyrillic Tsecyrillic Checyrillic Shacyrillic Shchacyrillic Hardsigncyrillic Yericyrillic Softsigncyrillic Ereversedcyrillic IUcyrillic IAcyrillic acyrillic vecyrillic gecyrillic iecyrillic zhecyrillic zecyrillic iicyrillic kacyrillic elcyrillic emcyrillic encyrillic ocyrillic pecyrillic escyrillic tecyrillic khacyrillic tsecyrillic checyrillic shacyrillic shchacyrillic hardsigncyrillic yericyrillic softsigncyrillic ereversedcyrillic iucyrillic iacyrillic ecyrillic dzecyrillic ljecyrillic njecyrillic Yatcyrillic Fitacyrillic fitacyrillic Izhitsacyrillic izhitsacyrillic Gheupturncyrillic gheupturncyrillic uni1E9E Elcyrillic.bgr gecyrillic.bgr iicyrillic.bgr elcyrillic.bgr encyrillic.bgr pecyrillic.bgr tecyrillic.bgr tsecyrillic.bgr checyrillic.bgr shacyrillic.bgr shchacyrillic.bgr hardsigncyrillic.bgr softsigncyrillic.bgr
-  BClass: 1859 Agrave Aacute Acircumflex Atilde Adieresis Aring Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Ugrave Uacute Ucircumflex Udieresis Yacute agrave aacute acircumflex atilde adieresis aring egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis ntilde ograve oacute ocircumflex otilde odieresis ugrave uacute ucircumflex udieresis Amacron amacron Abreve abreve Cacute cacute Ccircumflex ccircumflex Cdotaccent cdotaccent Ccaron ccaron Dcaron dcaron Emacron emacron Ebreve ebreve Edotaccent edotaccent Ecaron ecaron Gcircumflex Gbreve Gdotaccent Hcircumflex hcircumflex Itilde itilde Imacron imacron Ibreve ibreve Idotaccent Lacute lacute Nacute nacute Ncaron ncaron Omacron omacron Obreve obreve Ohungarumlaut ohungarumlaut Racute racute Rcaron rcaron Sacute sacute Scircumflex scircumflex Scaron scaron Tcaron tcaron Utilde utilde Umacron umacron Ubreve ubreve Uring uring Uhungarumlaut uhungarumlaut Wcircumflex wcircumflex Ycircumflex Ydieresis Zacute zacute Zdotaccent zdotaccent Zcaron zcaron uni01CD uni01CE uni01CF uni01D0 uni01D1 uni01D2 uni01D3 uni01D4 Gcaron Aringacute aringacute AEacute aeacute Oslashacute oslashacute uni0232 Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos iotadieresistonos Iotadieresis Upsilondieresis alphatonos epsilontonos etatonos iotatonos upsilondieresistonos iotadieresis upsilondieresis omicrontonos upsilontonos omegatonos uni0400 Iocyrillic Gjecyrillic Yicyrillic Kjecyrillic uni040D Ushortcyrillic Iishortcyrillic iishortcyrillic uni0450 iocyrillic gjecyrillic yicyrillic kjecyrillic uni045D uni1E20 uni1E21 uni1E26 uni1E27 uni1E44 uni1E45 uni1E56 uni1E57 Wgrave wgrave Wacute wacute Wdieresis wdieresis uni1E8C uni1E8D uni1EBC uni1EBD Ygrave uni1EF8 lacute.ss01 iishortcyrillic.bgr uni045D.bgr
-  BClass: 629 J Q g p q y Ccedilla ccedilla Aogonek aogonek Eogonek eogonek Iogonek Kcommaaccent kcommaaccent Lcommaaccent Ncommaaccent ncommaaccent Eng eng Rcommaaccent rcommaaccent Scedilla scedilla Tcedilla tcedilla Uogonek uogonek uni019D uni01B4 Scommaaccent scommaaccent Tcommaaccent tcommaaccent dotlessj uni0272 gamma mugreek rho sigma1 phi chi Djecyrillic Icyrillic Jecyrillic Dzhecyrillic Decyrillic decyrillic ercyrillic ucyrillic dzhecyrillic uni1E04 uni1E0C uni1E24 uni1E46 uni1E47 uni1E62 uni1E63 uni1E92 uni1E93 uni1EA0 uni1EA1 uni1EB8 uni1EB9 uni1ECA uni1ECC uni1ECD uni1EE4 uni1EE5 Decyrillic.bgr decyrillic.bgr zecyrillic.bgr
+  BClass: 2323 Agrave Aacute Acircumflex Atilde Adieresis Aring Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Ugrave Uacute Ucircumflex Udieresis Yacute agrave aacute acircumflex atilde adieresis aring egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis ntilde ograve oacute ocircumflex otilde odieresis ugrave uacute ucircumflex udieresis Amacron amacron Abreve abreve Cacute cacute Ccircumflex ccircumflex Cdotaccent cdotaccent Ccaron ccaron Dcaron dcaron Emacron emacron Ebreve ebreve Edotaccent edotaccent Ecaron ecaron Gcircumflex Gbreve Gdotaccent Hcircumflex hcircumflex Itilde itilde Imacron imacron Ibreve ibreve Idotaccent Lacute lacute Nacute nacute Ncaron ncaron Omacron omacron Obreve obreve Ohungarumlaut ohungarumlaut Racute racute Rcaron rcaron Sacute sacute Scircumflex scircumflex Scaron scaron Tcaron tcaron Utilde utilde Umacron umacron Ubreve ubreve Uring uring Uhungarumlaut uhungarumlaut Wcircumflex wcircumflex Ycircumflex Ydieresis Zacute zacute Zdotaccent zdotaccent Zcaron zcaron uni01CD uni01CE uni01CF uni01D0 uni01D1 uni01D2 uni01D3 uni01D4 Gcaron Aringacute aringacute AEacute aeacute Oslashacute oslashacute uni0232 Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos iotadieresistonos Iotadieresis Upsilondieresis alphatonos epsilontonos etatonos iotatonos upsilondieresistonos iotadieresis upsilondieresis omicrontonos upsilontonos omegatonos uni0400 Iocyrillic Gjecyrillic Yicyrillic Kjecyrillic uni040D Ushortcyrillic Iishortcyrillic iishortcyrillic uni0450 iocyrillic gjecyrillic yicyrillic kjecyrillic uni045D uni1E20 uni1E21 uni1E26 uni1E27 uni1E44 uni1E45 uni1E56 uni1E57 Wgrave wgrave Wacute wacute Wdieresis wdieresis uni1E8C uni1E8D uni1EA2 uni1EA3 uni1EA4 uni1EA5 uni1EA6 uni1EA7 uni1EA8 uni1EA9 uni1EAA uni1EAB uni1EAE uni1EAF uni1EB0 uni1EB1 uni1EB2 uni1EB3 uni1EB4 uni1EB5 uni1EBA uni1EBB uni1EBC uni1EBD uni1EBE uni1EBF uni1EC0 uni1EC1 uni1EC2 uni1EC3 uni1EC4 uni1EC5 uni1EC8 uni1EC9 uni1ECE uni1ECF uni1ED0 uni1ED1 uni1ED2 uni1ED3 uni1ED4 uni1ED5 uni1ED6 uni1ED7 uni1EDA uni1EDB uni1EDC uni1EDD uni1EDE uni1EDF uni1EE0 uni1EE1 uni1EE6 uni1EE7 uni1EE8 uni1EE9 uni1EEA uni1EEB uni1EEC uni1EED uni1EEE uni1EEF Ygrave uni1EF8 lacute.ss01 iishortcyrillic.bgr uni045D.bgr
+  BClass: 677 J Q g p q y Ccedilla ccedilla Aogonek aogonek Eogonek eogonek Iogonek Kcommaaccent kcommaaccent Lcommaaccent Ncommaaccent ncommaaccent Eng eng Rcommaaccent rcommaaccent Scedilla scedilla Tcedilla tcedilla Uogonek uogonek uni019D uni01B4 Scommaaccent scommaaccent Tcommaaccent tcommaaccent dotlessj uni0272 gamma mugreek rho sigma1 phi chi Djecyrillic Icyrillic Jecyrillic Dzhecyrillic Decyrillic decyrillic ercyrillic ucyrillic dzhecyrillic uni1E04 uni1E0C uni1E24 uni1E46 uni1E47 uni1E62 uni1E63 uni1E92 uni1E93 uni1EA0 uni1EA1 uni1EB8 uni1EB9 uni1ECA uni1ECC uni1ECD uni1EE2 uni1EE3 uni1EE4 uni1EE5 uni1EF0 uni1EF1 uni1EF4 uni1EF5 Decyrillic.bgr decyrillic.bgr zecyrillic.bgr
   BClass: 258 b d f h k l germandbls eth thorn hbar lcaron ldot lslash longs uni0199 uni0253 uni0257 delta theta lambda becyrillic tshecyrillic yatcyrillic becyrillic.mkd l.ss01 lcaron.ss01 ldot.ss01 lslash.ss01 vecyrillic.bgr zhecyrillic.bgr kacyrillic.bgr iucyrillic.bgr
   BClass: 101 lcommaaccent florin beta zeta xi psi efcyrillic djecyrillic uni1E05 uni1E0D uni1E25 lcommaaccent.ss01
  2 1 0
@@ -336,7 +337,7 @@ WinInfo: 0 32 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 209715 104857 69905 424673 1048576 69905 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65602 768
+BeginChars: 65621 863
 
 StartChar: A
 Encoding: 65 65 0
@@ -26152,7 +26153,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 4 69 N 1 0 0 1 0 0 3
-Refer: 172 -1 S 1 0 0 1 0 -900 2
+Refer: 172 -1 N 1 0 0 1 0 -900 2
 EndChar
 
 StartChar: uni0190
@@ -26329,7 +26330,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 4 69 N 1 0 0 1 0 0 3
-Refer: 169 -1 N 1 0 0 1 0 0 2
+Refer: 169 -1 N 1 0 0 1 15 0 2
 EndChar
 
 StartChar: uni1E20
@@ -27348,7 +27349,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 30 101 N 1 0 0 1 0 0 3
-Refer: 164 732 N 1 0 0 1 0 0 2
+Refer: 164 732 N 1 0 0 1 27 0 2
 EndChar
 
 StartChar: uni01DD
@@ -27697,7 +27698,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 40 111 N 1 0 0 1 0 0 3
-Refer: 161 729 S 1 0 0 1 0 -692 2
+Refer: 161 729 N 1 0 0 1 0 -692 2
 EndChar
 
 StartChar: uni0254
@@ -27783,7 +27784,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 46 117 N 1 0 0 1 0 0 3
-Refer: 161 729 S 1 0 0 1 0 -692 2
+Refer: 161 729 N 1 0 0 1 0 -692 2
 EndChar
 
 StartChar: uni028C
@@ -29332,6 +29333,1931 @@ SplineSet
  436 -1 420 -7 405 -13 c 0
  403 -14 399 -14 394 -16 c 128
  389 -18 384 -19 381 -19 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni1EA2
+Encoding: 7842 7842 768
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 65 N 1 0 0 1 0 0 3
+Refer: 843 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1EA3
+Encoding: 7843 7843 769
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 26 97 N 1 0 0 1 0 0 3
+Refer: 842 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1EA4
+Encoding: 7844 7844 770
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 65 N 1 0 0 1 0 0 3
+Refer: 847 -1 N 1 0 0 1 323 0 2
+EndChar
+
+StartChar: uni1EA5
+Encoding: 7845 7845 771
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 26 97 N 1 0 0 1 0 0 3
+Refer: 846 -1 N 1 0 0 1 300 0 2
+EndChar
+
+StartChar: uni1EA6
+Encoding: 7846 7846 772
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 65 N 1 0 0 1 0 0 3
+Refer: 849 -1 N 1 0 0 1 323 0 2
+EndChar
+
+StartChar: uni1EA7
+Encoding: 7847 7847 773
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 26 97 N 1 0 0 1 0 0 3
+Refer: 848 -1 N 1 0 0 1 300 0 2
+EndChar
+
+StartChar: uni1EA8
+Encoding: 7848 7848 774
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 65 N 1 0 0 1 0 0 3
+Refer: 851 -1 N 1 0 0 1 323 0 2
+EndChar
+
+StartChar: uni1EA9
+Encoding: 7849 7849 775
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 26 97 N 1 0 0 1 0 0 3
+Refer: 850 -1 N 1 0 0 1 300 0 2
+EndChar
+
+StartChar: uni1EAA
+Encoding: 7850 7850 776
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 65 N 1 0 0 1 0 0 3
+Refer: 853 -1 N 1 0 0 1 323 0 2
+EndChar
+
+StartChar: uni1EAB
+Encoding: 7851 7851 777
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 26 97 N 1 0 0 1 0 0 3
+Refer: 852 -1 N 1 0 0 1 300 0 2
+EndChar
+
+StartChar: uni1EAC
+Encoding: 7852 7852 778
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 172 -1 N 1 0 0 1 0 -900 2
+Refer: 0 65 N 1 0 0 1 0 0 3
+Refer: 168 -1 N 1 0 0 1 23 0 2
+EndChar
+
+StartChar: uni1EAD
+Encoding: 7853 7853 779
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 161 729 N 1 0 0 1 0 -692 2
+Refer: 26 97 N 1 0 0 1 0 0 3
+Refer: 157 710 N 1 0 0 1 1 0 2
+EndChar
+
+StartChar: uni1EAE
+Encoding: 7854 7854 780
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 65 N 1 0 0 1 0 0 3
+Refer: 855 -1 N 1 0 0 1 324 0 2
+EndChar
+
+StartChar: uni1EAF
+Encoding: 7855 7855 781
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 26 97 N 1 0 0 1 0 0 3
+Refer: 854 -1 N 1 0 0 1 301 0 2
+EndChar
+
+StartChar: uni1EB0
+Encoding: 7856 7856 782
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 65 N 1 0 0 1 0 0 3
+Refer: 857 -1 N 1 0 0 1 324 0 2
+EndChar
+
+StartChar: uni1EB1
+Encoding: 7857 7857 783
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 26 97 N 1 0 0 1 0 0 3
+Refer: 856 -1 N 1 0 0 1 301 0 2
+EndChar
+
+StartChar: uni1EB2
+Encoding: 7858 7858 784
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 65 N 1 0 0 1 0 0 3
+Refer: 859 -1 N 1 0 0 1 324 0 2
+EndChar
+
+StartChar: uni1EB3
+Encoding: 7859 7859 785
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 26 97 N 1 0 0 1 0 0 3
+Refer: 858 -1 N 1 0 0 1 301 0 2
+EndChar
+
+StartChar: uni1EB4
+Encoding: 7860 7860 786
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 65 N 1 0 0 1 0 0 3
+Refer: 861 -1 N 1 0 0 1 324 0 2
+EndChar
+
+StartChar: uni1EB5
+Encoding: 7861 7861 787
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 26 97 N 1 0 0 1 0 0 3
+Refer: 860 -1 N 1 0 0 1 301 0 2
+EndChar
+
+StartChar: uni1EB6
+Encoding: 7862 7862 788
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 172 -1 N 1 0 0 1 0 -900 2
+Refer: 0 65 N 1 0 0 1 0 0 3
+Refer: 171 -1 N 1 0 0 1 24 0 2
+EndChar
+
+StartChar: uni1EB7
+Encoding: 7863 7863 789
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 161 729 N 1 0 0 1 0 -692 2
+Refer: 26 97 N 1 0 0 1 0 0 3
+Refer: 160 728 N 1 0 0 1 1 0 2
+EndChar
+
+StartChar: uni1EBA
+Encoding: 7866 7866 790
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 4 69 N 1 0 0 1 0 0 3
+Refer: 843 -1 N 1 0 0 1 15 0 2
+EndChar
+
+StartChar: uni1EBB
+Encoding: 7867 7867 791
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 30 101 N 1 0 0 1 0 0 3
+Refer: 842 -1 N 1 0 0 1 27 0 2
+EndChar
+
+StartChar: uni1EBE
+Encoding: 7870 7870 792
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 4 69 N 1 0 0 1 0 0 3
+Refer: 847 -1 N 1 0 0 1 315 0 2
+EndChar
+
+StartChar: uni1EBF
+Encoding: 7871 7871 793
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 30 101 N 1 0 0 1 0 0 3
+Refer: 846 -1 N 1 0 0 1 327 0 2
+EndChar
+
+StartChar: uni1EC0
+Encoding: 7872 7872 794
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 4 69 N 1 0 0 1 0 0 3
+Refer: 849 -1 N 1 0 0 1 315 0 2
+EndChar
+
+StartChar: uni1EC1
+Encoding: 7873 7873 795
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 30 101 N 1 0 0 1 0 0 3
+Refer: 848 -1 N 1 0 0 1 327 0 2
+EndChar
+
+StartChar: uni1EC2
+Encoding: 7874 7874 796
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 4 69 N 1 0 0 1 0 0 3
+Refer: 851 -1 N 1 0 0 1 315 0 2
+EndChar
+
+StartChar: uni1EC3
+Encoding: 7875 7875 797
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 30 101 N 1 0 0 1 0 0 3
+Refer: 850 -1 N 1 0 0 1 327 0 2
+EndChar
+
+StartChar: uni1EC4
+Encoding: 7876 7876 798
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 4 69 N 1 0 0 1 0 0 3
+Refer: 853 -1 N 1 0 0 1 315 0 2
+EndChar
+
+StartChar: uni1EC5
+Encoding: 7877 7877 799
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 30 101 N 1 0 0 1 0 0 3
+Refer: 852 -1 N 1 0 0 1 327 0 2
+EndChar
+
+StartChar: uni1EC6
+Encoding: 7878 7878 800
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 172 -1 N 1 0 0 1 0 -900 2
+Refer: 4 69 N 1 0 0 1 0 0 3
+Refer: 168 -1 N 1 0 0 1 15 0 2
+EndChar
+
+StartChar: uni1EC7
+Encoding: 7879 7879 801
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 161 729 N 1 0 0 1 0 -692 2
+Refer: 30 101 N 1 0 0 1 0 0 3
+Refer: 157 710 N 1 0 0 1 27 0 2
+EndChar
+
+StartChar: uni1EC8
+Encoding: 7880 7880 802
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8 73 N 1 0 0 1 0 0 3
+Refer: 843 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1EC9
+Encoding: 7881 7881 803
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 145 305 N 1 0 0 1 0 0 3
+Refer: 842 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1ECE
+Encoding: 7886 7886 804
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 14 79 N 1 0 0 1 0 0 3
+Refer: 843 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1ECF
+Encoding: 7887 7887 805
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 40 111 N 1 0 0 1 0 0 3
+Refer: 842 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1ED0
+Encoding: 7888 7888 806
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 14 79 N 1 0 0 1 0 0 3
+Refer: 847 -1 N 1 0 0 1 308 0 2
+EndChar
+
+StartChar: uni1ED1
+Encoding: 7889 7889 807
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 40 111 N 1 0 0 1 0 0 3
+Refer: 846 -1 N 1 0 0 1 306 0 2
+EndChar
+
+StartChar: uni1ED2
+Encoding: 7890 7890 808
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 14 79 N 1 0 0 1 0 0 3
+Refer: 849 -1 N 1 0 0 1 308 0 2
+EndChar
+
+StartChar: uni1ED3
+Encoding: 7891 7891 809
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 40 111 N 1 0 0 1 0 0 3
+Refer: 848 -1 N 1 0 0 1 306 0 2
+EndChar
+
+StartChar: uni1ED4
+Encoding: 7892 7892 810
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 14 79 N 1 0 0 1 0 0 3
+Refer: 851 -1 N 1 0 0 1 308 0 2
+EndChar
+
+StartChar: uni1ED5
+Encoding: 7893 7893 811
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 40 111 N 1 0 0 1 0 0 3
+Refer: 850 -1 N 1 0 0 1 306 0 2
+EndChar
+
+StartChar: uni1ED6
+Encoding: 7894 7894 812
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 14 79 N 1 0 0 1 0 0 3
+Refer: 853 -1 N 1 0 0 1 308 0 2
+EndChar
+
+StartChar: uni1ED7
+Encoding: 7895 7895 813
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 40 111 N 1 0 0 1 0 0 3
+Refer: 852 -1 N 1 0 0 1 306 0 2
+EndChar
+
+StartChar: uni1ED8
+Encoding: 7896 7896 814
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 14 79 N 1 0 0 1 0 0 3
+Refer: 168 -1 N 1 0 0 1 8 0 2
+Refer: 172 -1 N 1 0 0 1 0 -900 2
+EndChar
+
+StartChar: uni1ED9
+Encoding: 7897 7897 815
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 40 111 N 1 0 0 1 0 0 3
+Refer: 157 710 N 1 0 0 1 6 0 2
+Refer: 161 729 N 1 0 0 1 0 -692 2
+EndChar
+
+StartChar: uni1EDA
+Encoding: 7898 7898 816
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 167 63177 N 1 0 0 1 54 0 2
+Refer: 764 416 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EDB
+Encoding: 7899 7899 817
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 118 180 N 1 0 0 1 52 0 2
+Refer: 765 417 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EDC
+Encoding: 7900 7900 818
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 166 63182 N 1 0 0 1 -37 0 2
+Refer: 764 416 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EDD
+Encoding: 7901 7901 819
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 94 96 N 1 0 0 1 -42 0 2
+Refer: 765 417 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EDE
+Encoding: 7902 7902 820
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 764 416 N 1 0 0 1 0 0 3
+Refer: 843 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1EDF
+Encoding: 7903 7903 821
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 765 417 N 1 0 0 1 0 0 3
+Refer: 842 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1EE0
+Encoding: 7904 7904 822
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 169 -1 N 1 0 0 1 27 0 2
+Refer: 764 416 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EE1
+Encoding: 7905 7905 823
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 164 732 N 1 0 0 1 4 0 2
+Refer: 765 417 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EE2
+Encoding: 7906 7906 824
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 764 416 N 1 0 0 1 0 0 3
+Refer: 172 -1 N 1 0 0 1 0 -900 2
+EndChar
+
+StartChar: uni1EE3
+Encoding: 7907 7907 825
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 765 417 N 1 0 0 1 0 0 3
+Refer: 161 729 N 1 0 0 1 0 -692 2
+EndChar
+
+StartChar: uni1EE6
+Encoding: 7910 7910 826
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 20 85 N 1 0 0 1 0 0 3
+Refer: 843 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1EE7
+Encoding: 7911 7911 827
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 46 117 N 1 0 0 1 0 0 3
+Refer: 842 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1EE8
+Encoding: 7912 7912 828
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 167 63177 N 1 0 0 1 63 0 2
+Refer: 766 431 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EE9
+Encoding: 7913 7913 829
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 118 180 N 1 0 0 1 34 0 2
+Refer: 767 432 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EEA
+Encoding: 7914 7914 830
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 166 63182 N 1 0 0 1 -18 0 2
+Refer: 766 431 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EEB
+Encoding: 7915 7915 831
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 94 96 N 1 0 0 1 -60 0 2
+Refer: 767 432 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EEC
+Encoding: 7916 7916 832
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 766 431 N 1 0 0 1 0 0 3
+Refer: 843 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1EED
+Encoding: 7917 7917 833
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 767 432 N 1 0 0 1 0 0 3
+Refer: 842 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1EEE
+Encoding: 7918 7918 834
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 169 -1 N 1 0 0 1 38 0 2
+Refer: 766 431 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EEF
+Encoding: 7919 7919 835
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 164 732 N 1 0 0 1 -14 0 2
+Refer: 767 432 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EF0
+Encoding: 7920 7920 836
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 766 431 N 1 0 0 1 0 0 3
+Refer: 172 -1 N 1 0 0 1 0 -900 2
+EndChar
+
+StartChar: uni1EF1
+Encoding: 7921 7921 837
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 767 432 N 1 0 0 1 0 0 3
+Refer: 161 729 N 1 0 0 1 0 -692 2
+EndChar
+
+StartChar: uni1EF4
+Encoding: 7924 7924 838
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 89 N 1 0 0 1 0 0 3
+Refer: 172 -1 N 1 0 0 1 0 -900 2
+EndChar
+
+StartChar: uni1EF5
+Encoding: 7925 7925 839
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 50 121 N 1 0 0 1 0 0 3
+Refer: 161 729 N 1 0 0 1 125 -692 2
+EndChar
+
+StartChar: uni1EF6
+Encoding: 7926 7926 840
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 89 N 1 0 0 1 0 0 3
+Refer: 843 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1EF7
+Encoding: 7927 7927 841
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 50 121 N 1 0 0 1 0 0 3
+Refer: 842 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: hookabove
+Encoding: 65602 -1 842
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+308 509 m 0
+ 301 509 295 514 288 523 c 128
+ 281 532 277 540 277 547 c 0
+ 277 553 280 560 286 568 c 128
+ 292 576 298 581 303 586 c 0
+ 310 592 316 597 320 602 c 128
+ 324 607 325 614 325 622 c 256
+ 325 630 322 637 316 642 c 128
+ 310 647 303 650 295 650 c 0
+ 286 650 278 646 272 640 c 128
+ 266 634 259 624 250 609 c 0
+ 248 606 246 604 244 601 c 128
+ 242 598 240 597 237 597 c 0
+ 234 597 232 598 228 602 c 128
+ 224 606 221 611 218 616 c 128
+ 215 621 214 626 214 630 c 0
+ 214 635 216 639 218 644 c 128
+ 220 649 223 652 227 654 c 0
+ 237 659 248 665 261 670 c 128
+ 274 675 289 677 308 677 c 0
+ 327 677 346 671 362 660 c 128
+ 378 649 386 634 386 615 c 0
+ 386 606 382 596 373 585 c 128
+ 364 574 351 564 334 557 c 0
+ 328 554 324 552 322 550 c 128
+ 320 548 318 544 318 541 c 0
+ 318 539 319 536 320 534 c 128
+ 321 532 322 529 323 526 c 0
+ 324 521 323 517 320 514 c 128
+ 317 511 313 509 308 509 c 0
+EndSplineSet
+EndChar
+
+StartChar: hookabove.cap
+Encoding: 65603 -1 843
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+306 701 m 0
+ 299 701 293 706 287 714 c 128
+ 281 722 278 729 278 736 c 0
+ 278 742 280 747 282 752 c 128
+ 284 757 290 762 301 767 c 0
+ 308 770 314 774 319 778 c 128
+ 324 782 326 789 326 800 c 0
+ 326 807 323 812 318 816 c 128
+ 313 820 307 822 301 822 c 0
+ 292 822 283 818 275 811 c 128
+ 267 804 260 793 253 780 c 0
+ 252 777 250 775 247 772 c 128
+ 244 769 241 768 238 768 c 0
+ 234 768 230 773 224 782 c 128
+ 218 791 215 797 215 802 c 256
+ 215 807 217 811 220 816 c 128
+ 223 821 225 825 228 826 c 0
+ 238 831 249 837 262 842 c 128
+ 275 847 290 849 309 849 c 0
+ 330 849 349 844 364 834 c 128
+ 379 824 387 808 387 789 c 0
+ 387 779 383 772 376 766 c 128
+ 369 760 360 755 351 750 c 0
+ 343 747 336 743 329 740 c 128
+ 322 737 319 732 319 727 c 0
+ 319 725 319 722 320 720 c 128
+ 321 718 323 715 324 712 c 0
+ 327 707 326 704 321 703 c 128
+ 316 702 311 701 306 701 c 0
+EndSplineSet
+EndChar
+
+StartChar: hookabovecomb
+Encoding: 777 777 844
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+Refer: 842 -1 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: hookabovecomb.cap
+Encoding: 65604 -1 845
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+Refer: 843 -1 N 1 0 0 1 -300 0 2
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03020301
+Encoding: 65605 -1 846
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 616 m 256
+ 4 616 8 614 12 610 c 128
+ 16 606 19 602 22 598 c 2
+ 22 598 23 598 33 584 c 128
+ 40 575 48 565 58 552 c 128
+ 68 539 77 525 86 512 c 128
+ 95 499 102 489 106 480 c 0
+ 107 477 109 475 110 472 c 128
+ 111 469 112 466 112 464 c 0
+ 112 458 109 455 102 455 c 0
+ 98 455 95 456 90 458 c 128
+ 85 460 80 464 76 468 c 0
+ 65 479 54 490 42 501 c 128
+ 30 512 19 523 8 534 c 0
+ 5 537 2 538 0 538 c 128
+ -2 538 -5 537 -8 534 c 0
+ -19 523 -30 512 -42 501 c 128
+ -54 490 -65 479 -76 468 c 0
+ -81 464 -86 460 -90 458 c 128
+ -94 456 -98 455 -102 455 c 0
+ -107 455 -109 456 -110 458 c 128
+ -111 460 -112 463 -112 468 c 0
+ -112 469 -111 471 -110 473 c 128
+ -108 476 -108 476 -106 480 c 0
+ -101 489 -95 500 -86 513 c 128
+ -77 526 -68 539 -58 552 c 128
+ -48 565 -39 576 -32 585 c 128
+ -22 598 -22 598 -22 598 c 2
+ -19 602 -15 606 -11 610 c 128
+ -7 614 -4 616 0 616 c 256
+98 566 m 0
+ 95 566 94 569 94 574 c 0
+ 94 578 96 586 100 600 c 128
+ 104 614 109 629 114 646 c 128
+ 119 663 124 679 128 692 c 128
+ 132 705 135 713 136 715 c 0
+ 139 720 143 725 147 728 c 128
+ 151 731 155 733 160 733 c 0
+ 163 733 168 731 175 728 c 128
+ 182 725 188 722 194 718 c 128
+ 200 714 202 708 202 703 c 0
+ 202 700 200 694 195 686 c 128
+ 190 678 184 668 176 657 c 128
+ 168 646 160 635 152 624 c 128
+ 144 613 138 603 132 595 c 128
+ 126 587 121 582 120 581 c 0
+ 117 578 115 576 110 572 c 128
+ 105 568 101 566 98 566 c 0
+EndSplineSet
+Substitution2: "Uppercase forms of accents-1" uni03020301.cap
+Ligature2: "'ccmp' Stacked accents-1" uni0302 acutecomb
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03020301.cap
+Encoding: 65606 -1 847
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+105 783 m 0
+ 102 783 100 783 98 784 c 128
+ 96 785 95 787 95 789 c 0
+ 95 792 96 794 97 796 c 128
+ 98 798 100 801 103 804 c 0
+ 108 809 116 817 126 826 c 128
+ 136 835 148 844 160 854 c 128
+ 172 864 181 871 189 877 c 0
+ 195 881 200 883 205 883 c 0
+ 209 883 215 881 223 876 c 128
+ 231 871 238 864 245 858 c 128
+ 252 852 255 847 255 843 c 0
+ 255 838 249 833 237 828 c 0
+ 217 819 196 811 176 804 c 128
+ 156 797 138 791 123 786 c 0
+ 120 785 117 785 113 784 c 128
+ 109 783 106 783 105 783 c 0
+-131 696 m 0
+ -141 696 -146 699 -146 706 c 0
+ -146 710 -144 714 -139 718 c 2
+ -41 801 l 2
+ -32 809 -24 815 -19 818 c 128
+ -14 821 -7 823 0 823 c 256
+ 7 823 14 821 19 818 c 128
+ 24 815 32 809 41 801 c 2
+ 139 718 l 2
+ 143 715 145 711 145 706 c 0
+ 145 699 140 695 131 695 c 0
+ 128 695 120 698 110 702 c 128
+ 100 706 89 712 76 718 c 128
+ 63 724 50 730 38 736 c 128
+ 26 742 17 747 10 751 c 0
+ 5 754 2 755 0 755 c 128
+ -2 755 -5 754 -10 751 c 0
+ -17 747 -26 742 -38 736 c 128
+ -50 730 -63 724 -76 718 c 128
+ -89 712 -100 706 -110 702 c 128
+ -120 698 -128 696 -131 696 c 0
+EndSplineSet
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03020300
+Encoding: 65607 -1 848
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 616 m 256
+ 4 616 8 614 12 610 c 128
+ 16 606 19 602 22 598 c 2
+ 22 598 23 598 33 584 c 128
+ 40 575 48 565 58 552 c 128
+ 68 539 77 525 86 512 c 128
+ 95 499 102 489 106 480 c 0
+ 107 477 109 475 110 472 c 128
+ 111 469 112 466 112 464 c 0
+ 112 458 109 455 102 455 c 0
+ 98 455 95 456 90 458 c 128
+ 85 460 80 464 76 468 c 0
+ 65 479 54 490 42 501 c 128
+ 30 512 19 523 8 534 c 0
+ 5 537 2 538 0 538 c 128
+ -2 538 -5 537 -8 534 c 0
+ -19 523 -30 512 -42 501 c 128
+ -54 490 -65 479 -76 468 c 0
+ -81 464 -86 460 -90 458 c 128
+ -94 456 -98 455 -102 455 c 0
+ -107 455 -109 456 -110 458 c 128
+ -111 460 -112 463 -112 468 c 0
+ -112 469 -111 471 -110 473 c 128
+ -108 476 -108 476 -106 480 c 0
+ -101 489 -95 500 -86 513 c 128
+ -77 526 -68 539 -58 552 c 128
+ -48 565 -39 576 -32 585 c 128
+ -22 598 -22 598 -22 598 c 2
+ -19 602 -15 606 -11 610 c 128
+ -7 614 -4 616 0 616 c 256
+-80 566 m 0
+ -83 566 -87 568 -91 572 c 128
+ -95 576 -99 578 -102 581 c 0
+ -103 582 -108 587 -114 595 c 128
+ -120 603 -126 613 -134 624 c 128
+ -142 635 -150 646 -158 657 c 128
+ -166 668 -172 678 -177 686 c 128
+ -182 694 -184 700 -184 703 c 0
+ -184 708 -182 714 -176 718 c 128
+ -170 722 -164 725 -157 728 c 128
+ -150 731 -145 733 -142 733 c 0
+ -137 733 -132 731 -128 728 c 128
+ -124 725 -121 720 -118 715 c 0
+ -117 713 -114 705 -110 692 c 128
+ -106 679 -101 663 -96 646 c 128
+ -91 629 -86 614 -82 600 c 128
+ -78 586 -76 578 -76 574 c 0
+ -76 569 -77 566 -80 566 c 0
+EndSplineSet
+Substitution2: "Uppercase forms of accents-1" uni03020300.cap
+Ligature2: "'ccmp' Stacked accents-1" uni0302 gravecomb
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03020300.cap
+Encoding: 65608 -1 849
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-111 774 m 0
+ -112 774 -114 774 -118 775 c 128
+ -122 776 -126 776 -129 777 c 0
+ -144 782 -162 789 -182 796 c 128
+ -202 803 -223 810 -243 819 c 0
+ -255 824 -261 829 -261 834 c 0
+ -261 838 -258 844 -251 850 c 128
+ -244 856 -236 861 -228 866 c 128
+ -220 871 -214 874 -211 874 c 0
+ -206 874 -201 872 -195 868 c 0
+ -187 862 -178 854 -166 844 c 128
+ -154 834 -143 825 -132 816 c 128
+ -121 807 -114 800 -109 795 c 0
+ -106 792 -103 790 -102 788 c 128
+ -101 786 -101 783 -101 780 c 0
+ -101 778 -102 777 -104 776 c 128
+ -106 775 -108 774 -111 774 c 0
+-131 696 m 0
+ -141 696 -146 699 -146 706 c 0
+ -146 710 -144 714 -139 718 c 2
+ -41 801 l 2
+ -32 809 -24 815 -19 818 c 128
+ -14 821 -7 823 0 823 c 256
+ 7 823 14 821 19 818 c 128
+ 24 815 32 809 41 801 c 2
+ 139 718 l 2
+ 143 715 145 711 145 706 c 0
+ 145 699 140 695 131 695 c 0
+ 128 695 120 698 110 702 c 128
+ 100 706 89 712 76 718 c 128
+ 63 724 50 730 38 736 c 128
+ 26 742 17 747 10 751 c 0
+ 5 754 2 755 0 755 c 128
+ -2 755 -5 754 -10 751 c 0
+ -17 747 -26 742 -38 736 c 128
+ -50 730 -63 724 -76 718 c 128
+ -89 712 -100 706 -110 702 c 128
+ -120 698 -128 696 -131 696 c 0
+EndSplineSet
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03020309
+Encoding: 65609 -1 850
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 616 m 256
+ 4 616 8 614 12 610 c 128
+ 16 606 19 602 22 598 c 2
+ 22 598 23 598 33 584 c 128
+ 40 575 48 565 58 552 c 128
+ 68 539 77 525 86 512 c 128
+ 95 499 102 489 106 480 c 0
+ 107 477 109 475 110 472 c 128
+ 111 469 112 466 112 464 c 0
+ 112 458 109 455 102 455 c 0
+ 98 455 95 456 90 458 c 128
+ 85 460 80 464 76 468 c 0
+ 65 479 54 490 42 501 c 128
+ 30 512 19 523 8 534 c 0
+ 5 537 2 538 0 538 c 128
+ -2 538 -5 537 -8 534 c 0
+ -19 523 -30 512 -42 501 c 128
+ -54 490 -65 479 -76 468 c 0
+ -81 464 -86 460 -90 458 c 128
+ -94 456 -98 455 -102 455 c 0
+ -107 455 -109 456 -110 458 c 128
+ -111 460 -112 463 -112 468 c 0
+ -112 469 -111 471 -110 473 c 128
+ -108 476 -108 476 -106 480 c 0
+ -101 489 -95 500 -86 513 c 128
+ -77 526 -68 539 -58 552 c 128
+ -48 565 -39 576 -32 585 c 128
+ -22 598 -22 598 -22 598 c 2
+ -19 602 -15 606 -11 610 c 128
+ -7 614 -4 616 0 616 c 256
+106 565 m 0
+ 99 565 92 570 85 579 c 128
+ 78 588 74 596 74 603 c 0
+ 74 609 78 616 84 624 c 128
+ 90 632 95 637 100 642 c 0
+ 107 648 113 653 117 658 c 128
+ 121 663 122 669 122 674 c 0
+ 122 681 120 686 114 689 c 128
+ 108 692 100 694 92 694 c 0
+ 83 694 76 692 70 686 c 128
+ 64 680 57 670 48 655 c 0
+ 46 652 44 650 42 647 c 128
+ 40 644 37 643 34 643 c 0
+ 31 643 29 644 25 648 c 128
+ 21 652 19 657 16 662 c 128
+ 13 667 12 672 12 676 c 0
+ 12 681 13 685 15 690 c 128
+ 17 695 20 698 24 700 c 0
+ 34 705 45 711 58 716 c 128
+ 71 721 87 723 106 723 c 0
+ 125 723 143 718 159 708 c 128
+ 175 698 184 685 184 667 c 0
+ 184 658 179 649 170 639 c 128
+ 161 629 149 620 132 613 c 0
+ 126 610 121 608 119 606 c 128
+ 117 604 116 600 116 597 c 0
+ 116 595 117 592 118 590 c 128
+ 119 588 119 585 120 582 c 0
+ 121 577 121 573 118 570 c 128
+ 115 567 111 565 106 565 c 0
+EndSplineSet
+Substitution2: "Uppercase forms of accents-1" uni03020309.cap
+Ligature2: "'ccmp' Stacked accents-1" uni0302 hookabovecomb
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03020309.cap
+Encoding: 65610 -1 851
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+163 748 m 0
+ 156 748 150 752 144 760 c 128
+ 138 768 135 776 135 783 c 0
+ 135 789 136 794 138 799 c 128
+ 140 804 147 809 158 814 c 0
+ 165 817 171 821 176 825 c 128
+ 181 829 183 836 183 847 c 0
+ 183 854 180 859 175 863 c 128
+ 170 867 164 869 158 869 c 0
+ 149 869 140 865 132 858 c 128
+ 124 851 117 840 110 827 c 0
+ 109 824 107 822 104 819 c 128
+ 101 816 98 815 95 815 c 0
+ 91 815 86 819 80 828 c 128
+ 74 837 72 844 72 849 c 256
+ 72 854 73 859 76 864 c 128
+ 79 869 82 872 85 873 c 0
+ 95 878 106 883 119 888 c 128
+ 132 893 147 896 166 896 c 0
+ 187 896 206 890 221 880 c 128
+ 236 870 244 855 244 836 c 0
+ 244 826 240 818 233 812 c 128
+ 226 806 217 802 208 797 c 0
+ 200 794 193 790 186 787 c 128
+ 179 784 176 779 176 774 c 0
+ 176 772 177 770 178 768 c 128
+ 179 766 180 762 181 759 c 0
+ 184 754 183 751 178 750 c 128
+ 173 749 168 748 163 748 c 0
+-131 696 m 0
+ -141 696 -146 699 -146 706 c 0
+ -146 710 -144 714 -139 718 c 2
+ -41 801 l 2
+ -32 809 -24 815 -19 818 c 128
+ -14 821 -7 823 0 823 c 256
+ 7 823 14 821 19 818 c 128
+ 24 815 32 809 41 801 c 2
+ 139 718 l 2
+ 143 715 145 711 145 706 c 0
+ 145 699 140 695 131 695 c 0
+ 128 695 120 698 110 702 c 128
+ 100 706 89 712 76 718 c 128
+ 63 724 50 730 38 736 c 128
+ 26 742 17 747 10 751 c 0
+ 5 754 2 755 0 755 c 128
+ -2 755 -5 754 -10 751 c 0
+ -17 747 -26 742 -38 736 c 128
+ -50 730 -63 724 -76 718 c 128
+ -89 712 -100 706 -110 702 c 128
+ -120 698 -128 696 -131 696 c 0
+EndSplineSet
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03020303
+Encoding: 65611 -1 852
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 616 m 256
+ 4 616 8 614 12 610 c 128
+ 16 606 19 602 22 598 c 2
+ 22 598 23 598 33 584 c 128
+ 40 575 48 565 58 552 c 128
+ 68 539 77 525 86 512 c 128
+ 95 499 102 489 106 480 c 0
+ 107 477 109 475 110 472 c 128
+ 111 469 112 466 112 464 c 0
+ 112 458 109 455 102 455 c 0
+ 98 455 95 456 90 458 c 128
+ 85 460 80 464 76 468 c 0
+ 65 479 54 490 42 501 c 128
+ 30 512 19 523 8 534 c 0
+ 5 537 2 538 0 538 c 128
+ -2 538 -5 537 -8 534 c 0
+ -19 523 -30 512 -42 501 c 128
+ -54 490 -65 479 -76 468 c 0
+ -81 464 -86 460 -90 458 c 128
+ -94 456 -98 455 -102 455 c 0
+ -107 455 -109 456 -110 458 c 128
+ -111 460 -112 463 -112 468 c 0
+ -112 469 -111 471 -110 473 c 128
+ -108 476 -108 476 -106 480 c 0
+ -101 489 -95 500 -86 513 c 128
+ -77 526 -68 539 -58 552 c 128
+ -48 565 -39 576 -32 585 c 128
+ -22 598 -22 598 -22 598 c 2
+ -19 602 -15 606 -11 610 c 128
+ -7 614 -4 616 0 616 c 256
+-104 621 m 0
+ -109 621 -113 622 -116 625 c 128
+ -119 628 -120 631 -120 636 c 0
+ -120 639 -117 644 -111 653 c 128
+ -105 662 -97 671 -87 681 c 128
+ -77 691 -68 700 -58 707 c 128
+ -48 714 -40 718 -34 718 c 0
+ -23 718 -15 717 -8 716 c 128
+ -1 715 7 714 16 713 c 0
+ 27 712 37 711 46 710 c 128
+ 55 709 63 709 72 709 c 0
+ 79 709 87 711 95 716 c 128
+ 103 721 109 726 114 731 c 0
+ 120 738 124 743 127 746 c 128
+ 130 749 132 750 134 750 c 0
+ 139 750 144 749 148 746 c 128
+ 152 743 154 738 154 733 c 0
+ 154 731 151 728 148 725 c 128
+ 143 720 144 720 138 714 c 0
+ 130 706 121 697 114 688 c 128
+ 107 679 101 671 94 663 c 0
+ 90 658 85 654 78 652 c 128
+ 71 650 66 649 64 649 c 0
+ 60 649 55 649 46 650 c 128
+ 37 651 27 652 16 653 c 128
+ 5 654 -5 655 -16 656 c 128
+ -27 657 -37 657 -46 657 c 0
+ -53 657 -59 656 -65 653 c 128
+ -71 650 -77 646 -82 641 c 0
+ -87 637 -91 633 -95 628 c 128
+ -99 623 -102 621 -104 621 c 0
+EndSplineSet
+Substitution2: "Uppercase forms of accents-1" uni03020303.cap
+Ligature2: "'ccmp' Stacked accents-1" uni0302 tildecomb
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03020303.cap
+Encoding: 65612 -1 853
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-120 816 m 0
+ -123 816 -126 818 -130 822 c 128
+ -134 826 -136 829 -136 832 c 0
+ -136 835 -133 840 -127 849 c 128
+ -121 858 -113 868 -104 878 c 128
+ -95 888 -86 896 -77 904 c 128
+ -68 912 -60 916 -54 916 c 0
+ -43 916 -30 916 -18 916 c 128
+ -6 916 5 914 14 913 c 0
+ 25 912 37 911 48 910 c 128
+ 59 909 69 909 78 909 c 0
+ 85 909 93 911 100 915 c 128
+ 107 919 112 923 117 928 c 256
+ 122 933 126 938 129 942 c 128
+ 132 946 135 948 137 948 c 0
+ 142 948 146 947 150 944 c 128
+ 154 941 156 936 156 931 c 0
+ 156 929 155 926 152 923 c 128
+ 149 920 145 916 142 913 c 0
+ 134 905 126 896 118 885 c 128
+ 110 874 102 865 95 857 c 0
+ 91 852 86 848 79 846 c 128
+ 72 844 68 843 66 843 c 0
+ 62 843 55 843 44 844 c 128
+ 33 845 20 846 6 847 c 128
+ -8 848 -21 849 -34 850 c 128
+ -47 851 -57 851 -65 851 c 0
+ -70 851 -75 850 -82 848 c 128
+ -89 846 -94 842 -98 839 c 0
+ -104 834 -108 829 -112 824 c 128
+ -116 819 -119 816 -120 816 c 0
+-131 696 m 0
+ -141 696 -146 699 -146 706 c 0
+ -146 710 -144 714 -139 718 c 2
+ -41 801 l 2
+ -32 809 -24 815 -19 818 c 128
+ -14 821 -7 823 0 823 c 256
+ 7 823 14 821 19 818 c 128
+ 24 815 32 809 41 801 c 2
+ 139 718 l 2
+ 143 715 145 711 145 706 c 0
+ 145 699 140 695 131 695 c 0
+ 128 695 120 698 110 702 c 128
+ 100 706 89 712 76 718 c 128
+ 63 724 50 730 38 736 c 128
+ 26 742 17 747 10 751 c 0
+ 5 754 2 755 0 755 c 128
+ -2 755 -5 754 -10 751 c 0
+ -17 747 -26 742 -38 736 c 128
+ -50 730 -63 724 -76 718 c 128
+ -89 712 -100 706 -110 702 c 128
+ -120 698 -128 696 -131 696 c 0
+EndSplineSet
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03060301
+Encoding: 65613 -1 854
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-8 583 m 0
+ -11 583 -13 586 -13 591 c 0
+ -13 595 -11 604 -7 618 c 128
+ -3 632 2 647 7 664 c 128
+ 12 681 18 696 22 709 c 128
+ 26 722 29 730 30 732 c 0
+ 33 737 36 742 40 745 c 128
+ 44 748 48 750 53 750 c 0
+ 56 750 61 749 68 746 c 128
+ 75 743 82 738 88 734 c 128
+ 94 730 96 725 96 720 c 0
+ 96 717 93 712 88 704 c 128
+ 83 696 78 685 70 674 c 128
+ 62 663 54 651 46 640 c 128
+ 38 629 31 620 25 612 c 128
+ 19 604 15 599 14 598 c 0
+ 11 595 8 592 3 588 c 128
+ -2 584 -5 583 -8 583 c 0
+0 478 m 256
+ -23 478 -44 484 -62 495 c 128
+ -80 506 -92 520 -102 536 c 128
+ -112 552 -117 565 -117 576 c 0
+ -117 583 -116 588 -114 593 c 128
+ -112 598 -109 600 -104 600 c 0
+ -99 600 -94 598 -90 593 c 128
+ -86 588 -82 584 -81 579 c 0
+ -76 567 -66 557 -50 548 c 128
+ -34 539 -18 534 0 534 c 0
+ 19 534 36 539 52 548 c 128
+ 68 557 78 567 83 579 c 0
+ 84 584 87 588 91 593 c 128
+ 95 598 99 600 104 600 c 0
+ 109 600 112 598 114 593 c 128
+ 116 588 117 583 117 576 c 0
+ 117 565 112 552 102 536 c 128
+ 92 520 80 506 62 495 c 128
+ 44 484 23 478 0 478 c 256
+EndSplineSet
+Substitution2: "Uppercase forms of accents-1" uni03060301.cap
+Ligature2: "'ccmp' Stacked accents-1" uni0306 acutecomb
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03060301.cap
+Encoding: 65614 -1 855
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-13 811 m 0
+ -16 811 -18 811 -20 812 c 128
+ -22 813 -23 815 -23 817 c 0
+ -23 820 -22 822 -21 824 c 128
+ -20 826 -18 829 -15 832 c 0
+ -10 837 -2 845 8 854 c 128
+ 18 863 30 872 42 882 c 128
+ 54 892 63 899 71 905 c 0
+ 77 909 82 911 87 911 c 0
+ 91 911 97 909 105 904 c 128
+ 113 899 120 892 127 886 c 128
+ 134 880 137 875 137 871 c 0
+ 137 866 131 861 119 856 c 0
+ 99 847 78 839 58 832 c 128
+ 38 825 20 819 5 814 c 0
+ 2 813 -1 813 -5 812 c 128
+ -9 811 -12 811 -13 811 c 0
+0 692 m 0
+ -28 692 -52 698 -73 710 c 128
+ -94 722 -109 736 -120 752 c 128
+ -131 768 -137 783 -137 796 c 0
+ -137 803 -136 808 -134 813 c 128
+ -132 818 -130 820 -127 820 c 0
+ -122 820 -117 817 -113 812 c 128
+ -109 807 -106 803 -103 799 c 0
+ -90 783 -75 772 -58 764 c 128
+ -41 756 -21 752 0 752 c 256
+ 21 752 41 756 58 764 c 128
+ 75 772 90 783 103 799 c 0
+ 106 803 110 807 114 812 c 128
+ 118 817 122 820 127 820 c 0
+ 132 820 135 818 136 813 c 128
+ 137 808 137 803 137 796 c 0
+ 137 783 131 768 120 752 c 128
+ 109 736 94 722 74 710 c 128
+ 54 698 29 692 0 692 c 0
+EndSplineSet
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03060300
+Encoding: 65615 -1 856
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+17 583 m 0
+ 14 583 10 584 6 588 c 128
+ 2 592 -2 595 -5 598 c 0
+ -6 599 -10 604 -16 612 c 128
+ -22 620 -29 629 -37 640 c 128
+ -45 651 -52 663 -60 674 c 128
+ -68 685 -75 696 -80 704 c 128
+ -85 712 -87 717 -87 720 c 0
+ -87 725 -84 730 -78 734 c 128
+ -72 738 -67 743 -60 746 c 128
+ -53 749 -47 750 -44 750 c 0
+ -39 750 -34 748 -30 745 c 128
+ -26 742 -24 737 -21 732 c 0
+ -20 730 -16 722 -12 709 c 128
+ -8 696 -3 681 2 664 c 128
+ 7 647 12 632 16 618 c 128
+ 20 604 22 595 22 591 c 0
+ 22 586 20 583 17 583 c 0
+0 478 m 256
+ -23 478 -44 484 -62 495 c 128
+ -80 506 -92 520 -102 536 c 128
+ -112 552 -117 565 -117 576 c 0
+ -117 583 -116 588 -114 593 c 128
+ -112 598 -109 600 -104 600 c 0
+ -99 600 -94 598 -90 593 c 128
+ -86 588 -82 584 -81 579 c 0
+ -76 567 -66 557 -50 548 c 128
+ -34 539 -18 534 0 534 c 0
+ 19 534 36 539 52 548 c 128
+ 68 557 78 567 83 579 c 0
+ 84 584 87 588 91 593 c 128
+ 95 598 99 600 104 600 c 0
+ 109 600 112 598 114 593 c 128
+ 116 588 117 583 117 576 c 0
+ 117 565 112 552 102 536 c 128
+ 92 520 80 506 62 495 c 128
+ 44 484 23 478 0 478 c 256
+EndSplineSet
+Substitution2: "Uppercase forms of accents-1" uni03060300.cap
+Ligature2: "'ccmp' Stacked accents-1" uni0306 gravecomb
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03060300.cap
+Encoding: 65616 -1 857
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+15 809 m 0
+ 14 809 12 809 8 810 c 128
+ 4 811 0 811 -3 812 c 0
+ -18 817 -36 823 -56 830 c 128
+ -76 837 -97 845 -117 854 c 0
+ -129 859 -135 864 -135 869 c 0
+ -135 873 -132 878 -125 884 c 128
+ -118 890 -110 897 -102 902 c 128
+ -94 907 -88 909 -85 909 c 0
+ -80 909 -75 907 -69 903 c 0
+ -61 897 -52 890 -40 880 c 128
+ -28 870 -17 861 -6 852 c 128
+ 5 843 12 835 17 830 c 0
+ 20 827 23 824 24 822 c 128
+ 25 820 25 818 25 815 c 0
+ 25 813 24 811 22 810 c 128
+ 20 809 18 809 15 809 c 0
+0 692 m 0
+ -28 692 -52 698 -73 710 c 128
+ -94 722 -109 736 -120 752 c 128
+ -131 768 -137 783 -137 796 c 0
+ -137 803 -136 808 -134 813 c 128
+ -132 818 -130 820 -127 820 c 0
+ -122 820 -117 817 -113 812 c 128
+ -109 807 -106 803 -103 799 c 0
+ -90 783 -75 772 -58 764 c 128
+ -41 756 -21 752 0 752 c 256
+ 21 752 41 756 58 764 c 128
+ 75 772 90 783 103 799 c 0
+ 106 803 110 807 114 812 c 128
+ 118 817 122 820 127 820 c 0
+ 132 820 135 818 136 813 c 128
+ 137 808 137 803 137 796 c 0
+ 137 783 131 768 120 752 c 128
+ 109 736 94 722 74 710 c 128
+ 54 698 29 692 0 692 c 0
+EndSplineSet
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03060309
+Encoding: 65617 -1 858
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+1 570 m 0
+ -6 570 -13 575 -20 584 c 128
+ -27 593 -30 601 -30 608 c 0
+ -30 614 -27 620 -21 628 c 128
+ -15 636 -9 642 -4 647 c 0
+ 3 653 8 659 12 664 c 128
+ 16 669 18 674 18 679 c 0
+ 18 686 15 691 9 694 c 128
+ 3 697 -4 699 -12 699 c 0
+ -21 699 -29 696 -35 690 c 128
+ -41 684 -48 675 -57 660 c 0
+ -59 657 -60 655 -62 652 c 128
+ -64 649 -67 648 -70 648 c 0
+ -73 648 -76 650 -80 654 c 128
+ -84 658 -86 662 -89 667 c 128
+ -92 672 -93 677 -93 681 c 0
+ -93 686 -92 690 -90 695 c 128
+ -88 700 -84 703 -80 705 c 0
+ -70 710 -59 715 -46 720 c 128
+ -33 725 -18 728 1 728 c 0
+ 20 728 38 724 54 714 c 128
+ 70 704 79 690 79 672 c 0
+ 79 663 75 654 66 644 c 128
+ 57 634 44 625 27 618 c 0
+ 21 615 16 612 14 610 c 128
+ 12 608 11 605 11 602 c 0
+ 11 600 12 598 13 596 c 128
+ 14 594 15 590 16 587 c 0
+ 17 582 17 578 14 575 c 128
+ 11 572 6 570 1 570 c 0
+0 480 m 256
+ -23 480 -44 486 -62 497 c 128
+ -80 508 -92 522 -102 538 c 128
+ -112 554 -117 567 -117 578 c 0
+ -117 585 -116 590 -114 595 c 128
+ -112 600 -109 602 -104 602 c 0
+ -99 602 -94 600 -90 595 c 128
+ -86 590 -82 586 -81 581 c 0
+ -76 569 -66 559 -50 550 c 128
+ -34 541 -18 536 0 536 c 0
+ 19 536 36 541 52 550 c 128
+ 68 559 78 569 83 581 c 0
+ 84 586 87 590 91 595 c 128
+ 95 600 99 602 104 602 c 0
+ 109 602 112 600 114 595 c 128
+ 116 590 117 585 117 578 c 0
+ 117 567 112 554 102 538 c 128
+ 92 522 80 508 62 497 c 128
+ 44 486 23 480 0 480 c 256
+EndSplineSet
+Substitution2: "Uppercase forms of accents-1" uni03060309.cap
+Ligature2: "'ccmp' Stacked accents-1" uni0306 hookabovecomb
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03060309.cap
+Encoding: 65618 -1 859
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-2 781 m 0
+ -9 781 -15 786 -21 794 c 128
+ -27 802 -30 809 -30 816 c 0
+ -30 822 -28 827 -26 832 c 128
+ -24 837 -18 842 -7 847 c 0
+ 0 850 6 854 11 858 c 128
+ 16 862 18 869 18 880 c 0
+ 18 887 15 892 10 896 c 128
+ 5 900 -1 902 -7 902 c 0
+ -16 902 -25 898 -33 891 c 128
+ -41 884 -48 873 -55 860 c 0
+ -56 857 -58 855 -61 852 c 128
+ -64 849 -67 848 -70 848 c 0
+ -74 848 -78 853 -84 862 c 128
+ -90 871 -93 877 -93 882 c 256
+ -93 887 -91 891 -88 896 c 128
+ -85 901 -83 905 -80 906 c 0
+ -70 911 -59 917 -46 922 c 128
+ -33 927 -18 929 1 929 c 0
+ 22 929 41 924 56 914 c 128
+ 71 904 79 888 79 869 c 0
+ 79 859 75 852 68 846 c 128
+ 61 840 52 835 43 830 c 0
+ 35 827 28 823 21 820 c 128
+ 14 817 11 812 11 807 c 0
+ 11 805 11 802 12 800 c 128
+ 13 798 15 795 16 792 c 0
+ 19 787 18 784 13 783 c 128
+ 8 782 3 781 -2 781 c 0
+0 692 m 0
+ -28 692 -52 698 -73 710 c 128
+ -94 722 -109 736 -120 752 c 128
+ -131 768 -137 783 -137 796 c 0
+ -137 803 -136 808 -134 813 c 128
+ -132 818 -130 820 -127 820 c 0
+ -122 820 -117 817 -113 812 c 128
+ -109 807 -106 803 -103 799 c 0
+ -90 783 -75 772 -58 764 c 128
+ -41 756 -21 752 0 752 c 256
+ 21 752 41 756 58 764 c 128
+ 75 772 90 783 103 799 c 0
+ 106 803 110 807 114 812 c 128
+ 118 817 122 820 127 820 c 0
+ 132 820 135 818 136 813 c 128
+ 137 808 137 803 137 796 c 0
+ 137 783 131 768 120 752 c 128
+ 109 736 94 722 74 710 c 128
+ 54 698 29 692 0 692 c 0
+EndSplineSet
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03060303
+Encoding: 65619 -1 860
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-112 615 m 0
+ -117 615 -121 616 -124 619 c 128
+ -127 622 -128 625 -128 630 c 0
+ -128 633 -124 638 -118 647 c 128
+ -112 656 -104 665 -94 675 c 128
+ -84 685 -76 694 -66 701 c 128
+ -56 708 -48 712 -42 712 c 0
+ -31 712 -22 711 -15 710 c 128
+ -8 709 0 708 9 707 c 0
+ 20 706 30 705 39 704 c 128
+ 48 703 56 703 65 703 c 0
+ 72 703 80 705 88 710 c 128
+ 96 715 101 720 106 725 c 0
+ 112 732 117 737 120 740 c 128
+ 123 743 125 744 127 744 c 0
+ 132 744 136 743 140 740 c 128
+ 144 737 146 732 146 727 c 0
+ 146 725 144 722 141 719 c 128
+ 136 714 136 714 130 708 c 0
+ 122 700 114 691 107 682 c 128
+ 100 673 93 665 86 657 c 0
+ 82 652 77 648 70 646 c 128
+ 63 644 59 643 57 643 c 0
+ 53 643 47 643 38 644 c 128
+ 29 645 20 646 9 647 c 128
+ -2 648 -13 649 -24 650 c 128
+ -35 651 -45 651 -54 651 c 0
+ -61 651 -66 650 -72 647 c 128
+ -78 644 -84 640 -89 635 c 0
+ -94 631 -98 627 -102 622 c 128
+ -106 617 -110 615 -112 615 c 0
+0 477 m 256
+ -23 477 -44 483 -62 494 c 128
+ -80 505 -92 518 -102 534 c 128
+ -112 550 -117 564 -117 575 c 0
+ -117 582 -116 587 -114 592 c 128
+ -112 597 -109 599 -104 599 c 0
+ -99 599 -94 597 -90 592 c 128
+ -86 587 -82 583 -81 578 c 0
+ -76 566 -66 555 -50 546 c 128
+ -34 537 -18 533 0 533 c 0
+ 19 533 36 537 52 546 c 128
+ 68 555 78 566 83 578 c 0
+ 84 583 87 587 91 592 c 128
+ 95 597 99 599 104 599 c 0
+ 109 599 112 597 114 592 c 128
+ 116 587 117 582 117 575 c 0
+ 117 564 112 550 102 534 c 128
+ 92 518 80 505 62 494 c 128
+ 44 483 23 477 0 477 c 256
+EndSplineSet
+Substitution2: "Uppercase forms of accents-1" uni03060303.cap
+Ligature2: "'ccmp' Stacked accents-1" uni0306 tildecomb
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni03060303.cap
+Encoding: 65620 -1 861
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-120 834 m 0
+ -123 834 -126 836 -130 840 c 128
+ -134 844 -136 847 -136 850 c 0
+ -136 853 -133 858 -127 867 c 128
+ -121 876 -113 886 -104 896 c 128
+ -95 906 -86 914 -77 922 c 128
+ -68 930 -60 934 -54 934 c 0
+ -43 934 -30 934 -18 934 c 128
+ -6 934 5 932 14 931 c 0
+ 25 930 37 929 48 928 c 128
+ 59 927 69 927 78 927 c 0
+ 85 927 93 929 100 933 c 128
+ 107 937 112 941 117 946 c 256
+ 122 951 126 956 129 960 c 128
+ 132 964 135 966 137 966 c 0
+ 142 966 146 965 150 962 c 128
+ 154 959 156 954 156 949 c 0
+ 156 947 155 944 152 941 c 128
+ 149 938 145 934 142 931 c 0
+ 134 923 126 914 118 903 c 128
+ 110 892 102 883 95 875 c 0
+ 91 870 86 866 79 864 c 128
+ 72 862 68 861 66 861 c 0
+ 62 861 55 861 44 862 c 128
+ 33 863 20 864 6 865 c 128
+ -8 866 -21 867 -34 868 c 128
+ -47 869 -57 869 -65 869 c 0
+ -70 869 -75 868 -82 866 c 128
+ -89 864 -94 860 -98 857 c 0
+ -104 852 -108 847 -112 842 c 128
+ -116 837 -119 834 -120 834 c 0
+0 692 m 0
+ -28 692 -52 698 -73 710 c 128
+ -94 722 -109 736 -120 752 c 128
+ -131 768 -137 783 -137 796 c 0
+ -137 803 -136 808 -134 813 c 128
+ -132 818 -130 820 -127 820 c 0
+ -122 820 -117 817 -113 812 c 128
+ -109 807 -106 803 -103 799 c 0
+ -90 783 -75 772 -58 764 c 128
+ -41 756 -21 752 0 752 c 256
+ 21 752 41 756 58 764 c 128
+ 75 772 90 783 103 799 c 0
+ 106 803 110 807 114 812 c 128
+ 118 817 122 820 127 820 c 0
+ 132 820 135 818 136 813 c 128
+ 137 808 137 803 137 796 c 0
+ 137 783 131 768 120 752 c 128
+ 109 736 94 722 74 710 c 128
+ 54 698 29 692 0 692 c 0
+EndSplineSet
+Position2: "Mark spacing-1" dx=300 dy=0 dh=600 dv=0
+Position2: "Tall mark combining-1" dx=-300 dy=240 dh=0 dv=0
+Position2: "Mark combining-1" dx=-300 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: dong
+Encoding: 8363 8363 862
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+165 -77 m 2
+ 162 -77 159 -76 156 -73 c 128
+ 153 -70 151 -68 151 -65 c 0
+ 151 -60 152 -52 156 -42 c 128
+ 160 -32 166 -27 175 -27 c 2
+ 483 -27 l 2
+ 486 -27 490 -29 493 -32 c 128
+ 496 -35 497 -38 496 -41 c 0
+ 493 -50 490 -58 486 -66 c 128
+ 482 -74 474 -77 465 -77 c 2
+ 165 -77 l 2
+382 32 m 0
+ 381 32 379 33 378 34 c 128
+ 377 35 377 37 377 38 c 0
+ 377 43 378 52 379 64 c 128
+ 380 76 381 86 381 93 c 2
+ 381 99 l 1
+ 372 85 359 70 340 56 c 128
+ 321 42 297 35 268 35 c 0
+ 235 35 205 44 180 62 c 128
+ 155 80 136 102 122 129 c 128
+ 108 156 101 185 101 214 c 0
+ 101 248 109 280 126 310 c 128
+ 143 340 166 365 196 384 c 128
+ 226 403 261 413 302 413 c 0
+ 315 413 329 411 344 407 c 128
+ 359 403 367 399 370 396 c 0
+ 372 393 374 392 376 390 c 128
+ 378 388 378 387 379 387 c 0
+ 381 387 382 394 382 409 c 2
+ 382 543 l 2
+ 382 566 379 582 372 592 c 128
+ 365 602 354 607 339 607 c 0
+ 333 607 330 611 330 618 c 0
+ 330 623 333 626 338 628 c 0
+ 355 634 370 638 382 642 c 128
+ 394 646 404 649 413 652 c 128
+ 422 655 429 658 434 660 c 0
+ 437 661 438 662 440 662 c 128
+ 442 662 444 663 445 663 c 0
+ 447 663 449 663 450 662 c 128
+ 451 661 451 659 452 657 c 0
+ 452 652 450 641 448 624 c 128
+ 446 607 445 578 445 539 c 2
+ 445 151 l 2
+ 445 132 447 118 450 108 c 128
+ 453 98 457 93 464 93 c 0
+ 468 93 475 93 484 94 c 128
+ 493 95 499 95 503 96 c 0
+ 506 97 509 96 512 94 c 128
+ 515 92 516 87 516 81 c 0
+ 516 76 515 72 512 70 c 128
+ 509 68 507 67 504 67 c 0
+ 481 64 462 60 446 54 c 128
+ 430 48 414 43 401 38 c 0
+ 399 37 396 36 392 34 c 128
+ 388 32 385 32 382 32 c 0
+299 80 m 0
+ 324 80 344 87 359 101 c 128
+ 374 115 382 132 382 153 c 2
+ 382 271 l 2
+ 382 287 378 303 370 319 c 128
+ 362 335 349 348 333 359 c 128
+ 317 370 298 375 275 375 c 0
+ 264 375 250 371 234 364 c 128
+ 218 357 205 342 193 322 c 128
+ 181 302 175 273 175 235 c 0
+ 175 202 179 176 188 156 c 128
+ 197 136 208 119 222 108 c 128
+ 236 97 250 90 264 86 c 128
+ 278 82 290 80 299 80 c 0
+262 516 m 2
+ 258 516 255 518 253 522 c 128
+ 251 526 250 530 250 533 c 0
+ 250 537 252 540 256 543 c 128
+ 260 546 265 547 270 547 c 2
+ 533 547 l 2
+ 536 547 539 546 542 545 c 128
+ 545 544 546 542 546 539 c 0
+ 546 538 546 538 546 538 c 128
+ 546 538 545 537 545 536 c 0
+ 542 531 538 526 534 522 c 128
+ 530 518 524 516 517 516 c 2
+ 262 516 l 2
 EndSplineSet
 EndChar
 EndChars
