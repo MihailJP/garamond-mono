@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1794229927
+ModificationTime: 1794289724
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -6906,20 +6906,7 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-SplineSet
-262 516 m 6
- 256 516 252 517 250 520 c 132
- 248 523 247 528 247 533 c 4
- 247 543 250 553 256 562 c 132
- 262 571 268 579 276 585 c 132
- 284 591 291 594 297 594 c 6
- 549 594 l 6
- 563 594 570 590 570 581 c 4
- 570 574 567 564 561 554 c 132
- 555 544 548 536 540 528 c 132
- 532 520 523 516 515 516 c 6
- 262 516 l 6
-EndSplineSet
+Refer: 712 772 N 1 0 0 1 304 12 2
 EndChar
 
 StartChar: degree
@@ -11305,8 +11292,8 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 26 97 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 10 0 2
+Refer: 712 772 N 1 0 0 1 314 12 2
+Refer: 26 97 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Abreve
@@ -11465,8 +11452,8 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 30 101 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 20 0 2
+Refer: 712 772 N 1 0 0 1 324 12 2
+Refer: 30 101 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ebreve
@@ -11686,8 +11673,8 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 145 305 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 -7 0 2
+Refer: 712 772 N 1 0 0 1 297 12 2
+Refer: 145 305 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ibreve
@@ -11970,8 +11957,8 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 40 111 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 10 0 2
+Refer: 712 772 N 1 0 0 1 314 12 2
+Refer: 40 111 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Obreve
@@ -12217,8 +12204,8 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 46 117 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 -6 0 2
+Refer: 712 772 N 1 0 0 1 298 12 2
+Refer: 46 117 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ubreve
@@ -21030,8 +21017,8 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 145 305 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 -7 0 2
+Refer: 712 772 N 1 0 0 1 297 12 2
+Refer: 145 305 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: gheupturncyrillic
@@ -21305,9 +21292,9 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 738 -1 N 1 0 0 1 388 180 2
+Refer: 712 772 N 1 0 0 1 297 12 2
 Refer: 145 305 N 1 0 0 1 0 0 2
-Refer: 113 175 N 1 0 0 1 -7 0 2
+Refer: 738 -1 N 1 0 0 1 388 180 2
 EndChar
 
 StartChar: iecyrillic
@@ -22099,8 +22086,8 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 46 117 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 -6 0 2
+Refer: 712 772 N 1 0 0 1 298 12 2
+Refer: 46 117 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ercyrillic
@@ -22137,8 +22124,8 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 113 175 S 1 0 0 1 -6 0 2
-Refer: 598 1096 N 1 0 0 1 0 0 3
+Refer: 598 1096 N 1 0 0 1 0 0 2
+Refer: 712 772 N 1 0 0 1 298 12 2
 EndChar
 
 StartChar: tshecyrillic

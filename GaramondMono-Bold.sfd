@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1508950587
-ModificationTime: 1794229917
+ModificationTime: 1794289517
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -6877,20 +6877,7 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-SplineSet
-163 508 m 2
- 157 508 152 510 148 514 c 128
- 144 518 143 521 143 525 c 0
- 143 537 144 548 148 557 c 128
- 152 566 156 574 162 580 c 128
- 168 586 174 588 180 588 c 2
- 438 588 l 2
- 444 588 449 586 452 583 c 128
- 455 580 457 575 457 570 c 0
- 457 554 453 540 445 527 c 128
- 437 514 427 508 416 508 c 2
- 163 508 l 2
-EndSplineSet
+Refer: 724 772 N 1 0 0 1 300 12 2
 EndChar
 
 StartChar: degree
@@ -11130,8 +11117,8 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 26 97 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 1 0 2
+Refer: 724 772 N 1 0 0 1 301 12 2
+Refer: 26 97 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Abreve
@@ -11290,8 +11277,8 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 30 101 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 27 0 2
+Refer: 724 772 N 1 0 0 1 327 12 2
+Refer: 30 101 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ebreve
@@ -11510,8 +11497,8 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 145 305 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 1 0 2
+Refer: 724 772 N 1 0 0 1 301 12 2
+Refer: 145 305 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ibreve
@@ -11798,8 +11785,8 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 40 111 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 6 0 2
+Refer: 724 772 N 1 0 0 1 306 12 2
+Refer: 40 111 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Obreve
@@ -12045,8 +12032,8 @@ Width: 600
 Flags: W
 LayerCount: 2
 Fore
-Refer: 46 117 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 -12 0 2
+Refer: 724 772 N 1 0 0 1 288 12 2
+Refer: 46 117 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ubreve
