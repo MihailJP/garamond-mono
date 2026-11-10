@@ -14,11 +14,7 @@ WOFF2FONTS=${FONTS:.ttf=.woff2}
 VFWOFF2FONTS=${VARIABLEFONTS:.ttf=.woff2}
 DOCUMENTS=README.md OFL.txt
 PKGS=GaramondMono.tar.xz GaramondMono-OT.tar.xz GaramondMono-WOFF2.tar.xz GaramondMono-VF.tar.xz GaramondMono-WOFF2-VF.tar.xz
-TTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${FONTS} ${DOCUMENTS} $*
-OTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${OTFONTS} ${DOCUMENTS} $*
-WOFF2PKGCMD=rm -rf $*; mkdir $*; rsync -R ${WOFF2FONTS} ${CSS} ${DOCUMENTS} $*
-VFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${VARIABLEFONTS} ${DOCUMENTS} $*
-VFWOFF2PKGCMD=rm -rf $*; mkdir $*; rsync -R ${VFWOFF2FONTS} ${VFCSS} ${DOCUMENTS} $*
+PKGCMD=rm -rf $*; mkdir $*; rsync -R $^ $*
 
 .PHONY: all
 all: ttf otf woff2 vf vf-woff2
@@ -54,49 +50,49 @@ vf-woff2: ${VFWOFF2FONTS} ${VFCSS}
 dist: ${PKGS}
 
 GaramondMono.tar.xz: ${FONTS} ${DOCUMENTS}
-	${TTFPKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 GaramondMono.tar.gz: ${FONTS} ${DOCUMENTS}
-	${TTFPKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 GaramondMono.tar.bz2: ${FONTS} ${DOCUMENTS}
-	${TTFPKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 GaramondMono.zip: ${FONTS} ${DOCUMENTS}
-	${TTFPKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
 GaramondMono-OT.tar.xz: ${OTFONTS} ${DOCUMENTS}
-	${OTFPKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 GaramondMono-OT.tar.gz: ${OTFONTS} ${DOCUMENTS}
-	${OTFPKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 GaramondMono-OT.tar.bz2: ${OTFONTS} ${DOCUMENTS}
-	${OTFPKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 GaramondMono-OT.zip: ${OTFONTS} ${DOCUMENTS}
-	${OTFPKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
-GaramondMono-WOFF2.tar.xz: ${WOFF2FONTS} ${DOCUMENTS}
-	${WOFF2PKGCMD}; tar cfvJ $@ $*
-GaramondMono-WOFF2.tar.gz: ${WOFF2FONTS} ${DOCUMENTS}
-	${WOFF2PKGCMD}; tar cfvz $@ $*
-GaramondMono-WOFF2.tar.bz2: ${WOFF2FONTS} ${DOCUMENTS}
-	${WOFF2PKGCMD}; tar cfvj $@ $*
-GaramondMono-WOFF2.zip: ${WOFF2FONTS} ${DOCUMENTS}
-	${WOFF2PKGCMD}; zip -9r $@ $*
+GaramondMono-WOFF2.tar.xz: ${WOFF2FONTS} ${CSS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvJ $@ $*
+GaramondMono-WOFF2.tar.gz: ${WOFF2FONTS} ${CSS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvz $@ $*
+GaramondMono-WOFF2.tar.bz2: ${WOFF2FONTS} ${CSS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvj $@ $*
+GaramondMono-WOFF2.zip: ${WOFF2FONTS} ${CSS} ${DOCUMENTS}
+	${PKGCMD}; zip -9r $@ $*
 
 GaramondMono-VF.tar.xz: ${VARIABLEFONTS} ${DOCUMENTS}
-	${VFPKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 GaramondMono-VF.tar.gz: ${VARIABLEFONTS} ${DOCUMENTS}
-	${VFPKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 GaramondMono-VF.tar.bz2: ${VARIABLEFONTS} ${DOCUMENTS}
-	${VFPKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 GaramondMono-VF.zip: ${VARIABLEFONTS} ${DOCUMENTS}
-	${VFPKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
-GaramondMono-WOFF2-VF.tar.xz: ${VFWOFF2FONTS} ${DOCUMENTS}
-	${VFWOFF2PKGCMD}; tar cfvJ $@ $*
-GaramondMono-WOFF2-VF.tar.gz: ${VFWOFF2FONTS} ${DOCUMENTS}
-	${VFWOFF2PKGCMD}; tar cfvz $@ $*
-GaramondMono-WOFF2-VF.tar.bz2: ${VFWOFF2FONTS} ${DOCUMENTS}
-	${VFWOFF2PKGCMD}; tar cfvj $@ $*
-GaramondMono-WOFF2-VF.zip: ${VFWOFF2FONTS} ${DOCUMENTS}
-	${VFWOFF2PKGCMD}; zip -9r $@ $*
+GaramondMono-WOFF2-VF.tar.xz: ${VFWOFF2FONTS} ${VFCSS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvJ $@ $*
+GaramondMono-WOFF2-VF.tar.gz: ${VFWOFF2FONTS} ${VFCSS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvz $@ $*
+GaramondMono-WOFF2-VF.tar.bz2: ${VFWOFF2FONTS} ${VFCSS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvj $@ $*
+GaramondMono-WOFF2-VF.zip: ${VFWOFF2FONTS} ${VFCSS} ${DOCUMENTS}
+	${PKGCMD}; zip -9r $@ $*
 
 .PHONY: clean
 clean:
