@@ -1,0 +1,43 @@
+--- GaramondMono.css	2026-11-01 16:51:22.562426335 +0900
++++ GaramondMono-VF.css	2026-11-10 14:05:20.805313743 +0900
+@@ -4,7 +4,7 @@
+ Replace url() values with the path to the font installed in your server
+ 
+ Usage in your hypertexts:
+-	<link rel="stylesheet" type="text/css" href="GaramondMono.css" />
++	<link rel="stylesheet" type="text/css" href="GaramondMono-VF.css" />
+ 
+ For Romanian, Polish, Bulgarian, Macedonian, Serbian and Bosnian languages
+ `locl` feature shall be automatically activated through "lang" attribute.
+@@ -18,27 +18,15 @@
+ 
+ @font-face {
+ 	font-family: "Garamond Mono";
+-	font-weight: regular;
++	font-weight: 400 700;
+ 	font-style: normal;
+-	src: url("GaramondMono.woff2") format("woff2");
++	src: url("GaramondMono-VF.woff2") format("woff2") tech("variations");
+ }
+ @font-face {
+ 	font-family: "Garamond Mono";
+-	font-weight: regular;
++	font-weight: 400 700;
+ 	font-style: italic;
+-	src: url("GaramondMono-Italic.woff2") format("woff2");
+-}
+-@font-face {
+-	font-family: "Garamond Mono";
+-	font-weight: bold;
+-	font-style: normal;
+-	src: url("GaramondMono-Bold.woff2") format("woff2");
+-}
+-@font-face {
+-	font-family: "Garamond Mono";
+-	font-weight: bold;
+-	font-style: italic;
+-	src: url("GaramondMono-BoldItalic.woff2") format("woff2");
++	src: url("GaramondMono-Italic-VF.woff2") format("woff2") tech("variations");
+ }
+ 
+ @font-feature-values "Garamond Mono" {
